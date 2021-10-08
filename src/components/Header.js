@@ -4,7 +4,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './Header.css';
 import Sidebar from './Sidebar';
 import AOS from 'aos';
-
 import * as FaIcons from 'react-icons/fa';
 import Video from "../images/video-edited.mp4";
 
@@ -40,14 +39,7 @@ export default function Header() {
         <div className="header">
             <div className="header-top">
               <Link to="/">
-                <video className="header-video"
-                   autostart 
-                   autoPlay 
-                   muted
-                   src={Video} 
-                   type="video/mp4" 
-                   width="200px"
-                   height="auto"/>
+              <img src="as.png" width="150" height="auto"/>
               </Link>
                 <div className="hp_icons" data-aos="fade-in">
                   <div className="icon_hp_outer">
