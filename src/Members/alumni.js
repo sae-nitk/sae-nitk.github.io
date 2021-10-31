@@ -170,11 +170,16 @@ function Alumni() {
       <Alumni_mem
         img={alumni_img9}
         name="Shuvam Senapati"
-        role="Ex - Technology Associate at ZS Associate
-        MBA Batch of 2023 at Shailesh J Mehta School of Management, IIT-Bomaby"
+        role="MBA Batch of 2023 at SJMSOM, IIT-Bombay | Ex - Technology Associate at ZS Associate"
         year="2019"
         email="senapati.shuvam96@gmail.com"
-        message="I was the convenor of SAE for the academic year 2018-19. I had been at the forefront of the struggle to justify the existence of SAE. I was extremely lucky to have some very talented and enthusiastic juniors who helped me build the club from scratch. I conceptualized the Idea of the Auto Magazine and it gives me immense pleasure to see the current trajectory of the club. A big congratulations to the latest members of the club and I have high hopes that these bunch of motivated individuals will continue the good work that their seniors have done and take the club to greater heights."
+        message="I was the convenor of SAE for the academic year 2018-19. 
+        I had been at the forefront of the struggle to justify the existence of SAE. 
+        I was extremely lucky to have some very talented and enthusiastic juniors who helped me build the club 
+        from scratch. I conceptualized the Idea of the Auto Magazine and it gives me immense pleasure to 
+        see the current trajectory of the club. A big congratulations to the latest members of the club
+        and I have high hopes that these bunch of motivated individuals will continue the good work that 
+        their seniors have done and take the club to greater heights."
         lin="https://www.linkedin.com/in/shuvam-senapati/"
       />
     </div>
