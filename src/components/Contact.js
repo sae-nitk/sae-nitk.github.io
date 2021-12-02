@@ -64,7 +64,7 @@ const scrollToTop = () => {
                 <Fa.FaYoutube className="icon_contact" onClick={()=> window.open("https://www.youtube.com/channel/UCPiCkG64oF7KKec7tEhquyw", "_blank")}/>
                </div>
                <div className="icon_contact_outer">
-                 <Fa.FaLinkedinIn className="icon_contact"  onClick={()=> window.open("https://www.linkedin.com/company/saenitk/?originalSubdomain=in", "_blank")}/>
+                 <Fa.FaLinkedinIn className="icon_contact"  onClick={()=> window.open("https://www.linkedin.com/shuvam-senapati", "_blank")}/>
                </div>   
                <div className="icon_contact_outer">
                  <Fa.FaWordpressSimple className="icon_contact"  onClick={()=> window.open("https://saenitk.wordpress.com/", "_blank")}/>

@@ -52,7 +52,7 @@ function Core() {
         </h3>
       </div>
       <div className="core_members">
-        <h3>---------------------------------</h3>
+        <h3>Work in Progress</h3>
       </div>
     </div>
   );

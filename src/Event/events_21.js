@@ -54,7 +54,7 @@ export const events_21 = [
     { 
         "src":"",        
         "title":"Internship Webinar",
-        "text":" ",
+        "text":"Prepare for your interviews",
         "link":"/events/internship-webinar",
         "type":"external"
     },
