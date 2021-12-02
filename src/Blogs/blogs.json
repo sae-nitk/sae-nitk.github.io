@@ -1,219 +1,306 @@
 [
     {
-        "image":"https://saenitk.files.wordpress.com/2021/03/xl_white_back_b_optim.jpg",
-        "title":"The Wireless Earbuds",
-        "desc":"Wireless earphones have been a norm in the world of earphones. Once considered a luxury product, they have become available to the masses for as low as Rs300. It is fascinating to see how a device so small can produce such high-quality audio whilst having a good battery life🔋.Join us in our new blog post as we explore Wireless Earbuds🎧",
-        "link":"https://saenitk.wordpress.com/2021/07/20/the-wireless-earbuds/",
-        "date":"July 21, 2021",
-        "author":"Islavath Manohar"
-
+        "image": "https://saenitk.files.wordpress.com/2021/11/vr-ar-d-r-ashrith.png",
+        "title": "Virtual and Augmented Reality",
+        "desc": "The first step for humans to enter into the world of imagination. What are Virtual and Augmented reality? Virtual reality is a computer-generated simulation of a three-dimensional environment that can be interacted by special electronic devices, such as a helmet with a screen inside or pair of gloves fitted with sensors. Augmented reality is an […]",
+        "link": "https://saenitk.wordpress.com/2021/11/28/virtual-and-augmented-reality/",
+        "date": "November 28, 2021",
+        "author": "Ashrith DR"
     },
     {
-        "image":"https://saenitk.files.wordpress.com/2021/03/avs-at-night-cropped-1.jpg",
-        "title":"Autonomous Vehicles",
-        "desc":"Tesla’s AutoPilot Amazed everyone when it launched. The fact that you could travel without having to drive your car was a breakthrough feature in the industry. Though it came with its flaws as the cars would frequently crash. Even after years of development, these flaws have reduced but still exist. Autonomous Vehicles might feel like the norm in the future but at this moment they come with their set of risks.",
-        "link":"https://saenitk.wordpress.com/2021/02/01/dual-axis-steering/",
-        "date":"March 24, 2021",
-        "author":"Saransh Bhaduka"
-
-    },
-    {         
-        "image":"https://saenitk.files.wordpress.com/2021/02/00_slider_4252-1.jpeg?w=1024",
-        "title":"Dual Axis Steering",
-        "desc":"F1 cars have become so technologically advanced that to win it you need a state of the art technology . This is what Mercedes brought in with the Dual Axis Steering which helped them secure the win. But will this tech help them retaining the title, only time can tell.",
-        "link":"https://saenitk.wordpress.com/2021/02/01/dual-axis-steering/",
-        "date":"March 2, 2021",
-        "author":"Kaustubh Prashant Sonawane"
-    },
-
-    {
-        "image":"https://saenitk.files.wordpress.com/2021/01/avai-1.jpeg",
-        "title":"Noise Cancelling Headphones",
-        "desc":"Headphones help us in hearing various sounds.But what if your headphones could completely block sounds around you. What if I told u this technology already exists. Noise-Cancelling Headphones have the ability to block any surrounding noise while letting the user listen to the input audio. In development since the 1950s Noise-cancelling headphones have turned from a product used exclusively by pilots to a luxury product, to now being available in the commercial market for everyone.",
-        "link":"https://saenitk.wordpress.com/2021/01/05/noise-cancelling-headphones/",
-        "date":"January 12, 2021",
-        "author":"Lucky Prameeth Rayi"
+        "image": "https://saenitk.files.wordpress.com/2021/11/lifi.png",
+        "title": "Light Fidelity",
+        "desc": "Li-Fi can be the emerging technology where data will be transmitted through the light for laptops, PC, smart phones, and tablets in a closed room. Li-Fi is a fast and cheap optical version of Wi-Fi.",
+        "link": "https://saenitk.wordpress.com/2021/11/14/light-fidelity/",
+        "date": "October 24, 2021",
+        "author": "Harshal Bhoyar"
     },
     {
-        "image":"https://saenitk.files.wordpress.com/2021/01/intel-drone-100-light-show-980x653-1.jpg",
-        "title":"Drone Display Technology",
-        "desc":"In the latest spider-man movie spider-man is tricked by a fake world created by drones. What if I told u this technology already existed. Drone displays have developed immensely over the last decade and have become a popular show during big events. With so much potential and advancements yet to take place Drone display technology might become the new big thing in the entertainment industry",
-        "link":"https://saenitk.wordpress.com/2021/01/05/drone-display-technology/",
-        "date":"January 9, 2021",
-        "author":"Patrike Vedika Rajkumar"
-    },
-
-    {
-        "image":"https://saenitk.files.wordpress.com/2020/12/180628-chaos-full-scaled-1.jpg?w=1024",
-        "title":"Fractals",
-        "desc":"Why does the pattern on a snowflake look the same even when u focus on a particular part of it? What’s the reason for these intricate repeating patterns seen in human lungs and lightning bolts? The answers to all these questions lie in the study of fractals.  Fractals have immensely influenced technology and have been crucial in image processing  and cancer diagnosis.",
-        "link":"https://saenitk.wordpress.com/2020/12/27/fractals/",
-        "date":"December 30, 2020",
-        "author":"Gauthamkrishna S"
-    },
-
-    {
-        "image":"https://saenitk.files.wordpress.com/2020/12/coverlikitha.jpg",
-        "title":"Helmet Mounted Display System",
-        "desc":"When Tony Stark puts on his Iron Man suit we just can’t help but be startled by all the tech present in his suit. One of the prominent parts being the Helmet Mounted Display  System.Most of us will be surprised to hear that this technology already exists. By just  turning your head they enable you to get a 360-degree view of the world around the  aircraft. Helmet Mounted Display System has been a part of Military Aircrafts since the  early 1960s and has developed as an essential part of the Aircraft.",
-        "link":"https://saenitk.wordpress.com/2020/12/27/helmet-mounted-display-system/",
-        "date":"December 30, 2020",
-        "author":"Likhita J"
+        "image": "https://saenitk.files.wordpress.com/2021/11/screenshot-2021-11-10-220914.png",
+        "title": "Audi-eROT technology ",
+        "desc": "A new suspension system that can conserve energy  While travelling in cars, whenever we come across bumps, cars will have an up and down motion. There will be a pressure increase in hydraulic cylinders, and heat is generated, which will be dissipated through the dampers, which happens in the standard hydraulic dampers. Audi has introduced a […]",
+        "link": "https://saenitk.wordpress.com/2021/11/10/audi-erot-technology/",
+        "date": "November 11, 2021",
+        "author": "Nischayi Vabilisetti"
     },
     {
-        "image":"https://saenitk.files.wordpress.com/2020/12/ankit-main-1.jpg?w=1024",
-        "title":"Sustainable Energy – Need of the hour",
-        "desc":"The planet, our blue and green orb Earth, is……. unfortunately delicate. We all are consumers, and our lifestyles are depleting the planet’s resources at an alarming rate. Sustainable living is the answer to some of mankind’s problems, but how do we live sustainably? “Are sustainable energy sources and renewable energy sources the same? Where do we draw the line? What can we do with this relatively unexplored form of derived energy? How do we limit our emissions?” It’s time to settle the debate and understand how we can benefit from sustainable energy.",
-        "link":"https://saenitk.wordpress.com/2020/12/13/sustainable-energy-need-of-the-hour/",
-        "date":"December 19, 2020", 
-        "author": "Ankit Gupta" 
-    },
-
-    {
-        "image":"https://saenitk.files.wordpress.com/2020/12/pradeep-1.jpg",
-        "title":"Touch Screen Technology",
-        "desc":"When Steve Jobs introduced the first iphone in 2008.The world was mesmerised by how a device so small could understand features like multi-touch. But within less than a decade almost half the world had access to smartphones.Touch screen panels have come a long way,from being used in massive computers in the late 20th century to being on our wrists in smart watches. Touch screens are now a part of almost every electronic device and will probably replace every other touch based interface in the future .",
-        "link":"https://saenitk.wordpress.com/2020/12/13/touch-screen-technology-one-touch-open-up-world/",
-        "date":"December 19, 2020",
-        "author":"Pradeep Singh Solanki"
+        "image": "https://saenitk.files.wordpress.com/2021/11/screenshot-2021-11-01-105927.png",
+        "title": "Artificial Intelligence in Automotive Industry",
+        "desc": "A new edge of the Automotive industry Artificial Intelligence (AI) can now be seen in many places, such as your very own smartphone, an intelligent home system, or a smart car. Many cities are embracing AI to handle road safety. The technology which is behind this is game-changing. The automotive industry is one of the […]",
+        "link": "https://saenitk.wordpress.com/2021/11/03/artificial-intelligence-in-automotive-industry/",
+        "date": "November 5, 2021",
+        "author": "Prasanthi Bolimera"
     },
     {
-        "image":"https://saenitk.files.wordpress.com/2020/10/terrestrial_lidar_scan.png",
-        "title":"LiDAR",
-        "desc":"From being used in High-end Defense Aircrafts in the 1960s to being the centerpiece  of the latest iPhones camera system, LiDAR has become an essential part of distance measurement systems. From Robotics to Archeology and from Astronomy to Video Games, LiDAR has found its application in various fields. With its high precision and accuracy, LiDAR brings the world of Augmented Reality to a whole new level. With numerous possible  applications in the modern world, the LiDAR industry is set to reach $5.5 billion in sales by 2024. ",
-        "link":"https://saenitk.wordpress.com/2020/11/01/lidar/",
-        "date":"November 1, 2020",
-        "author":"Guhan Sidharth M"
+        "image": "https://saenitk.files.wordpress.com/2021/10/2f.jpg",
+        "title": "HYDROGEN – FUTURE OF GREEN ENERGY",
+        "desc": "Dawn of hydrogen economy for a sustainable future. With increasing concerns of climate change and the depletion of fossil fuels, an alternate fuel source for a sustainable future that will reduce carbon emissions is necessary. Hydrogen, the lightest element on the periodic table, has many fascinating properties that can help transition into a world of […]",
+        "link": "https://saenitk.wordpress.com/2021/10/31/hydrogen-a-future-fuel/",
+        "date": "October 31, 2021",
+        "author": "Yash Kundale"
     },
     {
-        "image":"https://saenitk.files.wordpress.com/2020/10/ezgif.com-gif-maker.jpg",
-        "title":"Image Processing and its Applications",
-        "desc":"A very bold statement considering the human vision is still unmatched when it comes to precisely recognize objects and surely way more precise than any computer made to date. Tho in the past few years, advancements have been remarkable. Nobody is surprised seeing Image processing become an in-demand Technology considering the fact that images are what help us make sense of the world.",
-        "link":"https://saenitk.wordpress.com/2020/10/16/image-processing-and-its-applications/",
-        "date":"October 17, 2020",
-        "author":"Diksha Negi"
+        "image": "https://saenitk.files.wordpress.com/2021/10/av-header-yogesh-p.jpg?w=810",
+        "title": "AutoPilot",
+        "desc": "The Future of Driving Tesla cars have modified its standard with incorporating new hardware which are providing capable Autopilot features and full self-driving capabilities by software updates designed to improve functionality of the cars over time. Tesla’s Autopilot AI team drives the future of autonomy of current and new generations of vehicles. Autopilot advanced safety, […]",
+        "link": "https://saenitk.wordpress.com/2021/10/24/autopilot/",
+        "date": "October 24, 2021",
+        "author": "Yogesh P"
     },
     {
-        "image":"https://saenitk.files.wordpress.com/2020/08/sagar-1.jpg",
-        "title":"Golf ball dimples",
-        "desc":"Dimples make people attractive, then have you ever thought what makes a golf ball “attractive”? Why won’t designers and manufacturers just make a smooth ball, if they wanted to? Give a  read to the latest blog, where we discuss the origin of dimples on a golf ball and learn  about its fluid mechanics and various other factors which influence it’s designing and  making.",
-        "link":"https://saenitk.wordpress.com/2020/08/10/golf-ball/",
-        "date":"August 10, 2020",
-        "author":"Sagar Ror"
+        "image": "https://saenitk.files.wordpress.com/2021/10/r1.jpg",
+        "title": "Rotating Detonation Engine",
+        "desc": "A rotating detonation engine is an engine that is more efficient than the conventional engines currently in use. They can be used in rockets, scramjets, and turbojets. They can make them more compact and efficient and have lots of scope for future developments.",
+        "link": "https://saenitk.wordpress.com/2021/10/21/rotating-detonation-engine/",
+        "date": "October 21, 2021",
+        "author": "Jishnu Das"
     },
     {
-        "image":"https://saenitk.files.wordpress.com/2020/08/cover.jpg",
-        "title":"Industrial Advances",       
-        "desc":"In a manufacturing plant, a product goes through many manufacturing processes. The  total number of parts produced in a plant in a given time is called its Throughput. The  phenomenon where the whole plant’s capacity is limited by a single or multiple component is  called Bottleneck in an industry. Join us, in our latest blog as we bring you a new perspective on  Industrial Engineering.",
-        "link":"https://saenitk.wordpress.com/2020/08/10/industrial-advances/",
-        "date":"August 10, 2020",
-        "author":"Devendra Gharat"
+        "image": "https://saenitk.files.wordpress.com/2021/10/x1.jpg",
+        "title": "Xenobots-The Living Robots",
+        "desc": "Xenobots are a new class of artifacts: a living, programmable organism derived from stem cells harvested from early frog embryos. They can be designed to perform various tasks and have an enormous scope in multiple domains.",
+        "link": "https://saenitk.wordpress.com/2021/10/14/xenobots-the-living-robots%ef%bf%bc/",
+        "date": "October 14, 2021",
+        "author": "Divyam Neer Verma"
     },
     {
-        "image":"https://saenitk.files.wordpress.com/2020/08/proteus-cutting-material-1200x630-c-ar1.91.jpg",
-        "title":"PROTEUS",
-        "desc":"Imagine a material that you do not want to be susceptible to cutting under any circumstances.  That could be security doors, bike locks, protective equipment like body Armor or, heck, even shoe  soles. These are just a handful of the applications that Proteus can be used. Indeed the world’s first ‘uncuttable material’. Join us in our latest blog , as we look to unravel its mysteries.",
-        "link":"https://saenitk.wordpress.com/2020/08/03/proteus/",
-        "date":"August 4, 2020",
-        "author":"Ninad Lamture"
+        "image": "https://saenitk.files.wordpress.com/2021/10/tesla-model-3-ajmeera-kethan.jpg?w=1200",
+        "title": "IPMSynRM Motor",
+        "desc": "THE NEW REVOLUTION IN EV Why a new kind of motor in EV? As we all know, EVs are the future of this world, and we need to shift to EVs. The EV industry is an emerging field where a lot of research is going on to improve the standard of EV. And one such […]",
+        "link": "https://saenitk.wordpress.com/2021/10/10/ipmsynrm-motor/",
+        "date": "October 10, 2021",
+        "author": "Ajmeera Kethan"
     },
     {
-        "image":"https://saenitk.files.wordpress.com/2020/07/image-17-e1595679028466.png",
-        "title":"ISOCELL Camera Sensors",
-        "desc":"A sensor is vital. The soul of a digital camera is in its sensor—to determine image  size, resolution, low-light performance, depth of field, dynamic range, lenses, and even  the camera’s physical size.  Samsung’s tetracell technology enables light-sensitive 2.4μm pixels for ultimate low-light  photography. This article aims to demystify this vision technology and learn how Samsung  commands 20% of the global image market by bringing images to life in imaginative new ways.",
-        "link":"https://saenitk.wordpress.com/2020/07/25/isocell-camera-sensors/",
-        "date":"July 25, 2020",
-        "author":"KES Srinivas"
+        "image": "https://saenitk.files.wordpress.com/2021/10/capture-gauthamkrishna-s.jpg",
+        "title": "Biometrics in Automotive Engineering",
+        "desc": "Innovation inspired by nature What is Biomimetics? Biomimetics is a discipline of research that focuses on improving technology by emulating natural phenomena, with the forms and structures of living things serving as primary sources of inspiration for creating better design solutions. Instead of focusing on what can be retrieved from the products of millions of […]",
+        "link": "https://saenitk.wordpress.com/2021/10/07/biomimetics-in-automotive-engineering-%ef%bf%bc/",
+        "date": "October 7, 2021",
+        "author": "Gautham Krishna S"
     },
     {
-        "image":"https://saenitk.files.wordpress.com/2020/07/oip-2.jpg",
-        "title":"Batteries",
-        "desc":"“Batteries are our future” is a pretty bold statement to make, but this blog will convince you that it is true. sThe battery revolution is coming. It means more and more advancements in battery technology, which  smeans our lives will get better. Join us as we discuss the present scenario of batteries in everyday  shuman life. Learn how companies are planning to take on the future with their incredible creations.",
-        "link":"https://saenitk.wordpress.com/2020/07/19/batteries/",
-        "date":"July 19, 2020",
-        "author":"Rajat Shukla"
+        "image": "https://saenitk.files.wordpress.com/2021/09/cio_car_blockchain.png",
+        "title": "Blockchain in Automobiles",
+        "desc": "Pathway to a smarter automotive industry The automotive industry is rapidly becoming interdisciplinary with the integration of new-age technologies into automobiles. Besides the use of machine learning, artificial intelligence, modern electronics, etc., in automotive systems, blockchain technology is also being introduced in today’s vehicles. Fig 1. Predicted Future Impact of BlockChain What is a blockchain? […]",
+        "link": "https://saenitk.wordpress.com/2021/09/27/blockchain-in-automobiles/",
+        "date": "October 2, 2021",
+        "author": "Guhan Sidharth"
     },
     {
-        "image":"https://saenitk.files.wordpress.com/2020/07/cover-photo.png",
-        "title":"Airfoil Theory",
-        "desc":"The confusion regarding the theory of how does the Airfoil shape used in aircraft or  wind turbines produces lift had always been a confusion to many scientists over several  decades. Get to know both the correct and incorrect theory, the latter being still  assumed to be right after several decades of research and is still a significant road   bump to the progress of modern science.",
-        "link":"https://saenitk.wordpress.com/2020/07/10/airfoil-theory/",
-        "date":"July 10, 2020",
-        "author":"Pradeep Kumar Modi"
+        "image": "https://saenitk.files.wordpress.com/2021/08/mem05050b-perform-routine-gas-metal-arc-welding.jpg?w=1200",
+        "title": "Vaporized Foil Actutator Welding",
+        "desc": "A NEW REVOLUTION Welding is a process of joining materials. It is different from brazing and soldering, as these processes do not melt the base metal. There are different types of Weldings that have emerged over the time like forge welding, arc-welding, oxy-fuel welding, resistance welding, gas metal arc-welding, laser beam welding, explosion welding and […]",
+        "link": "https://saenitk.wordpress.com/2021/08/25/vaporized-foil-actuator-welding/",
+        "date": "September 18, 2021",
+        "author": "Diwakar S Goud"
     },
     {
-        "image":"https://saenitk.files.wordpress.com/2020/07/image.png",
-        "title":"The Future of Electric Vehicle",
-        "desc":"The fast charging of Electric Vehicles was always a massive matter of interest since the invention of Electric vehicles. Scientists and researchers have set their differences apart to build a fully-fledged effective charging system, which significantly impacts the future of Electric Tech. In this article, know the past, present, and future of Battery cells, as the next big obstacle has set upon the scientific organization.",
-        "link":"https://saenitk.wordpress.com/2020/07/03/the-future-of-electric-vehicles/",
-        "date":"July 3, 2020",
-        "author":"Islavath Manohar"
+        "image": "https://saenitk.files.wordpress.com/2021/08/cover-pic-space-exploration-lakshmi-aashish-prateek-janaswamy-2.jpg",
+        "title": "The Future of Space Exploration",
+        "desc": "There can be no center in infinity  – Lucretius Historically mankind has always thought of Earth as the center of the universe, but in just the recent past, mankind set out to explore its surrounding eternity of a void….space . This Blog explores the future of space exploration by enlisting and explaining approaches such as warp […]",
+        "link": "https://saenitk.wordpress.com/2021/08/21/the-future-of-space-exploration/",
+        "date": "August 21, 2021",
+        "author": "Lakshmi Aashish Prateek Janaswamy"
     },
-
     {
-        "image":"https://saenitk.files.wordpress.com/2020/06/images.png",
-        "title":"NASA’s Dragonfly Mission",
-        "desc":"NASA’s “Dragonfly Mission,” will explore the unique and organic-rich world-Titan.  The vehicle will launch in 2026, reaching Titan by 2034. It will explore Titan’s dense  atmosphere flying multiple times over several locations, searching for water-based or  hydrocarbon-based life. Read about NASA’s plan in collaboration with John Hopkin’s  University, to implement practical solutions and overcome technological barriers. Their efforts surely would open a new chapter in the area of space exploration!",
-        "link":"https://saenitk.wordpress.com/2020/06/25/nasadragonfly/",
-        "date":"June 27, 2020",
-        "author":"Vishlavath Tarun"
+        "image": "https://saenitk.files.wordpress.com/2021/08/1444245427-prosthetics-980.jpg",
+        "title": "Brain Controlled Prosthetic Limbs",
+        "desc": "Prosthetic body parts have helped physically disabled people to lead a more normal life. The only limitation that they face is the inability to control those parts and to sense. But what if technology allowed us to control these parts? Join us in our new blog post on Brain controlled prosthetic limbs as we discover the new possibilities in the world of prosthesis.",
+        "link": "https://saenitk.wordpress.com/2021/08/16/brain-controlled-prosthetic-limbs/",
+        "date": "August 17, 2021",
+        "author": "Shrivatsa Hegde"
     },
-
     {
-                       
-        "image":"https://saenitk.files.wordpress.com/2020/06/cover-photo-e1591905189878.jpg",
-        "title":"Heat Pipes",
-        "desc":"Wondered why ideal conductors like Silver and Copper aren’t always used in standard  instruments for heat conduction? We bring you to the idea of “Heat Pipes,” which has reformed heat conduction by applying  lattice vibration and vapor transition to multiply the efficiency. Learn everything about them from their history to present uses and scope of usage in the future, and how well the heat pipes can be used in everyday life to ease our problems!",
-        "link":"https://saenitk.wordpress.com/2020/06/12/heat-pipes/",
-        "date":"June 12, 2020",
+        "image": "https://saenitk.files.wordpress.com/2021/03/xl_white_back_b_optim.jpg",
+        "title": "The Wireless Earbuds",
+        "desc": "Wireless earphones have been a norm in the world of earphones. Once considered a luxury product, they have become available to the masses for as low as Rs300. It is fascinating to see how a device so small can produce such high-quality audio whilst having a good battery life🔋.Join us in our new blog post as we explore Wireless Earbuds🎧",
+        "link": "https://saenitk.wordpress.com/2021/07/20/the-wireless-earbuds/",
+        "date": "July 21, 2021",
+        "author": "Islavath Manohar"
+    },
+    {
+        "image": "https://saenitk.files.wordpress.com/2021/03/avs-at-night-cropped-1.jpg",
+        "title": "Autonomous Vehicles",
+        "desc": "Tesla’s AutoPilot Amazed everyone when it launched. The fact that you could travel without having to drive your car was a breakthrough feature in the industry. Though it came with its flaws as the cars would frequently crash. Even after years of development, these flaws have reduced but still exist. Autonomous Vehicles might feel like the norm in the future but at this moment they come with their set of risks.",
+        "link": "https://saenitk.wordpress.com/2021/02/01/dual-axis-steering/",
+        "date": "March 24, 2021",
+        "author": "Saransh Bhaduka"
+    },
+    {
+        "image": "https://saenitk.files.wordpress.com/2021/02/00_slider_4252-1.jpeg?w=1024",
+        "title": "Dual Axis Steering",
+        "desc": "F1 cars have become so technologically advanced that to win it you need a state of the art technology . This is what Mercedes brought in with the Dual Axis Steering which helped them secure the win. But will this tech help them retaining the title, only time can tell.",
+        "link": "https://saenitk.wordpress.com/2021/02/01/dual-axis-steering/",
+        "date": "March 2, 2021",
+        "author": "Kaustubh Prashant Sonawane"
+    },
+    {
+        "image": "https://saenitk.files.wordpress.com/2021/01/avai-1.jpeg",
+        "title": "Noise Cancelling Headphones",
+        "desc": "Headphones help us in hearing various sounds.But what if your headphones could completely block sounds around you. What if I told u this technology already exists. Noise-Cancelling Headphones have the ability to block any surrounding noise while letting the user listen to the input audio. In development since the 1950s Noise-cancelling headphones have turned from a product used exclusively by pilots to a luxury product, to now being available in the commercial market for everyone.",
+        "link": "https://saenitk.wordpress.com/2021/01/05/noise-cancelling-headphones/",
+        "date": "January 12, 2021",
+        "author": "Lucky Prameeth Rayi"
+    },
+    {
+        "image": "https://saenitk.files.wordpress.com/2021/01/intel-drone-100-light-show-980x653-1.jpg",
+        "title": "Drone Display Technology",
+        "desc": "In the latest spider-man movie spider-man is tricked by a fake world created by drones. What if I told u this technology already existed. Drone displays have developed immensely over the last decade and have become a popular show during big events. With so much potential and advancements yet to take place Drone display technology might become the new big thing in the entertainment industry",
+        "link": "https://saenitk.wordpress.com/2021/01/05/drone-display-technology/",
+        "date": "January 9, 2021",
+        "author": "Patrike Vedika Rajkumar"
+    },
+    {
+        "image": "https://saenitk.files.wordpress.com/2020/12/180628-chaos-full-scaled-1.jpg?w=1024",
+        "title": "Fractals",
+        "desc": "Why does the pattern on a snowflake look the same even when u focus on a particular part of it? What’s the reason for these intricate repeating patterns seen in human lungs and lightning bolts? The answers to all these questions lie in the study of fractals.  Fractals have immensely influenced technology and have been crucial in image processing  and cancer diagnosis.",
+        "link": "https://saenitk.wordpress.com/2020/12/27/fractals/",
+        "date": "December 30, 2020",
+        "author": "Gauthamkrishna S"
+    },
+    {
+        "image": "https://saenitk.files.wordpress.com/2020/12/coverlikitha.jpg",
+        "title": "Helmet Mounted Display System",
+        "desc": "When Tony Stark puts on his Iron Man suit we just can’t help but be startled by all the tech present in his suit. One of the prominent parts being the Helmet Mounted Display  System.Most of us will be surprised to hear that this technology already exists. By just  turning your head they enable you to get a 360-degree view of the world around the  aircraft. Helmet Mounted Display System has been a part of Military Aircrafts since the  early 1960s and has developed as an essential part of the Aircraft.",
+        "link": "https://saenitk.wordpress.com/2020/12/27/helmet-mounted-display-system/",
+        "date": "December 30, 2020",
+        "author": "Likhita J"
+    },
+    {
+        "image": "https://saenitk.files.wordpress.com/2020/12/ankit-main-1.jpg?w=1024",
+        "title": "Sustainable Energy – Need of the hour",
+        "desc": "The planet, our blue and green orb Earth, is……. unfortunately delicate. We all are consumers, and our lifestyles are depleting the planet’s resources at an alarming rate. Sustainable living is the answer to some of mankind’s problems, but how do we live sustainably? “Are sustainable energy sources and renewable energy sources the same? Where do we draw the line? What can we do with this relatively unexplored form of derived energy? How do we limit our emissions?” It’s time to settle the debate and understand how we can benefit from sustainable energy.",
+        "link": "https://saenitk.wordpress.com/2020/12/13/sustainable-energy-need-of-the-hour/",
+        "date": "December 19, 2020",
+        "author": "Ankit Gupta"
+    },
+    {
+        "image": "https://saenitk.files.wordpress.com/2020/12/pradeep-1.jpg",
+        "title": "Touch Screen Technology",
+        "desc": "When Steve Jobs introduced the first iphone in 2008.The world was mesmerised by how a device so small could understand features like multi-touch. But within less than a decade almost half the world had access to smartphones.Touch screen panels have come a long way,from being used in massive computers in the late 20th century to being on our wrists in smart watches. Touch screens are now a part of almost every electronic device and will probably replace every other touch based interface in the future .",
+        "link": "https://saenitk.wordpress.com/2020/12/13/touch-screen-technology-one-touch-open-up-world/",
+        "date": "December 19, 2020",
+        "author": "Pradeep Singh Solanki"
+    },
+    {
+        "image": "https://saenitk.files.wordpress.com/2020/10/terrestrial_lidar_scan.png",
+        "title": "LiDAR",
+        "desc": "From being used in High-end Defense Aircrafts in the 1960s to being the centerpiece  of the latest iPhones camera system, LiDAR has become an essential part of distance measurement systems. From Robotics to Archeology and from Astronomy to Video Games, LiDAR has found its application in various fields. With its high precision and accuracy, LiDAR brings the world of Augmented Reality to a whole new level. With numerous possible  applications in the modern world, the LiDAR industry is set to reach $5.5 billion in sales by 2024. ",
+        "link": "https://saenitk.wordpress.com/2020/11/01/lidar/",
+        "date": "November 1, 2020",
+        "author": "Guhan Sidharth M"
+    },
+    {
+        "image": "https://saenitk.files.wordpress.com/2020/10/ezgif.com-gif-maker.jpg",
+        "title": "Image Processing and its Applications",
+        "desc": "A very bold statement considering the human vision is still unmatched when it comes to precisely recognize objects and surely way more precise than any computer made to date. Tho in the past few years, advancements have been remarkable. Nobody is surprised seeing Image processing become an in-demand Technology considering the fact that images are what help us make sense of the world.",
+        "link": "https://saenitk.wordpress.com/2020/10/16/image-processing-and-its-applications/",
+        "date": "October 17, 2020",
+        "author": "Diksha Negi"
+    },
+    {
+        "image": "https://saenitk.files.wordpress.com/2020/08/sagar-1.jpg",
+        "title": "Golf ball dimples",
+        "desc": "Dimples make people attractive, then have you ever thought what makes a golf ball “attractive”? Why won’t designers and manufacturers just make a smooth ball, if they wanted to? Give a  read to the latest blog, where we discuss the origin of dimples on a golf ball and learn  about its fluid mechanics and various other factors which influence it’s designing and  making.",
+        "link": "https://saenitk.wordpress.com/2020/08/10/golf-ball/",
+        "date": "August 10, 2020",
+        "author": "Sagar Ror"
+    },
+    {
+        "image": "https://saenitk.files.wordpress.com/2020/08/cover.jpg",
+        "title": "Industrial Advances",
+        "desc": "In a manufacturing plant, a product goes through many manufacturing processes. The  total number of parts produced in a plant in a given time is called its Throughput. The  phenomenon where the whole plant’s capacity is limited by a single or multiple component is  called Bottleneck in an industry. Join us, in our latest blog as we bring you a new perspective on  Industrial Engineering.",
+        "link": "https://saenitk.wordpress.com/2020/08/10/industrial-advances/",
+        "date": "August 10, 2020",
+        "author": "Devendra Gharat"
+    },
+    {
+        "image": "https://saenitk.files.wordpress.com/2020/08/proteus-cutting-material-1200x630-c-ar1.91.jpg",
+        "title": "PROTEUS",
+        "desc": "Imagine a material that you do not want to be susceptible to cutting under any circumstances.  That could be security doors, bike locks, protective equipment like body Armor or, heck, even shoe  soles. These are just a handful of the applications that Proteus can be used. Indeed the world’s first ‘uncuttable material’. Join us in our latest blog , as we look to unravel its mysteries.",
+        "link": "https://saenitk.wordpress.com/2020/08/03/proteus/",
+        "date": "August 4, 2020",
+        "author": "Ninad Lamture"
+    },
+    {
+        "image": "https://saenitk.files.wordpress.com/2020/07/image-17-e1595679028466.png",
+        "title": "ISOCELL Camera Sensors",
+        "desc": "A sensor is vital. The soul of a digital camera is in its sensor—to determine image  size, resolution, low-light performance, depth of field, dynamic range, lenses, and even  the camera’s physical size.  Samsung’s tetracell technology enables light-sensitive 2.4μm pixels for ultimate low-light  photography. This article aims to demystify this vision technology and learn how Samsung  commands 20% of the global image market by bringing images to life in imaginative new ways.",
+        "link": "https://saenitk.wordpress.com/2020/07/25/isocell-camera-sensors/",
+        "date": "July 25, 2020",
+        "author": "KES Srinivas"
+    },
+    {
+        "image": "https://saenitk.files.wordpress.com/2020/07/oip-2.jpg",
+        "title": "Batteries",
+        "desc": "“Batteries are our future” is a pretty bold statement to make, but this blog will convince you that it is true. sThe battery revolution is coming. It means more and more advancements in battery technology, which  smeans our lives will get better. Join us as we discuss the present scenario of batteries in everyday  shuman life. Learn how companies are planning to take on the future with their incredible creations.",
+        "link": "https://saenitk.wordpress.com/2020/07/19/batteries/",
+        "date": "July 19, 2020",
+        "author": "Rajat Shukla"
+    },
+    {
+        "image": "https://saenitk.files.wordpress.com/2020/07/cover-photo.png",
+        "title": "Airfoil Theory",
+        "desc": "The confusion regarding the theory of how does the Airfoil shape used in aircraft or  wind turbines produces lift had always been a confusion to many scientists over several  decades. Get to know both the correct and incorrect theory, the latter being still  assumed to be right after several decades of research and is still a significant road   bump to the progress of modern science.",
+        "link": "https://saenitk.wordpress.com/2020/07/10/airfoil-theory/",
+        "date": "July 10, 2020",
+        "author": "Pradeep Kumar Modi"
+    },
+    {
+        "image": "https://saenitk.files.wordpress.com/2020/07/image.png",
+        "title": "The Future of Electric Vehicle",
+        "desc": "The fast charging of Electric Vehicles was always a massive matter of interest since the invention of Electric vehicles. Scientists and researchers have set their differences apart to build a fully-fledged effective charging system, which significantly impacts the future of Electric Tech. In this article, know the past, present, and future of Battery cells, as the next big obstacle has set upon the scientific organization.",
+        "link": "https://saenitk.wordpress.com/2020/07/03/the-future-of-electric-vehicles/",
+        "date": "July 3, 2020",
+        "author": "Islavath Manohar"
+    },
+    {
+        "image": "https://saenitk.files.wordpress.com/2020/06/images.png",
+        "title": "NASA’s Dragonfly Mission",
+        "desc": "NASA’s “Dragonfly Mission,” will explore the unique and organic-rich world-Titan.  The vehicle will launch in 2026, reaching Titan by 2034. It will explore Titan’s dense  atmosphere flying multiple times over several locations, searching for water-based or  hydrocarbon-based life. Read about NASA’s plan in collaboration with John Hopkin’s  University, to implement practical solutions and overcome technological barriers. Their efforts surely would open a new chapter in the area of space exploration!",
+        "link": "https://saenitk.wordpress.com/2020/06/25/nasadragonfly/",
+        "date": "June 27, 2020",
+        "author": "Vishlavath Tarun"
+    },
+    {
+        "image": "https://saenitk.files.wordpress.com/2020/06/cover-photo-e1591905189878.jpg",
+        "title": "Heat Pipes",
+        "desc": "Wondered why ideal conductors like Silver and Copper aren’t always used in standard  instruments for heat conduction? We bring you to the idea of “Heat Pipes,” which has reformed heat conduction by applying  lattice vibration and vapor transition to multiply the efficiency. Learn everything about them from their history to present uses and scope of usage in the future, and how well the heat pipes can be used in everyday life to ease our problems!",
+        "link": "https://saenitk.wordpress.com/2020/06/12/heat-pipes/",
+        "date": "June 12, 2020",
         "author": "Shripad Kelapure"
     },
     {
-        "image":"https://saenitk.files.wordpress.com/2020/06/ordance-factory0.jpg",
-        "title":"The Fourth Arm of Defence",
-        "desc":"OFB used to be the world’s largest government-operated production organisation  with more than 80K workforce at that time. The Oldest organisation run by the Government of India before being Corporatised. The 37th Largest Defence Equipment Manufacturer and much more.  Join us, as we explain about how OFB is serving as the backbone of Indian defence forces.",
-        "link":"https://saenitk.wordpress.com/2020/06/05/the-fourth-arm-of-defence/",
-        "date":"June 6, 2020",
-        "author":"N Rahul"
+        "image": "https://saenitk.files.wordpress.com/2020/06/ordance-factory0.jpg",
+        "title": "The Fourth Arm of Defence",
+        "desc": "OFB used to be the world’s largest government-operated production organisation  with more than 80K workforce at that time. The Oldest organisation run by the Government of India before being Corporatised. The 37th Largest Defence Equipment Manufacturer and much more.  Join us, as we explain about how OFB is serving as the backbone of Indian defence forces.",
+        "link": "https://saenitk.wordpress.com/2020/06/05/the-fourth-arm-of-defence/",
+        "date": "June 6, 2020",
+        "author": "N Rahul"
     },
     {
-        "image":"https://saenitk.files.wordpress.com/2020/05/13848.jpg",
-        "title":"Industrial Automation",
-        "desc":"Since the Industrial Revolution, humanity has relied on the concept of machine integration in all sorts of daily work. From mere, sensitive instruments to big  sophisticated machinery, man has depended on all sorts of equipment to make life much better and less stressful. But, as they say, “Every coin has 2 sides”, everything has its  shortcomings. Ankit Gupta shares his thoughts about the impact and eventuality of Industrial Automation.",
-         "link":"https://saenitk.wordpress.com/2020/05/29/industrial-automation/",
-         "date":"May 29, 2020",
-         "author":"Ankit Gupta"
+        "image": "https://saenitk.files.wordpress.com/2020/05/13848.jpg",
+        "title": "Industrial Automation",
+        "desc": "Since the Industrial Revolution, humanity has relied on the concept of machine integration in all sorts of daily work. From mere, sensitive instruments to big  sophisticated machinery, man has depended on all sorts of equipment to make life much better and less stressful. But, as they say, “Every coin has 2 sides”, everything has its  shortcomings. Ankit Gupta shares his thoughts about the impact and eventuality of Industrial Automation.",
+        "link": "https://saenitk.wordpress.com/2020/05/29/industrial-automation/",
+        "date": "May 29, 2020",
+        "author": "Ankit Gupta"
     },
     {
- 
-        "image":"https://saenitk.files.wordpress.com/2020/06/ordance-factory0.jpg",
-        "title":"Solar Minimum",
-        "desc":"The Sun isn’t calm but experiencing a transition, a shift that may cause a marginal impression on our routine lives. Join us in our next discussion, as we scientifically explain to you about this natural phenomenon, which is lately trending globally.",
-        "link":"https://saenitk.files.wordpress.com/2020/05/solar_minimum.jpg",
-        "date":"May 22, 2020",
-        "author":"Sakshi Bagde"
+        "image": "https://saenitk.files.wordpress.com/2020/06/ordance-factory0.jpg",
+        "title": "Solar Minimum",
+        "desc": "The Sun isn’t calm but experiencing a transition, a shift that may cause a marginal impression on our routine lives. Join us in our next discussion, as we scientifically explain to you about this natural phenomenon, which is lately trending globally.",
+        "link": "https://saenitk.files.wordpress.com/2020/05/solar_minimum.jpg",
+        "date": "May 22, 2020",
+        "author": "Sakshi Bagde"
     },
     {
-        "image":"https://saenitk.files.wordpress.com/2020/05/1800x1200_virus_3d_render_red_03_other.jpg",
-        "title":"Role of Technology in the battle against COVID-19",
-        "desc":"Ever wondered about how our country aims to eradicate the Coronavirus? Join us, as we explain in detail as to how DRDO is working at the lowest levels of the health infrastructure to add steam to our front-lines.",
-        "link":"https://saenitk.wordpress.com/2020/05/15/role-of-technology-in-the-battle-against-covid19/",
-        "date":"May 15, 2020",
-        "author":"Diwakar S Goud"
+        "image": "https://saenitk.files.wordpress.com/2020/05/1800x1200_virus_3d_render_red_03_other.jpg",
+        "title": "Role of Technology in the battle against COVID-19",
+        "desc": "Ever wondered about how our country aims to eradicate the Coronavirus? Join us, as we explain in detail as to how DRDO is working at the lowest levels of the health infrastructure to add steam to our front-lines.",
+        "link": "https://saenitk.wordpress.com/2020/05/15/role-of-technology-in-the-battle-against-covid19/",
+        "date": "May 15, 2020",
+        "author": "Diwakar S Goud"
     }
 ]
-
-
-
-
-
-
-               
-
-
-
-
-
-
-
-

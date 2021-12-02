@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width:200px;
+  width: 200px;
   height: 280px;
   padding: 15px 2px;
   margin: 15px 3px 0 3px;
@@ -28,7 +28,7 @@
   margin-top: 7px;
 }
 
-.member > .icon >img {
+.member > .icon > img {
   width: 12rem;
   height: 12rem;
   border-radius: 55%;
@@ -41,38 +41,55 @@
   flex-direction: row;
 }
 
-.mem_icon_outer{
+.mem_icon_outer {
   background-color: #203e91;
-  height: 30px; width: 30px;
+  height: 30px;
+  width: 30px;
   border-radius: 50%;
   padding: 5px;
   margin: 10px 3px;
 }
-.mem_mail, .mem_lin {
+.mem_mail,
+.mem_lin {
   color: white;
   font-size: 20px;
   cursor: pointer;
 }
 
-.mem_icon_outer:hover { background-color: #5c6b92 !important; }
-
+.mem_icon_outer:hover {
+  background-color: #5c6b92 !important;
+}
 
 /*Core main css*/
 .core {
   height: auto;
-  margin:0 5%;
+  margin: 0 5%;
 }
-.core >.heading > h1{
+.core > .heading {
   color: #203e91;
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
   padding-top: 20px;
   font-weight: 750;
 }
 .mem1 {
-    display: flex;
-    place-items: center;
-    margin-top:60px;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+  display: flex;
+  place-items: center;
+  margin-top: 60px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.core_members {
+  display: grid;
+  place-items: center;
+  width: 80%;
+  height: 100px;
+  margin-top: 50px;
+  font-size: 3rem;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid;
+  padding: 20px;
+  box-shadow: 5px 5px 8px 8px rgb(163, 163, 163);
 }

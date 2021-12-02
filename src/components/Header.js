@@ -57,7 +57,7 @@ export default function Header() {
                     <FaIcons.FaYoutube className="icon_hp"  onClick={()=> window.open("https://www.youtube.com/channel/UCPiCkG64oF7KKec7tEhquyw", "_blank")}/>
                   </div>
                   <div className="icon_hp_outer">
-                    <FaIcons.FaLinkedinIn className="icon_hp"  onClick={()=> window.open("https://www.linkedin.com/company/saenitk/?originalSubdomain=in", "_blank")}/>
+                    <FaIcons.FaLinkedinIn className="icon_hp"  onClick={()=> window.open("https://www.linkedin.com/shuvam-senapati", "_blank")}/>
                   </div>
                   <div className="icon_hp_outer">
                     <FaIcons.FaInstagram className="icon_hp" onClick={()=> window.open("https://www.instagram.com/sae_nitk/?hl=en", "_blank")}/>
@@ -90,9 +90,9 @@ export default function Header() {
                   <h3 className="header-text-dd">MEMBERS ▼</h3></Link>
                   <div class="club-dd">
                     <Link className="link-i" to="/club" style={{ textDecoration: 'none' }} onClick={scrollToTop}>
-                      <p className="link-item">Current Team</p></Link>
+                      <p className="link-item">CURRENT TEAM</p></Link>
                     <Link className="link-i" to="/alumni" style={{ textDecoration: 'none' }} onClick={scrollToTop}>
-                      <p className="link-item">Alumni</p></Link>
+                      <p className="link-item">ALUMNI</p></Link>
                   </div>
               </li>
               <li className="li3">

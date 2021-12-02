@@ -1,9 +1,11 @@
 .ep-title{
+    font-family: 'Montserrat', sans-serif;
    font-weight: 600;
    color: #204095;
    font-size: 45px;
 }
 .ep-about{
+    font-family: 'Montserrat', sans-serif;
     /*font-weight: 700;
     color: #204095;
     font-size: 3.5rem;
@@ -32,6 +34,7 @@
 }
 
 .ep-desc{ 
+    font-family: 'Montserrat', sans-serif;
     position: relative;
     font-size: 21px;
     padding: 40px 25px;
@@ -51,6 +54,7 @@
 }
 
 .ep-info-h{ 
+    font-family: 'Montserrat', sans-serif;
     position: relative;
     color: white;
     background-color: #90191b;
@@ -72,6 +76,7 @@
 }
 
 .ep-info-i{
+    font-family: 'Montserrat', sans-serif;
     position: relative;
     color: #204095;
     text-align: center;

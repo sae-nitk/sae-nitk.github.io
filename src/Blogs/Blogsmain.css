@@ -13,7 +13,7 @@
 .blogs_desc {
   display: grid;
   grid-template-columns: 100%;
-  height: 120px;
+  height: 150px;
   width: 90%;
   margin-top: 15px;
   margin-bottom: 30px;

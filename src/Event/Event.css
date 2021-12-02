@@ -1,5 +1,6 @@
 .events{ margin: 0 5%; }
 .events-heading h2{
+    font-family: 'Montserrat', sans-serif;
     text-align: center;
     color: #204095;
     font-size: 60px;
@@ -7,6 +8,7 @@
     margin: 20px auto 30px auto;
 }
 .up-events-heading>h3, .pre-events-heading>h3{
+    font-family: 'Montserrat', sans-serif;
     text-align: left;
     color: #90191b;
     font-size: 30px;

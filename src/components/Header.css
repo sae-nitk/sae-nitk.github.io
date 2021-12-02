@@ -52,6 +52,7 @@
 }
 .header-text:hover{
   color: #63676b;
+  transition: 0.75s;
 }
 
 li {
@@ -72,7 +73,6 @@ li {
   overflow: visible;
 }
 .link-i{
-  font-family: 'Montserrat',sans-serif;
   color: white;
   text-decoration: none;
   display: block;
@@ -92,7 +92,7 @@ li {
   text-decoration: none;
   position: relative;
 }
-.link-i:hover {background-color: #4581b6;}
+.link-i:hover {background-color: #3479b6; transition: 0.75s}
 
 .li5:hover .project-dd,
 .li4:hover .club-dd {
@@ -106,9 +106,10 @@ li {
 }
 
 .link-i p{
+  font: 12px/1.5 'Open Sans', arial, sans-serif;
+  letter-spacing: 0.15em;
   color:white;
-  font-family: 'Trebuchet MS', sans-serif;
-  font-size: small;
+  font-size: 10px;
 }
 
 /*Icons*/
