@@ -1,5 +1,6 @@
-import React, {useEffect} from "react";
+import React, {useEffect,useState} from "react";
 import './Project.css';
+import axios from "axios";
 import DescriptionIcon from '@material-ui/icons/Description';
 import YouTubeIcon from '@material-ui/icons/YouTube';
 import imgp21 from '../images/projects/project2-1.jpeg';
@@ -11,7 +12,7 @@ import imgp26 from '../images/projects/project2-6.jpeg';
 import AOS from 'aos';
 
 
-const Project_info2 = ({image,desc,name,report,ytlink}) => {
+const Project_info2 = ({image_link,description,title,report_link,video_link}) => {
   useEffect(() => {
     AOS.init({
       duration : 2000
@@ -19,13 +20,13 @@ const Project_info2 = ({image,desc,name,report,ytlink}) => {
   }, []);
   return (
       <div className="info" data-aos="fade-up" data-aos-once="true">
-          <img className="img_info" src={image} data-aos="fade-in" data-aos-once="true" alt=""/> 
+          <img className="img_info" src={image_link} data-aos="fade-in" data-aos-once="true" alt=""/> 
           <div className="desc_info" data-aos="fade-in" data-aos-once="true">
-            <h1>{name}</h1>
-            <p>{desc}</p>
+            <h1>{title}</h1>
+            <p>{description}</p>
             <div className="info-button" data-aos="fade-in" data-aos-once="true">
-             <button className="info-btn" onClick={()=> window.open(report, "_blank")}><DescriptionIcon fontSize="large"/> Report</button>
-             <button className="info-btn" onClick={()=> window.open(ytlink, "_blank")}><YouTubeIcon fontSize="large"/> Video</button>
+             <button className="info-btn" onClick={()=> window.open(report_link, "_blank")}><DescriptionIcon fontSize="large"/> Report</button>
+             <button className="info-btn" onClick={()=> window.open(video_link, "_blank")}><YouTubeIcon fontSize="large"/> Video</button>
             </div>
           </div>
       </div>
@@ -33,6 +34,8 @@ const Project_info2 = ({image,desc,name,report,ytlink}) => {
 }
 
 function Projects2() {
+    const [project, setproject] = useState([]);
+    axios.get("https://saenitk.herokuapp.com/projects/").then((res)=>{ setproject(res.data)}).catch((err)=>console.log(err));
     return (
         <div className="project">
             <div className="head_p">
@@ -40,7 +43,10 @@ function Projects2() {
                 <h1 className="pp2" >2020-21</h1>
             </div>
             <div className="p_info">
-            <Project_info2 
+            {
+                 project.map((item)=>(item.academic_year==="20-21" && <Project_info2 {...item} key={item.id}/>))
+            }
+            {/* <Project_info2 
               image={imgp21}
               name="CFD Analysis of Nose Profiles"
               desc="This project deals with the comparison of various nose profiles and their aerodynamic
@@ -97,7 +103,7 @@ function Projects2() {
              compared with theoretical values."
              report="https://docs.google.com/document/d/1U4CFkH1gjtDAui6OyZbU0-EuMNIttdceB9pm5WTMY1A/edit"
              ytlink="https://www.youtube.com/watch?v=K5iyIFwuQbE&list=PLIaJ9nrOzsHo966HzflQiHt8WLcMDGIuC&index=6"
-            />
+            /> */}
          </div>
          </div>
     )

@@ -1,18 +1,19 @@
 import React, { useState , useEffect, Component} from "react";
 import * as Bi from "react-icons/bi";
-import blogs from './blogs.json'
+//import blogs from './blogs.json'
 import './Blogsmain.css';
 import SearchBar from './search';
 import Fuse from "fuse.js";
 import AOS from 'aos';
+import axios from "axios";
 
-const Blogs=({image,title,desc,link,date, author})=>{
+const Blogs=({image_link,title,summary,link,date, author})=>{
     return (
         <div className="blogs" data-aos="fade-up" data-aos-once="true">
           <div className="img-hover-blogs">
-           <img className="blogs_img" src={image}   height="220px" width="300px" alt=""></img>
+           <img className="blogs_img" src={image_link}   height="220px" width="300px" alt=""></img>
           <div className="hover-box-blogs">
-            <p className="hover-desc-blogs">{desc}</p>
+            <p className="hover-desc-blogs">{summary}</p>
             <a href={link} className="blog-link-btn" style={{textDecoration: 'none'}} target="_blank">READ MORE</a>
           </div>
           </div>
@@ -35,8 +36,9 @@ function App2(){
       duration : 2000
     });
   }, []);
-
+  let blogs=[];
   const [data, setData] = useState(blogs);
+  axios.get("https://saenitk.herokuapp.com/blogs/").then((res)=>{ setData(res.data)}).catch((err)=>console.log(err));
 
   const searchData = (pattern) => {
     if (!pattern) {
@@ -75,7 +77,7 @@ function App2(){
        />
       <div className="blog_info">
         {data.map((item) => (
-          <Blogs {...item} key={item.title}/>
+          <Blogs {...item} key={item.id}/>
         ))}
       </div>
     </div>

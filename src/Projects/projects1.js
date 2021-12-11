@@ -1,13 +1,14 @@
-import React, {useEffect} from "react";
+import React, {useEffect,useState} from "react";
 import './Project.css';
-
 import imgp11 from '../images/projects/project1-1.jpeg';
 import imgp12 from '../images/projects/project1-2.jpeg';
 import imgp13 from '../images/projects/project1-3.jpeg';
 import imgp14 from '../images/projects/project1-4.jpeg';
 import AOS from 'aos';
+import axios from "axios";
+import { NavItem } from "react-bootstrap";
 
-const Project_info1=({image,desc,name})=>{
+const Project_info1=({image_link,description,title})=>{
     useEffect(() => {
         AOS.init({
           duration : 2000
@@ -15,16 +16,21 @@ const Project_info1=({image,desc,name})=>{
       }, []);
     return (
         <div className="info" data-aos="fade-up" data-aos-once="true">
-            <img className="img_info" src={image} data-aos="fade-in" data-aos-once="true" alt=""/> 
+            <img className="img_info" src={image_link} data-aos="fade-in" data-aos-once="true" alt=""/> 
             <div className="desc_info" data-aos="fade-in" data-aos-once="true">
-              <h1>{name}</h1>
-              <p>{desc}</p>
+              <h1>{title}</h1>
+              <p>{description}</p>
             </div>
         </div>
     )
 }
 
+
+
+
 export default function Projects1() {
+    const [project, setproject] = useState([]);
+    axios.get("https://saenitk.herokuapp.com/projects/").then((res)=>{ setproject(res.data)}).catch((err)=>console.log(err));
     return (
         <div className="project">
             <div className="head_p">
@@ -32,7 +38,10 @@ export default function Projects1() {
                 <h1 className="pp2" >2019-20</h1>
             </div>
             <div className="p_info">
-            <Project_info1 
+            {
+                 project.map((item)=>(item.academic_year==="19-20" && <Project_info1 {...item} key={item.id}/>))
+            }
+            {/* <Project_info1 
                 image={imgp11}
                 name="ANN Power Optimization"
                 desc="Project on the concepts of EVs, Simulation and Artificial Intelligence called “ANN Power Optimization”. The project dealt with modeling and simulating various EV Models and optimizing them with the basics of Machine learning and Data sciences"
@@ -53,7 +62,7 @@ export default function Projects1() {
                image={imgp14}
                name="SAE NITK Media Works"
                desc="SAE-NITK Media has been actively involved in the clubs creative face and planned and executed all our schemes,mainly SAE-NITK Tech Buzz Annual Magazine SAE Tech Chronicle - A Weekly Blog Series."
-            />
+            /> */}
         </div>
     </div>
     )
