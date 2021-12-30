@@ -3,21 +3,20 @@ import {Link} from 'react-router-dom';
 import './Contact.css';
 import * as Fa from 'react-icons/fa';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
-import CallIcon from '@material-ui/icons/Call';
+//import CallIcon from '@material-ui/icons/Call';
 import EmailIcon from '@material-ui/icons/Email';
 
 const scrollToTop = () => {
-  window.scrollTo({
-    top: 0,
-    behavior: "smooth"
-  });
-};
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth"
+    });
+  };
 
   export default function Contact() {
     return (
       <footer>
         <div className="contact">
-        
           <div className="contact_">
           <div className="column1">
               <h2>Contact</h2>
@@ -33,23 +32,23 @@ const scrollToTop = () => {
               </div>
             </div>
             <div className="column2">
-               <h2>More</h2>
-              <div className="c2_info">
-                <ul className="list-unstyled">
+                <h2>Quick Links</h2>
+                <div className="c2_info">
+                  <ul className="list-unstyled">
                   <li><Link  style={{ textDecoration: 'none' }} to="/about-us" onClick={scrollToTop}>
                     <h5 className="contact_links">About</h5></Link></li>
                   <li><Link  style={{ textDecoration: 'none' }} to="/blog" onClick={scrollToTop}>
                     <h5 className="contact_links">Blogs</h5></Link></li>
                   <li><Link  style={{ textDecoration: 'none' }} to="/project-expo-2020-2021" onClick={scrollToTop}>
-                    <h5 className="contact_links">Project-Expo:2020-2021</h5></Link></li>
+                    <h5 className="contact_links">Project-Expo : 2020-2021</h5></Link></li>
                   <li><Link  style={{ textDecoration: 'none' }} to="/club" onClick={scrollToTop}>
                     <h5 className="contact_links">Our Team</h5></Link></li>
                   <li><Link  style={{ textDecoration: 'none' }} to="/alumni" onClick={scrollToTop}>
                     <h5 className="contact_links">Alumni</h5></Link></li>
                   <li><Link  style={{ textDecoration: 'none' }} to="/events" onClick={scrollToTop}>
                     <h5 className="contact_links">Events</h5></Link></li>
-                </ul>
-              </div>
+                  </ul>
+                </div>
             </div>
             <div className="column3">
              <h2>Follow Us</h2>
@@ -76,6 +75,6 @@ const scrollToTop = () => {
             <p>&copy; Website designed and developed by SAE⚙️NITK  Web-Dev </p>
           </div>
        </div>
-    </footer>
+      </footer>
     )
-}
+  }

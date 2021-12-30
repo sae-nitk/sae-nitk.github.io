@@ -55,7 +55,8 @@
     height: auto;
     width: 200px;
     padding:0 2;
-    margin: 20px 0;
+    margin: 20px 5px;
+    font-family: 'Montserrat', sans-serif; 
   }
 
 /*Club CSS*/
@@ -83,7 +84,7 @@
   box-shadow: 0 0 5px 5px rgb(207, 207, 207);
 }
 
-.cm_row1, .cm_row2, .cm_row3, .cm_row4, .cm_row5{
+.cm_row1, .cm_row2, .cm_row3, .cm_row4, .cm_row5 {
   display: flex;
   place-items: center;
   margin-top:20px;
@@ -91,3 +92,10 @@
   justify-content: space-evenly;  
 }
 
+.cm_row6 {
+  display: flex;
+  place-items: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+  justify-content: space-evenly;  
+}

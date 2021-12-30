@@ -24,7 +24,7 @@ export default function Vision() {
          <div className="vision">
             <h1 className="vision_head" data-aos="fade-in">Our Vision</h1>
             <div className="vision_text" data-aos="fade-in">
-             <p>Working with strong commitment for technology-
+             <p>Working with strong commitment for technology -
                 based solutions and driving the society with new
                 ideas and innovations</p>
             </div>

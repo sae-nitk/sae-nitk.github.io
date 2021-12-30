@@ -19,7 +19,7 @@ export const events_21 = [
         
         "src":matlab,
         "title":"MATLAB KEP",
-        "text":"Focused on installation, different sources, coding, GUI and different buil-in apps of Matlab.",
+        "text":"Focused on installation, different sources, coding, GUI and different built-in apps of Matlab.",
         "link":"/events/matlab-kep",
         "type":"internal"
     },

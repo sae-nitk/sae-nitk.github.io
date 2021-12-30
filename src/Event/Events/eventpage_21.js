@@ -189,7 +189,7 @@ function Event10_21(){
         <EventTemplate 
          title="Website release"
          img={website}
-         desc="The revamp of the club website started in October 2020. A new website has been developed with the aim of making it more interactive for the users and simplifying the various procedures involved in the club. It has been built using React JS as compared to the current website that was built using WordPress. It is a responsive website that has various front end and back end features for presenting valuable club information such as projects, blogs, members, etc., to the outside world. 
+         desc="The revamp of the club website started in October 2020. A new website has been developed with the aim of making it more interactive for the users and simplifying the various procedures involved in the club. It has been built using React JS, unlike the previous website which was built using WordPress. It is a responsive website that has various front end and back end features for presenting valuable club information such as projects, blogs, members, etc., to the outside world. 
          A lot of dedicated effort from the web development team has gone into the development of this new website. Presently, it is under final stages of development and testing. The release is expected soon.                                            
          "
          date="-"

@@ -47,7 +47,7 @@ function About() {
              reach several milestones in the years to come.I wish them all the success.
               <div className="quote2-i"  data-aos="fade-in" data-aos-once="true">
                   Prof. Jagannatha Nayak<br />
-                  Dean Students' Welfare <br />
+                  Former Dean Students' Welfare <br />
                   NITK Surathkal
                   <br/><br/>
                   January 2020
