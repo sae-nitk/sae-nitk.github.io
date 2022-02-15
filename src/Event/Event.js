@@ -3,6 +3,7 @@ import {Router, Switch, Link, BrowserRouter} from "react-router-dom";
 import './Event.css';
 import {events_20} from './events_20';
 import {events_21} from './events_21';
+import {events_22} from './events_22';
 import {events_upcoming} from './events_upcoming';
 import AOS from 'aos';
 
@@ -94,6 +95,12 @@ class EventMain extends React.Component{
            </div>
           <div className="pre-events-heading" data-aos="fade-in" data-aos-once="true"> 
            <h3>Archives</h3> </div>
+        <p className="event-year" data-aos="fade-in" data-aos-once="true">
+           2021-2022
+         </p>
+         <div className="previous-events"> 
+           {events_22.map(item => (<Item {... item} />))};
+          </div>
          <p className="event-year" data-aos="fade-in" data-aos-once="true">
            2020-2021
          </p>

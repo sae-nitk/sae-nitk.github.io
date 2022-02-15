@@ -21,6 +21,7 @@ import Projects2 from './Projects/projects2';
 import Magazine from './Projects/magazine';
 
 import EventMain from './Event/Event';
+import { Event1_22, Event2_22, Event3_22} from './Event/Events/eventpage_22';
 import { Event1_21, Event2_21, Event3_21, Event4_21, Event5_21, Event6_21, Event7_21, Event8_21, Event9_21, Event10_21 } from './Event/Events/eventpage_21';
 import { Event1_20, Event2_20, Event3_20, Event4_20, Event5_20, Event6_20, Event7_20 } from './Event/Events/eventpage_20';
 //import { Carousel } from 'bootstrap';
@@ -58,6 +59,10 @@ function App() {
 
           <Route exact path="/events/magazine-release"><Event9_21 /></Route>
           <Route exact path="/events/website-release"><Event10_21 /></Route>
+
+          <Route exact path="/events/autocad_22"><Event1_22 /></Route>
+          <Route exact path="/events/ansys"><Event2_22 /></Route>
+          <Route exact path="/events/fusion360"><Event3_22 /></Route>
 
           <Route exact path="/events/webinar-by-r-s-pant"><Event1_21 /></Route>
           <Route exact path="/events/matlab-kep"><Event2_21 /></Route>
