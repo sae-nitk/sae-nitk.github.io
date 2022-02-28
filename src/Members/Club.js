@@ -17,22 +17,22 @@ import likhitaj from '../images/club/Likhita.jpg'; import lucky from '../images/
 import guhanm from '../images/club/Guhan.jpg'; import aashish from '../images/club/Aashish.jpeg';
 import shunups from '../images/club/Shunu.jpg'; import diksha from '../images/club/Diksha.jpeg';
 import sumitsagar from '../images/club/Sumit.jpg'; import pradeepsolanki from '../images/club/Pradeep.jpg';
-import shashiprakash from '../images/club/Shashiprakash.jpg'; import kushalgowda from '../images/club/default.png';
+import shashiprakash from '../images/club/Shashiprakash.jpg'; import kushalgowda from '../images/club/Kushal.jpg';
 import meet from '../images/club/Meet.jpg'; import saransh from '../images/club/Saransh.jpg';
-import wilson from '../images/club/Wilson.jpg'; import samarth from '../images/club/default.png';
-import yashkundale from '../images/club/default.png'; import raghavganesh from '../images/club/default.png'; 
-import saisrujan from '../images/club/default.png';  import divyamverma from '../images/club/default.png';  
-import anannyarao from '../images/club/default.png'; import adithyams from '../images/club/default.png';
-import ajmeera from '../images/club/default.png'; import harshalbhoyar from '../images/club/default.png'; 
-import khushirathod from '../images/club/default.png';  import jishnudas from '../images/club/default.png';  
-import nischayi from '../images/club/default.png';  import samyakjain from '../images/club/default.png';
-import shannoncarlo from '../images/club/default.png';  import shivavasthan from '../images/club/default.png'; 
-import sumanthhegde from '../images/club/default.png'; import dilshad from '../images/club/default.png'
-import nitesh from '../images/club/default.png'; import jatinkaushal from '../images/club/default.png';
-import yogeshp from '../images/club/default.png'; import ashrithdr from '../images/club/default.png';
-import dayanandabn from '../images/club/default.png'; import navya from '../images/club/default.png';
-import Mayur from '../images/club/default.png'; import Puja_Chowhan from '../images/club/default.png'; 
-import Piyush_Dubey from '../images/club/default.png';
+import wilson from '../images/club/Wilson.jpg'; import samarth from '../images/club/Samarth.jpg';
+import yashkundale from '../images/club/Yash_Kundale.jpeg'; import raghavganesh from '../images/club/Raghav_Ganesh.jpg'; 
+import saisrujan from '../images/club/Sai_Srujan.jpg';  import divyamverma from '../images/club/Divyam.jpg';  
+import anannyarao from '../images/club/AnannyaRao.jpg'; import adithyams from '../images/club/AdithyaMS.jpg';
+import ajmeera from '../images/club/Ajmeera.JPG'; import harshalbhoyar from '../images/club/Harshal_Bhoyar.jpg'; 
+import khushirathod from '../images/club/KhushiRathod.jpg';  import jishnudas from '../images/club/JishnuDas.jpg';  
+import nischayi from '../images/club/Nischayi_Vabilisetti.jpg';  import samyakjain from '../images/club/Samyak_Jain.jpg';
+import shannoncarlo from '../images/club/Shannon_Britney.jpeg';  import shivavasthan from '../images/club/ShivavasthanD.jpg'; 
+import sumanthhegde from '../images/club/Sumanth.png'; import dilshad from '../images/club/Shaik_Dilshad.jpg'
+import nitesh from '../images/club/Nitesh_Bhat.jpeg'; import jatinkaushal from '../images/club/Jatin_Kaushal.JPEG';
+import yogeshp from '../images/club/Yogesh_P.jpg'; import ashrithdr from '../images/club/AshrithDR.jpeg';
+import dayanandabn from '../images/club/Dayananda.png'; import navya from '../images/club/Navya.jpeg';
+import Mayur from '../images/club/Mayur.jpg'; import Puja_Chowhan from '../images/club/Puja_Chowhan.jpeg'; 
+import Piyush_Dubey from '../images/club/Piyush_Dubey.jpg';
 import AOS from 'aos';
 
 
