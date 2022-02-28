@@ -34,8 +34,8 @@ const Project_info2 = ({image_link,description,title,report_link,video_link}) =>
 }
 
 function Projects2() {
-    const [project, setproject] = useState([]);
-    axios.get("https://saenitk.herokuapp.com/projects/").then((res)=>{ setproject(res.data)}).catch((err)=>console.log(err));
+    //const [project, setproject] = useState([]);
+    //axios.get("https://saenitk.herokuapp.com/projects/").then((res)=>{ setproject(res.data)}).catch((err)=>console.log(err));
     return (
         <div className="project">
             <div className="head_p">
@@ -44,66 +44,66 @@ function Projects2() {
             </div>
             <div className="p_info">
             {
-                 project.map((item)=>(item.academic_year==="20-21" && <Project_info2 {...item} key={item.id}/>))
+                // project.map((item)=>(item.academic_year==="20-21" && <Project_info2 {...item} key={item.id}/>))
             }
-            {/* <Project_info2 
-              image={imgp21}
-              name="CFD Analysis of Nose Profiles"
-              desc="This project deals with the comparison of various nose profiles and their aerodynamic
+            <Project_info2 
+              image_link={imgp21}
+              title="CFD Analysis of Nose Profiles"
+              description="This project deals with the comparison of various nose profiles and their aerodynamic
               characteristics. The nose profiles are designed using SOLIDWORKS and analyzed on
               ANSYS."
-              report="https://drive.google.com/file/d/1hAgNid9WfxW-dPHK46RdrGAOplxlX7UP/view?usp=sharing"
-              ytlink="https://www.youtube.com/watch?v=H_aWN_9bUgM&t=3s"
+              report_link="https://drive.google.com/file/d/1hAgNid9WfxW-dPHK46RdrGAOplxlX7UP/view?usp=sharing"
+              video_link="https://www.youtube.com/watch?v=H_aWN_9bUgM&t=3s"
             />
             <Project_info2
-              image={imgp22}
-              name="Energy Storing Body Panels"
-              desc="To study how the power is stored in the body panels of vehicles. Learn about
+              image_link={imgp22}
+              title="Energy Storing Body Panels"
+              description="To study how the power is stored in the body panels of vehicles. Learn about
               that material used, analysis of stresses on the panel, and Simulating the voltage
               distribution across the Supercapacitor."
-              report="https://drive.google.com/file/d/1bYeplqJ0lUedCRprdPPOxzMVte5mymrg/view?usp=sharing"
-              ytlink="https://www.youtube.com/watch?v=KQYt8qBKbM8"
+              report_link="https://drive.google.com/file/d/1bYeplqJ0lUedCRprdPPOxzMVte5mymrg/view?usp=sharing"
+              video_link="https://www.youtube.com/watch?v=KQYt8qBKbM8"
             />
             <Project_info2 
-              image={imgp23}
-              name="Simulink Model Of Antilock Braking System"
-              desc="As the name signifies, the anti-lock braking system is a safety system in cars 
+              image_link={imgp23}
+              title="Simulink Model Of Antilock Braking System"
+              description="As the name signifies, the anti-lock braking system is a safety system in cars 
                     and other automobiles that keeps their wheels from locking up and helps their 
                     drivers to maintain steering control. Also referred to as anti-skid braking 
                     system sometimes, it enables the wheels of a vehicle to maintain tractive contact
                     with the ground so that they don’t  go into an uncontrolled skid."
-              report="https://drive.google.com/file/d/1GttUuyFNS3kL_Yjkd2KGYPaYH8MPrIXd/view?usp=sharing"
-              ytlink="https://www.youtube.com/watch?v=mK-BilUa32o"
+              report_link="https://drive.google.com/file/d/1GttUuyFNS3kL_Yjkd2KGYPaYH8MPrIXd/view?usp=sharing"
+              video_link="https://www.youtube.com/watch?v=mK-BilUa32o"
             />
             <Project_info2
-              image={imgp24}
-              name="Rear Wheel Steering"
-              desc="The “rear wheel steering” project was taken up with the main motive of decreasing
+              image_link={imgp24}
+              title="Rear Wheel Steering"
+              description="The “rear wheel steering” project was taken up with the main motive of decreasing
               the turning radius of cars to adapt to the dynamic demands of congested cities such as
               Mumbai, Bangalore, etc."
-              report="https://drive.google.com/file/d/1HUY-3JAAfKG4kTTe9I4FPJecWf9LXogd/view?usp=sharing"
-              ytlink="https://www.youtube.com/watch?v=s3OUx93zXgU"
+              report_link="https://drive.google.com/file/d/1HUY-3JAAfKG4kTTe9I4FPJecWf9LXogd/view?usp=sharing"
+              video_link="https://www.youtube.com/watch?v=s3OUx93zXgU"
             />
             <Project_info2
-             image={imgp25}
-             name="Design, Analysis & Application of a PID Controller"
-             desc="This project deals with the designing and simulation of a basic PID controller which controls
+             image_link={imgp25}
+             title="Design, Analysis & Application of a PID Controller"
+             description="This project deals with the designing and simulation of a basic PID controller which controls
              the amount of current flowing in order to control the power given to the wheels of an
              agricultural robot in order to steer it."
-             report="https://drive.google.com/file/d/1DNh5MUkc9JTgEPva-EBuLPAn5-Kar2Zd/view?usp=sharing"
-             ytlink="https://www.youtube.com/watch?v=M8pfQzvVpmU&t=29s"
+             report_link="https://drive.google.com/file/d/1DNh5MUkc9JTgEPva-EBuLPAn5-Kar2Zd/view?usp=sharing"
+             video_link="https://www.youtube.com/watch?v=M8pfQzvVpmU&t=29s"
             />
             <Project_info2
-             image={imgp26}
-             name="Aerodynamic Analysis of Helicopter Seeds"
-             desc="Our goal is to build a 3D model to analyse its
+             image_link={imgp26}
+             title="Aerodynamic Analysis of Helicopter Seeds"
+             description="Our goal is to build a 3D model to analyse its
              structure and evaluate its aerodynamic properties. A solid model matching the structure of a
              single maple seed is created in AutoCAD software. The solid model was imported in ANSYS
              and the flow is analysed using FLUENT module under various conditions. Results are then
              compared with theoretical values."
-             report="https://docs.google.com/document/d/1U4CFkH1gjtDAui6OyZbU0-EuMNIttdceB9pm5WTMY1A/edit"
-             ytlink="https://www.youtube.com/watch?v=K5iyIFwuQbE&list=PLIaJ9nrOzsHo966HzflQiHt8WLcMDGIuC&index=6"
-            /> */}
+             report_link="https://docs.google.com/document/d/1U4CFkH1gjtDAui6OyZbU0-EuMNIttdceB9pm5WTMY1A/edit"
+             video_link="https://www.youtube.com/watch?v=K5iyIFwuQbE&list=PLIaJ9nrOzsHo966HzflQiHt8WLcMDGIuC&index=6"
+            />
          </div>
          </div>
     )

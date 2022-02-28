@@ -6,6 +6,7 @@ import Home from './Home/home';
 import Vision from './Home/Vision';
 import Message from './Home/Message';
 import ClubInfo from './Home/ClubInfo';
+import Garrett from './Home/Garrett';
 import Youtube from './Home/Youtube';
 import Contact from './components/Contact';
 
@@ -35,15 +36,15 @@ function App() {
           <Route exact path={process.env.PUBLIC_URL + '/'}>
             <Home />
             <Vision />
-            <Message />
             <ClubInfo />
+            <Garrett />
             <Youtube />
           </Route>
           <Route exact path="/sae-nitk">
             <Home />
             <Vision />
-            <Message />
             <ClubInfo />
+            <Garrett />
             <Youtube />
           </Route>
           <Route exact path="/about-us"><About /></Route>

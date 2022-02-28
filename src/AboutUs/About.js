@@ -29,7 +29,7 @@ function About() {
               for this club. I wish the club every success in all its undertakings.
               <div className="quote1-i"  data-aos="fade-in" data-aos-once="true">
                   Prof. Umamaheshwar Rao<br />
-                  Director <br />
+                  Former Director <br />
                   NITK Surathkal
                   <br/><br/>
                   January 2020
@@ -47,7 +47,7 @@ function About() {
              reach several milestones in the years to come.I wish them all the success.
               <div className="quote2-i"  data-aos="fade-in" data-aos-once="true">
                   Prof. Jagannatha Nayak<br />
-                  Dean Students' Welfare <br />
+                  Former Dean Students' Welfare <br />
                   NITK Surathkal
                   <br/><br/>
                   January 2020

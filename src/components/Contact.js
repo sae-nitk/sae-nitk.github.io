@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import './Contact.css';
 import * as Fa from 'react-icons/fa';
 import LocationOnIcon from '@material-ui/icons/LocationOn';
-import CallIcon from '@material-ui/icons/Call';
+//import CallIcon from '@material-ui/icons/Call';
 import EmailIcon from '@material-ui/icons/Email';
 
 const scrollToTop = () => {
@@ -17,11 +17,10 @@ const scrollToTop = () => {
     return (
       <footer>
         <div className="contact">
-        
           <div className="contact_">
           <div className="column1">
               <h2>Contact</h2>
-              <div className="c1_info">
+              <div className="c1_info1">
                 <ul className="list-unstyled">
                   <li> SAE NITK </li>
                   {/*<li><CallIcon /> +91 8618891003</li>*/}
@@ -31,29 +30,9 @@ const scrollToTop = () => {
                   Surathkal</li>
                 </ul>
               </div>
-            </div>
-            <div className="column2">
-               <h2>More</h2>
-              <div className="c2_info">
-                <ul className="list-unstyled">
-                  <li><Link  style={{ textDecoration: 'none' }} to="/about-us" onClick={scrollToTop}>
-                    <h5 className="contact_links">About</h5></Link></li>
-                  <li><Link  style={{ textDecoration: 'none' }} to="/blog" onClick={scrollToTop}>
-                    <h5 className="contact_links">Blogs</h5></Link></li>
-                  <li><Link  style={{ textDecoration: 'none' }} to="/project-expo-2020-2021" onClick={scrollToTop}>
-                    <h5 className="contact_links">Project-Expo:2020-2021</h5></Link></li>
-                  <li><Link  style={{ textDecoration: 'none' }} to="/club" onClick={scrollToTop}>
-                    <h5 className="contact_links">Our Team</h5></Link></li>
-                  <li><Link  style={{ textDecoration: 'none' }} to="/alumni" onClick={scrollToTop}>
-                    <h5 className="contact_links">Alumni</h5></Link></li>
-                  <li><Link  style={{ textDecoration: 'none' }} to="/events" onClick={scrollToTop}>
-                    <h5 className="contact_links">Events</h5></Link></li>
-                </ul>
-              </div>
-            </div>
-            <div className="column3">
-             <h2>Follow Us</h2>
-             <div className="c3_icon">
+              <div className="c1_info2">
+              <h2>Follow Us</h2>
+              <div className="icons">
                <div className="icon_contact_outer">
                 <Fa.FaFacebookF  className="icon_contact" onClick={()=> window.open("https://www.facebook.com/saenitk/", "_blank")} />
                </div>  
@@ -70,6 +49,26 @@ const scrollToTop = () => {
                  <Fa.FaWordpressSimple className="icon_contact"  onClick={()=> window.open("https://saenitk.wordpress.com/", "_blank")}/>
                </div> 
              </div>
+            </div>
+            </div>
+            <div className="column2">
+               <h2>Quick Links</h2>
+              <div className="c2_info">
+                <ul className="list-unstyled">
+                  <li><Link  style={{ textDecoration: 'none' }} to="/about-us" onClick={scrollToTop}>
+                    <h5 className="contact_links">About</h5></Link></li>
+                  <li><Link  style={{ textDecoration: 'none' }} to="/blog" onClick={scrollToTop}>
+                    <h5 className="contact_links">Blogs</h5></Link></li>
+                  <li><Link  style={{ textDecoration: 'none' }} to="/project-expo-2020-2021" onClick={scrollToTop}>
+                    <h5 className="contact_links">Project-Expo:2020-2021</h5></Link></li>
+                  <li><Link  style={{ textDecoration: 'none' }} to="/club" onClick={scrollToTop}>
+                    <h5 className="contact_links">Our Team</h5></Link></li>
+                  <li><Link  style={{ textDecoration: 'none' }} to="/alumni" onClick={scrollToTop}>
+                    <h5 className="contact_links">Alumni</h5></Link></li>
+                  <li><Link  style={{ textDecoration: 'none' }} to="/events" onClick={scrollToTop}>
+                    <h5 className="contact_links">Events</h5></Link></li>
+                </ul>
+              </div>
             </div>
           </div>
           <div className="copyright">

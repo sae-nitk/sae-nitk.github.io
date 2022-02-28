@@ -5,8 +5,14 @@
   margin-top: -20px;
   padding-left: 6px;
   float: right;
+  border-radius: 10px;
   background-color: #203e91;
-  color: black; 
+  color: white; 
+}
+
+.back-to-top:hover{
+    transform: scale(1.2);
+    transition: 0.7s;
 }
 
 .contact_ {
@@ -14,7 +20,7 @@
   flex-direction: row;
   margin-top: 70px;
   justify-content: space-around;
-  padding: 70px 20px 20px;
+  padding: 80px 20px 50px;
   border-top: 1px solid #203e91;
   /*background-color: #0F4C81;*/
   background-color: #203e91;
@@ -35,26 +41,43 @@ li {
 }
 
 /*Column 1*/
-.column1 { margin: 15px 20px 0 0; }
+.column1 { margin: 35px 20px 0 0; }
 .column1 p{
   margin-top: 5px;
   text-align: left;
   font-weight: 600;
 }
-.c1_info{ width:100%; }
-.c1_info ul{
+.c1_info1{ width:100%; }
+.c1_info1 ul{
   display: flex;
   flex-direction: column;
   color: rgb(172, 169, 169);
 }
-.c1_info ul li{
-  letter-spacing: 0.20rem;
+.c1_info1 ul li{
+  letter-spacing: 0.10rem;
   font-size: 13px;
 }
 
+
+.c1_info2 { padding-top: 20px;}
+.c1_info2 .icons{ display: inline-flex; }
+.icon_contact_outer{
+  background-color: rgb(172, 169, 169);
+  height: 30px; width: 30px;
+  border-radius: 50%;
+  padding: 5px;
+  margin: 10px 3px;
+}
+.icon_contact{
+  color: #203e91;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+
 /*Column 2*/
 .column2 {
-  margin-top: 15px;
+  margin-top: 35px;
   margin-left: 10px;
 }
 .contact_links{
@@ -63,7 +86,6 @@ li {
   color: rgb(172, 169, 169);
   letter-spacing: 0.20rem;
   margin-top: 7px;
-  cursor: pointer;
 }
 .c2_info {
   display: flex;
@@ -76,31 +98,11 @@ li {
   flex-direction: column;
 }
 
+.c2_info li{   margin-bottom: -5px; }
 
-/*Column 3*/
-.column3 {
-  padding-top: 20px;
-}
-
-.icon_contact_outer{
-  background-color: rgb(172, 169, 169);
-  height: 30px; width: 30px;
-  border-radius: 50%;
-  padding: 5px;
-  margin: 10px 3px;
-}
-
-.icon_contact{
-  color: #203e91;
-  font-size: 20px;
-  cursor: pointer;
-}
-
-.c3_icon{ display: inline-flex; }
 
 .copyright {
   height: 48px;
-  /*background-color: #0F4C81;*/
   background-color: #375096;
   text-align: center;
   margin-top: -2px;
@@ -118,13 +120,10 @@ li {
     display: flex;
     flex-direction: column;
   }
-  .column1, .column2,.column3{padding: 10px 0;}
+  .column1, .column2 {padding: 10px 0;}
+  .c1_info2 h2{display: none;}
+  .c1_info1 { margin: 0 auto;}
+
   .c2_info{ margin: 0 auto; }
-  /*.c2_info ul{
-    display: flex;
-    flex-direction: row;
-    margin:0 auto;
-  }*/
-  .c2_info ul li{ padding: 0 4px; }
-  .c1_info { margin: 0 auto;}
+  
 }
