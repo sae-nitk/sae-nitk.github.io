@@ -6,7 +6,6 @@ import Home from './Home/home';
 import Vision from './Home/Vision';
 import Message from './Home/Message';
 import ClubInfo from './Home/ClubInfo';
-import Garrett from './Home/Garrett';
 import Youtube from './Home/Youtube';
 import Contact from './components/Contact';
 
@@ -19,6 +18,8 @@ import Alumni from './Members/alumni';
 
 import Projects1 from './Projects/projects1';
 import Projects2 from './Projects/projects2';
+import Projects3 from './Projects/projects3';
+
 import Magazine from './Projects/magazine';
 
 import EventMain from './Event/Event';
@@ -36,15 +37,15 @@ function App() {
           <Route exact path={process.env.PUBLIC_URL + '/'}>
             <Home />
             <Vision />
+            <Message />
             <ClubInfo />
-            <Garrett />
             <Youtube />
           </Route>
           <Route exact path="/sae-nitk">
             <Home />
             <Vision />
+            <Message />
             <ClubInfo />
-            <Garrett />
             <Youtube />
           </Route>
           <Route exact path="/about-us"><About /></Route>
@@ -54,6 +55,7 @@ function App() {
             <Projects2 />
             <Magazine />
           </Route>
+          <Route exact path="/project-expo-2021-2022"><Projects3 /></Route>
           <Route exact path="/club"><Club /></Route>
           <Route exact path="/alumni"><Alumni /></Route>
           <Route exact path="/events"><EventMain /></Route>

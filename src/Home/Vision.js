@@ -16,7 +16,7 @@ export default function Vision() {
           <div className="scroll">
           <div><h2>News Feed</h2></div>
            <marquee className="scroll-text" behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();">
-            <span><Link to="/project-expo-2020-2021" style={{ textDecoration: 'none' }}><p>&#10031; Project Expo 2020-2021 &nbsp;</p></Link></span>
+            <span><Link to="/project-expo-2021-2022" style={{ textDecoration: 'none' }}><p>&#10031; Project Expo 2021-2022 &nbsp;</p></Link></span>
             <Link to="/events/magazine-release" style={{ textDecoration: 'none' }}><p>  &nbsp; &#10031; Magazine Release &nbsp;</p></Link>
            </marquee>
           </div>
@@ -39,4 +39,6 @@ export default function Vision() {
 
     )
 }
+
+
 

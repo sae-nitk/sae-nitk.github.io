@@ -3,12 +3,12 @@ import './Project.css';
 import axios from "axios";
 import DescriptionIcon from '@material-ui/icons/Description';
 import YouTubeIcon from '@material-ui/icons/YouTube';
-import imgp21 from '../images/projects/project2-1.jpeg';
-import imgp22 from '../images/projects/project2-2.jpeg';
-import imgp23 from '../images/projects/project2-3.jpeg';
-import imgp24 from '../images/projects/project2-4.jpeg';
-import imgp25 from '../images/projects/project2-5.jpeg';
-import imgp26 from '../images/projects/project2-6.jpeg';
+//import imgp21 from '../images/projects/project2-1.jpeg';
+//import imgp22 from '../images/projects/project2-2.jpeg';
+//import imgp23 from '../images/projects/project2-3.jpeg';
+//import imgp24 from '../images/projects/project2-4.jpeg';
+//import imgp25 from '../images/projects/project2-5.jpeg';
+//import imgp26 from '../images/projects/project2-6.jpeg';
 import AOS from 'aos';
 
 
@@ -33,19 +33,19 @@ const Project_info2 = ({image_link,description,title,report_link,video_link}) =>
   )
 }
 
-function Projects2() {
+function Projects3() {
     const [project, setproject] = useState([]);
     axios.get("https://saenitk.herokuapp.com/projects/").then((res)=>{ setproject(res.data)}).catch((err)=>console.log(err));
     return (
         <div className="project">
             <div className="head_p">
                 <h1 className="pp1">Project - Expo</h1>
-                <h1 className="pp2" >2020-21</h1>
+                <h1 className="pp2" >2021-22</h1>
             </div>
-            <div className="p_info">
+            {/*<div className="p_info">
             {
                  project.map((item)=>(item.academic_year==="20-21" && <Project_info2 {...item} key={item.id}/>))
-            }
+            }*/}
             {/* <Project_info2 
               image={imgp21}
               name="CFD Analysis of Nose Profiles"
@@ -105,8 +105,8 @@ function Projects2() {
              ytlink="https://www.youtube.com/watch?v=K5iyIFwuQbE&list=PLIaJ9nrOzsHo966HzflQiHt8WLcMDGIuC&index=6"
             /> */}
          </div>
-         </div>
+         
     )
 }
 
-export default Projects2
+export default Projects3
