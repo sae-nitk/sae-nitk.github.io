@@ -55,14 +55,43 @@ export const SidebarData = [
 
     subNav: [
       {
-        title: '2019-2020',
-        path: '/project-expo-2019-2020',
+        title: '2021-2022',
+        path: '/project-expo-2021-2022',
         icon: <IoIcons.IoIosPaper />,
         cName: 'sub-nav'
       },
       {
         title: '2020-2021',
         path: '/project-expo-2020-2021',
+        icon: <IoIcons.IoIosPaper />,
+        cName: 'sub-nav'
+      },
+      {
+        title: '2019-2020',
+        path: '/project-expo-2019-2020',
+        icon: <IoIcons.IoIosPaper />,
+        cName: 'sub-nav'
+      }  
+    ]
+  },
+  {
+    title2: 'Magazine',
+    path: '#',
+    icon: <IoIcons.IoIosPaper />,
+    iconClosed: <RiIcons.RiArrowDownSFill />,
+    iconOpened: <RiIcons.RiArrowUpSFill />,
+    subnavbool: true,
+
+    subNav: [
+      {
+        title: '2021-2022',
+        path: '/magazine-2020-2021',
+        icon: <IoIcons.IoIosPaper />,
+        cName: 'sub-nav'
+      },
+      {
+        title: '2020-2021',
+        path: '/magazine-2020-2021',
         icon: <IoIcons.IoIosPaper />,
         cName: 'sub-nav'
       }

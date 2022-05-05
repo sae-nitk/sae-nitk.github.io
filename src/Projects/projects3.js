@@ -47,7 +47,7 @@ function Projects3() {
                 //project.map((item)=>(item.academic_year==="20-21" && <Project_info2 {...item} key={item.id}/>))
             }
             </div>
-            <Project_info2 
+            {/*<Project_info2 
               image_link={imgp21}
               title="CFD Analysis of Nose Profiles"
               description="This project deals with the comparison of various nose profiles and their aerodynamic
@@ -104,7 +104,7 @@ function Projects3() {
              compared with theoretical values."
              report_link="https://docs.google.com/document/d/1U4CFkH1gjtDAui6OyZbU0-EuMNIttdceB9pm5WTMY1A/edit"
              video_link="https://www.youtube.com/watch?v=K5iyIFwuQbE&list=PLIaJ9nrOzsHo966HzflQiHt8WLcMDGIuC&index=6"
-            />
+            />*/}
          </div>
          
     )
