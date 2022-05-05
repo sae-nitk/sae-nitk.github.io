@@ -68,11 +68,23 @@ export default function Header() {
                  </div>
             </div>
             <ul className={navbarClasses.join(" ")}>              
-              <li className="li6">
-                <Link className="page6" to="/events" style={{ textDecoration: 'none' }} onClick={scrollToTop}>
+              <li className="li7">
+                <Link className="page7" to="/events" style={{ textDecoration: 'none' }} onClick={scrollToTop}>
                   <h3 className="header-text">EVENTS</h3>
                 </Link>
               </li>
+
+              <li className="li6">
+                <Link to="#" className="page6" style={{ textDecoration: 'none' }}>
+                   <h3 className="header-text-dd">MAGAZINE ▼</h3></Link>
+                   <div class="magazine-dd">
+                   <Link className="link-i" to="/magazine-2021-2022" style={{ textDecoration: 'none' }} onClick={scrollToTop}>
+                       <p className="link-item">2021-2022</p></Link>
+                   <Link className="link-i" to="/magazine-2020-2021" style={{ textDecoration: 'none' }} onClick={scrollToTop}>
+                       <p className="link-item">2020-2021</p>
+                  </Link>
+                   </div>
+               </li>
 
               <li className="li5">
                 <Link to="#" className="page5" style={{ textDecoration: 'none' }}>

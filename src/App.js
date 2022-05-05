@@ -20,7 +20,8 @@ import Projects1 from './Projects/projects1';
 import Projects2 from './Projects/projects2';
 import Projects3 from './Projects/projects3';
 
-import Magazine from './Projects/magazine';
+import Magazine2021 from './Projects/magazine2021';
+//import Magazine2122 from './Projects/magazine2122';
 
 import EventMain from './Event/Event';
 import { Event1_22, Event2_22, Event3_22} from './Event/Events/eventpage_22';
@@ -53,9 +54,12 @@ function App() {
           <Route exact path="/project-expo-2019-2020"><Projects1 /></Route>
           <Route exact path="/project-expo-2020-2021">
             <Projects2 />
-            <Magazine />
           </Route>
           <Route exact path="/project-expo-2021-2022"><Projects3 /></Route>
+          
+          <Route exact path="/magazine-2020-2021"><Magazine2021 /></Route>
+          <Route exact path="/magazine-2021-2022"><Magazine2021 /></Route>
+
           <Route exact path="/club"><Club /></Route>
           <Route exact path="/alumni"><Alumni /></Route>
           <Route exact path="/events"><EventMain /></Route>

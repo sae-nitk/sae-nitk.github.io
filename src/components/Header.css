@@ -37,7 +37,7 @@
   width: 100%;
   box-shadow: 0 8px 6px -6px rgb(156, 156, 156);
 }
-.page1, .page2, .page3, .page4, .page5, .page6{
+.page1, .page2, .page3, .page4, .page5, .page6, .page7{
   float: right;
   text-align: center;
   text-decoration: none;
@@ -58,11 +58,11 @@
 li {
   float:left;
 }
-.li1, .li2, .li3, .li4,.li5,.li6{
+.li1, .li2, .li3, .li4,.li5,.li6, .li7{
   float: right;
 }
 /*dropdowns*/
-.project-dd, .club-dd {
+.project-dd, .club-dd, .magazine-dd {
   display: none;
   position: fixed;
   background-color: #203e91;
@@ -80,11 +80,11 @@ li {
   padding-top: 10px;
 }
 
-.li5, .li4 {
+.li6, .li5, .li4 {
   display: inline-block;
 }
 
-.link-i, .page4, .page5 {
+.link-i, .page4, .page5, .page6 {
   display: inline-block;
   color: black;
   text-align: center;
@@ -95,13 +95,14 @@ li {
 .link-i:hover {background-color: #3479b6; transition: 0.75s}
 
 .li5:hover .project-dd,
+.li6:hover .magazine-dd,
 .li4:hover .club-dd {
   display: flex;
   flex-direction: column;
   z-index: 99;
 }
 
-.page4, .page5{
+.page4, .page5, .page6{
   padding: 2px 15px;
 }
 
