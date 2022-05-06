@@ -91,7 +91,7 @@ export const SidebarData = [
       },
       {
         title: '2020-2021',
-        path: '/magazine-2020-2021',
+        path: '/magazine-2021-2022',
         icon: <IoIcons.IoIosPaper />,
         cName: 'sub-nav'
       }
