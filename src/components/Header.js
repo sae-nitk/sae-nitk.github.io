@@ -92,8 +92,8 @@ export default function Header() {
                    <div class="project-dd">
                    <Link className="link-i" to="/project-expo-2021-2022" style={{ textDecoration: 'none' }} onClick={scrollToTop}>
                        <p className="link-item">2021-2022</p></Link>
-                   {/*<Link className="link-i" to="/project-expo-2020-2021" style={{ textDecoration: 'none' }} onClick={scrollToTop}>
-                       <p className="link-item">2020-2021</p></Link>*/}
+                   <Link className="link-i" to="/project-expo-2020-2021" style={{ textDecoration: 'none' }} onClick={scrollToTop}>
+                       <p className="link-item">2020-2021</p></Link>
                     <Link className="link-i" to="/project-expo-2019-2020" style={{ textDecoration: 'none' }} onClick={scrollToTop}>
                       <p className="link-item">2019-2020</p></Link>
                    </div>

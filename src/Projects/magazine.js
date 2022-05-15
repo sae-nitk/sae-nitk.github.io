@@ -19,7 +19,7 @@ function Magazine1920(){
  
 }
 
-function Magazine2021(){
+/*function Magazine2021(){
     return(
     <div className="magazine">
         <div className="mag-heading">
@@ -31,7 +31,7 @@ function Magazine2021(){
     </div>        
     )
  
-}
+}*/
 
 function Magazine2122(){
     return(
@@ -49,6 +49,6 @@ function Magazine2122(){
 
 export {
  Magazine1920,
- Magazine2021,
+ //Magazine2021
  Magazine2122
 }
