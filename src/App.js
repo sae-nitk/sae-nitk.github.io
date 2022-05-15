@@ -20,7 +20,7 @@ import Projects1 from './Projects/projects1';
 import Projects2 from './Projects/projects2';
 import Projects3 from './Projects/projects3';
 
-import {Magazine2021, Magazine2122} from './Projects/magazine';
+import {Magazine1920, Magazine2021, Magazine2122} from './Projects/magazine';
 //import Magazine2122 from './Projects/magazine2122';
 
 import EventMain from './Event/Event';
@@ -38,7 +38,7 @@ function App() {
           <Route exact path={process.env.PUBLIC_URL + '/'}>
             <Home />
             <Vision />
-            <Message />
+            {/*<Message />*/}
             <ClubInfo />
             <Youtube />
           </Route>
@@ -57,6 +57,7 @@ function App() {
           </Route>
           <Route exact path="/project-expo-2021-2022"><Projects3 /></Route>
           
+          <Route exact path="/magazine-2019-2020"><Magazine1920 /></Route>
           <Route exact path="/magazine-2020-2021"><Magazine2021 /></Route>
           <Route exact path="/magazine-2021-2022"><Magazine2122 /></Route>
 

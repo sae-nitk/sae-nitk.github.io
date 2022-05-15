@@ -5,11 +5,25 @@ import pdf2 from '../images/magazine2122.pdf';
 import './magazine.css';
 
 
+function Magazine1920(){
+    return(
+    <div className="magazine">
+        <div className="mag-heading">
+            <h1>Magazine 2019-20</h1>
+        </div>
+        <div className="magazine-section">   
+          <iframe src={pdf1+'#toolbar=0'} width="100%" height="800px"></ iframe>
+        </div>
+    </div>        
+    )
+ 
+}
+
 function Magazine2021(){
     return(
     <div className="magazine">
         <div className="mag-heading">
-            <h1>Magazine 2020-21</h1>
+            <h1>Magazine 2019-20</h1>
         </div>
         <div className="magazine-section">   
           <iframe src={pdf1+'#toolbar=0'} width="100%" height="800px"></ iframe>
@@ -23,7 +37,7 @@ function Magazine2122(){
     return(
     <div className="magazine">
         <div className="mag-heading">
-            <h1>Magazine 2020-21</h1>
+            <h1>Magazine 2021-22</h1>
         </div>
         <div className="magazine-section">   
           <iframe src={pdf2+'#toolbar=0'} width="100%" height="800px"></ iframe>
@@ -34,6 +48,7 @@ function Magazine2122(){
 }
 
 export {
+ Magazine1920,
  Magazine2021,
  Magazine2122
 }
