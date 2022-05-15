@@ -23,10 +23,10 @@ function Magazine2021(){
     return(
     <div className="magazine">
         <div className="mag-heading">
-            <h1>Magazine 2019-20</h1>
+            <h1>Magazine 2020-21</h1>
         </div>
         <div className="magazine-section">   
-          <iframe src={pdf1+'#toolbar=0'} width="100%" height="800px"></ iframe>
+          <iframe src={pdf2+'#toolbar=0'} width="100%" height="800px"></ iframe>
         </div>
     </div>        
     )
