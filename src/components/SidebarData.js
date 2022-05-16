@@ -89,12 +89,12 @@ export const SidebarData = [
         icon: <IoIcons.IoIosPaper />,
         cName: 'sub-nav'
       },
-      /*{
+      {
         title: '2020-2021',
         path: '/magazine-2020-2021',
         icon: <IoIcons.IoIosPaper />,
         cName: 'sub-nav'
-      },*/
+      },
       {
         title: '2019-2020',
         path: '/magazine-2019-2020',

@@ -20,7 +20,7 @@ import Projects1 from './Projects/projects1';
 import Projects2 from './Projects/projects2';
 import Projects3 from './Projects/projects3';
 
-import {Magazine1920, Magazine2122} from './Projects/magazine';
+import {Magazine1920, Magazine2021, Magazine2122} from './Projects/magazine';
 //import Magazine2122 from './Projects/magazine2122';
 
 import EventMain from './Event/Event';
@@ -35,6 +35,7 @@ function App() {
       <Header />
       <Switch>
         <div className="app">
+
           <Route exact path={process.env.PUBLIC_URL + '/'}>
             <Home />
             <Vision />
@@ -42,6 +43,7 @@ function App() {
             <ClubInfo />
             <Youtube />
           </Route>
+
           <Route exact path="/sae-nitk">
             <Home />
             <Vision />
@@ -49,6 +51,7 @@ function App() {
             <ClubInfo />
             <Youtube />
           </Route>
+
           <Route exact path="/about-us"><About /></Route>
           <Route exact path="/blog"><App2 /></Route>
           <Route exact path="/project-expo-2019-2020"><Projects1 /></Route>
@@ -56,6 +59,7 @@ function App() {
           <Route exact path="/project-expo-2021-2022"><Projects3 /></Route>
           
           <Route exact path="/magazine-2019-2020"><Magazine1920 /></Route>
+          <Route exact path="/magazine-2020-2021"><Magazine2021 /></Route>
           <Route exact path="/magazine-2021-2022"><Magazine2122 /></Route>
 
           <Route exact path="/club"><Club /></Route>
@@ -85,6 +89,7 @@ function App() {
           <Route exact path="/events/otto-quiz"><Event5_20 /></Route>
           <Route exact path="/events/keynote-talk-series"><Event6_20 /></Route>
           <Route exact path="/events/career-building-kep"><Event7_20 /></Route>
+
         </div>
       </Switch>
       <Contact />
