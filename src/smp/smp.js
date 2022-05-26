@@ -1,5 +1,5 @@
 import React, {useEffect,useState} from "react";
-import './Project.css';
+import './smp.css';
 import DescriptionIcon from '@material-ui/icons/Description';
 import YouTubeIcon from '@material-ui/icons/YouTube';
 import AOS from 'aos';
@@ -21,8 +21,8 @@ const Smp_info = ({image_link,description,title,propose_doc, reg_link}) => {
             <h1>{title}</h1>
             <p>{description}</p>
             <div className="info-button" data-aos="fade-in" data-aos-once="true">
-             <button className="info-btn" onClick={()=> window.open(propose_doc, "_blank")}><DescriptionIcon fontSize="large"/> Report</button>
-             <button className="info-btn" onClick={()=> window.open(reg_link, "_blank")}><YouTubeIcon fontSize="large"/> Video</button>
+             <button className="info-btn" onClick={()=> window.open(propose_doc, "_blank")}><DescriptionIcon fontSize="large"/> Proposal Document</button>
+             <button className="info-btn" onClick={()=> window.open(reg_link, "_blank")}><DescriptionIcon fontSize="large"/>Registration Form</button>
             </div>
           </div>
       </div>
