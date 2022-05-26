@@ -118,6 +118,9 @@ export default function Header() {
               <li className="li2"><Link to="/about-us" className="page2" style={{ textDecoration: 'none' }} onClick={scrollToTop}>
                  <h3 className="header-text" >ABOUT US</h3>
                 </Link></li>
+              <li className="li8"><Link to="/smp" className="page8" style={{ textDecoration: 'none' }} onClick={scrollToTop}>
+                 <h3 className="header-text" >SMP</h3>
+                </Link></li>
               <li className="li1"><Link to="/" className="page1" style={{ textDecoration: 'none' }} onClick={scrollToTop}>
                  <h3 className="header-text" >HOME</h3>
                 </Link></li>

@@ -29,6 +29,8 @@ import { Event1_21, Event2_21, Event3_21, Event4_21, Event5_21, Event6_21, Event
 import { Event1_20, Event2_20, Event3_20, Event4_20, Event5_20, Event6_20, Event7_20 } from './Event/Events/eventpage_20';
 //import { Carousel } from 'bootstrap';
 
+import Smp from './smp/smp';
+
 function App() {
   return (
     <Router className="router">
@@ -89,6 +91,11 @@ function App() {
           <Route exact path="/events/otto-quiz"><Event5_20 /></Route>
           <Route exact path="/events/keynote-talk-series"><Event6_20 /></Route>
           <Route exact path="/events/career-building-kep"><Event7_20 /></Route>
+
+          <Route exact path="/smp/">
+            <Smp />
+          </Route>
+
 
         </div>
       </Switch>

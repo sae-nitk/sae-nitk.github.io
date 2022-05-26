@@ -18,6 +18,12 @@ export const SidebarData = [
     subnavbool: false
   },
   {
+    title: 'SMP',
+    path: '/smp',
+    icon: <IoIcons.IoIosPaper />,
+    subnavbool: false
+  },
+  {
     title: 'Blog',
     path: '/blog',
     icon: <IoIcons.IoIosPaper />,

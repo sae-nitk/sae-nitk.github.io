@@ -37,7 +37,7 @@
   width: 100%;
   box-shadow: 0 8px 6px -6px rgb(156, 156, 156);
 }
-.page1, .page2, .page3, .page4, .page5, .page6, .page7{
+.page1, .page2, .page3, .page4, .page5, .page6, .page7, .page8{
   float: right;
   text-align: center;
   text-decoration: none;
@@ -58,7 +58,7 @@
 li {
   float:left;
 }
-.li1, .li2, .li3, .li4,.li5,.li6, .li7{
+.li1, .li2, .li3, .li4,.li5,.li6, .li7, .li8{
   float: right;
 }
 /*dropdowns*/
