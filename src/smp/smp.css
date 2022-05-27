@@ -17,13 +17,8 @@
 }
 
 .info3/*For projects 2021-22*/{
-<<<<<<< HEAD:src/smp/smp.css
-  height: 700px;
-  margin: 30px 12% 20px 12%;
-=======
   height: 350px;
   margin: 10px 12% 20px 12%;
->>>>>>> 49584ad5caa29ad35b8703a51390e78f38bb6afd:src/smp/Project.css
   padding: 0 25px;
 }
 /*.info:hover{
@@ -31,13 +26,8 @@
     transition: 0.5s;
 }*/
 .img_info, .img_info3/*For projects 2021-22*/ {
-<<<<<<< HEAD:src/smp/smp.css
-  height: 500px;
-  width: 500px;
-=======
   height: 200px;
   width: 300px;
->>>>>>> 49584ad5caa29ad35b8703a51390e78f38bb6afd:src/smp/Project.css
   /*border-radius: 8px 0 0 8px;*/
   /*box-shadow:0px 0px 10px 10px rgba(168, 168, 168, 0.2) ;*/
   /*object-fit: contain;*/ 
