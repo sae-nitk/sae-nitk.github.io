@@ -25,8 +25,8 @@ const Smp_info = ({image_link,description,title, reg_link}) => {
           <div className="desc_info" data-aos="fade-in" data-aos-once="true">
             <h1>{title}</h1>
             <p>{description}</p>
-            <div className="info-button" data-aos="fade-in" data-aos-once="true">
-             <button className="info-btn" onClick={()=> window.open(reg_link, "_blank")}>REGISTER !</button>
+            <div className="info-button" >
+             <button className="info-btn" onClick={()=> window.open(reg_link, "_blank")}>REGISTER!</button>
             </div>
           </div>
           <img className="img_info3" src={image_link} data-aos="fade-in" data-aos-once="true" alt=""/> 
