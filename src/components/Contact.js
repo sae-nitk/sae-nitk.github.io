@@ -27,6 +27,7 @@ const scrollToTop = () => {
                   <li> SAE NITK </li>
                   {/*<li><CallIcon /> +91 8618891003</li>*/}
                   <li><EmailIcon /> saeindia@nitk.edu.in</li>
+                  <li><EmailIcon /> patrikevedika.191me256@nitk.edu.in</li>
                   <li> </li>
 
                   <li>Poornesh Kumar K (Faculty Advisor) </li>
