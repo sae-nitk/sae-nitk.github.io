@@ -27,6 +27,13 @@ const scrollToTop = () => {
                   <li> SAE NITK </li>
                   {/*<li><CallIcon /> +91 8618891003</li>*/}
                   <li><EmailIcon /> saeindia@nitk.edu.in</li>
+                  <li> </li>
+
+                  <li>Poornesh Kumar K (Faculty Advisor) </li>
+                  {/* <li>Assistant Professor</li> */}
+                  {/*<li><CallIcon /> +91 8618891003</li>*/}
+                  <li><EmailIcon /> kpkoorata@nitk.edu.in</li>
+
                   <li><LocationOnIcon /> National Institute of
                   Technology Karnataka,
                   Surathkal</li>
@@ -77,17 +84,6 @@ const scrollToTop = () => {
               </div>
             </div>
 
-          <div className="column2">
-          <h2>Faculty Advisor</h2>
-              <div className="c1_info1">
-                <ul className="list-unstyled">
-                  <li>Poornesh Kumar K</li>
-                  {/* <li>Assistant Professor</li> */}
-                  {/*<li><CallIcon /> +91 8618891003</li>*/}
-                  <li><EmailIcon /> kpkoorata@nitk.edu.in</li>
-                </ul>
-              </div>
-          </div>
             
           </div>
           <div className="copyright">
