@@ -19,7 +19,9 @@ const scrollToTop = () => {
         <div className="contact">
           <div className="contact_">
           <div className="column1">
-              <h2>Contact</h2>
+              
+              
+              <h2>Contact Us</h2>
               <div className="c1_info1">
                 <ul className="list-unstyled">
                   <li> SAE NITK </li>
@@ -30,6 +32,7 @@ const scrollToTop = () => {
                   Surathkal</li>
                 </ul>
               </div>
+            
               <div className="c1_info2">
               <h2>Follow Us</h2>
               <div className="icons">
@@ -50,17 +53,20 @@ const scrollToTop = () => {
                </div> 
              </div>
             </div>
-            </div>
-            <div className="column2">
+          </div>
+
+          <div className="column2">
                <h2>Quick Links</h2>
               <div className="c2_info">
                 <ul className="list-unstyled">
                   <li><Link  style={{ textDecoration: 'none' }} to="/about-us" onClick={scrollToTop}>
-                    <h5 className="contact_links">About</h5></Link></li>
+                    <h5 className="contact_links">About Us</h5></Link></li>
                   <li><Link  style={{ textDecoration: 'none' }} to="/blog" onClick={scrollToTop}>
                     <h5 className="contact_links">Blogs</h5></Link></li>
-                  <li><Link  style={{ textDecoration: 'none' }} to="/project-expo-2020-2021" onClick={scrollToTop}>
-                    <h5 className="contact_links">Project-Expo:2020-2021</h5></Link></li>
+                  <li><Link  style={{ textDecoration: 'none' }} to="/project-expo-2021-2022" onClick={scrollToTop}>
+                    <h5 className="contact_links">Project-Expo:2021-2022</h5></Link></li>
+                  <li><Link  style={{ textDecoration: 'none' }} to="/magazine-2021-2022" onClick={scrollToTop}>
+                    <h5 className="contact_links">Magazine:2021-2022</h5></Link></li>
                   <li><Link  style={{ textDecoration: 'none' }} to="/club" onClick={scrollToTop}>
                     <h5 className="contact_links">Our Team</h5></Link></li>
                   <li><Link  style={{ textDecoration: 'none' }} to="/alumni" onClick={scrollToTop}>
@@ -70,6 +76,19 @@ const scrollToTop = () => {
                 </ul>
               </div>
             </div>
+
+          <div className="column2">
+          <h2>Faculty Advisor</h2>
+              <div className="c1_info1">
+                <ul className="list-unstyled">
+                  <li>Poornesh Kumar K</li>
+                  {/* <li>Assistant Professor</li> */}
+                  {/*<li><CallIcon /> +91 8618891003</li>*/}
+                  <li><EmailIcon /> kpkoorata@nitk.edu.in</li>
+                </ul>
+              </div>
+          </div>
+            
           </div>
           <div className="copyright">
             <p>&copy; Website designed and developed by SAE⚙️NITK  Web-Dev </p>
