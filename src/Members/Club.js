@@ -4,25 +4,19 @@ import './Club.css';
 import * as AiIcons from 'react-icons/ai';
 import * as Hi from 'react-icons/hi';
 
-import eshwar from '../images/club/K-Eshwar.jpg'; import ankitgupta from '../images/club/Ankit-Gupta.jpg';
-import rishu from '../images/club/Rishu.jpeg'; import kaustubh from '../images/club/Kaustubh-S.jpg';
-import diwakar from '../images/club/Diwakar-S-G.jpg'; import vishlavathtarun from '../images/club/Vishlavath-T.jpg';
-import sakshibagde from '../images/club/Sakshi.jpeg'; import sagar from '../images/club/Sagar.jpg';
-import nrahul from '../images/club/N-Rahul.jpg'; import islavathmanohar from '../images/club/Islavath-M.jpg';
-import gauthamkrishna from '../images/club/GauthamKrishna.jpg';import krishnabv from '../images/club/krishnareddy.jpeg';
 import vedika from '../images/club/Vedika.jpg'; import manojgs from '../images/club/Manoj-G-S.jpg';
 import mihirmali from '../images/club/Mihir.jpg'; import akshaykumar from '../images/club/Akshay-Kumar.jpeg';
 import prasanthi from '../images/club/Prasanthi.jpeg'; import shrivatsa from '../images/club/shrivatsa.jpg';
 import likhitaj from '../images/club/Likhita.jpg'; import lucky from '../images/club/Lucky-P-R.jpg';
-import guhanm from '../images/club/Guhan.jpg'; import aashish from '../images/club/Aashish.jpeg';
+ import aashish from '../images/club/Aashish.jpeg';
 import shunups from '../images/club/Shunu.jpg'; import diksha from '../images/club/Diksha.jpeg';
 import sumitsagar from '../images/club/Sumit.jpg'; import pradeepsolanki from '../images/club/Pradeep.jpg';
 import shashiprakash from '../images/club/Shashiprakash.jpg'; import kushalgowda from '../images/club/Kushal.jpg';
 import meet from '../images/club/Meet.jpg'; import saransh from '../images/club/Saransh.jpg';
-import wilson from '../images/club/Wilson.jpg'; import samarth from '../images/club/Samarth.jpg';
+ import samarth from '../images/club/Samarth.jpg';
 import yashkundale from '../images/club/Yash_Kundale.jpeg'; import raghavganesh from '../images/club/Raghav_Ganesh.jpg'; 
 import saisrujan from '../images/club/Sai_Srujan.jpg';  import divyamverma from '../images/club/Divyam.jpg';  
-import anannyarao from '../images/club/AnannyaRao.jpg'; import adithyams from '../images/club/AdithyaMS.jpg';
+import anannyarao from '../images/club/AnannyaRao.jpg';
 import ajmeera from '../images/club/Ajmeera.JPG'; import harshalbhoyar from '../images/club/Harshal_Bhoyar.jpg'; 
 import khushirathod from '../images/club/KhushiRathod.jpg';  import jishnudas from '../images/club/JishnuDas.jpg';  
 import nischayi from '../images/club/Nischayi_Vabilisetti.jpg';  import samyakjain from '../images/club/Samyak_Jain.jpg';
@@ -32,7 +26,16 @@ import nitesh from '../images/club/Nitesh_Bhat.jpeg'; import jatinkaushal from '
 import yogeshp from '../images/club/Yogesh_P.jpg'; import ashrithdr from '../images/club/AshrithDR.jpeg';
 import dayanandabn from '../images/club/Dayananda.png'; import navya from '../images/club/Navya.jpeg';
 import Mayur from '../images/club/Mayur.jpg'; import Puja_Chowhan from '../images/club/Puja_Chowhan.jpeg'; 
-import Piyush_Dubey from '../images/club/Piyush_Dubey.jpg';
+import Piyush_Dubey from '../images/club/Piyush_Dubey.jpg'; import adish from '../images/club/firstyears/Adish.jpg';
+import Anandita from '../images/club/firstyears/Anandita.jpg';import Tahsin from '../images/club/firstyears/Tahsin.jpg';
+import Anil from '../images/club/firstyears/Anil.jpg'; import Deshik from '../images/club/firstyears/Deshik.jpg';
+import Fajal from '../images/club/firstyears/Fajal.jpg'; import Harish from '../images/club/firstyears/Harish.jpg';
+import Harshit from '../images/club/firstyears/Harshit.jpg'; import Kavin from '../images/club/firstyears/Kavin.jpg';
+import Madhan from '../images/club/firstyears/Madhan.jpg'; import Meshram from '../images/club/firstyears/Meshram.png';
+import Nimesh from '../images/club/firstyears/Nimesh.jpg';import Nitish from '../images/club/firstyears/Nitish.jpg';
+import Palwe from '../images/club/firstyears/Palwe.jpg';import Saif from '../images/club/firstyears/SAIF.jpg';
+import Sharan from '../images/club/firstyears/Sharan.jpg';
+import Shyam from '../images/club/firstyears/Shyam.jpg';import Syed from '../images/club/firstyears/Syed.jpg';
 import AOS from 'aos';
 
 
@@ -356,16 +359,175 @@ export default function Club() {
                 mail="shannonbritneycarlo.201cv249@nitk.edu.in"
                 lin="https://www.linkedin.com/in/shannon-carlo-666945216/"/>                          
               </div>
+              
               {/*First Years*/}
               <div className="cm_row1">
-              {/*<ClubMember 
-                src={}
-                name=""
-                role=""
-                mail=""
+              <ClubMember 
+                src={adish}
+                name="Adish Rajendra Kerkar"
+                role="Executive Member"
+                mail="adishrajendrakerkar.211it004@nitk.edu.in"
+                lin=""
+              />
+              <ClubMember 
+                src={Anandita}
+                name="Anandita Tiwari"
+                role="Executive Member"
+                mail="ananditatiwari.211me309@nitk.edu.in"
+                lin=""
+              />
+              <ClubMember 
+                src={Anil}
+                name="ANIL GEDILA"
+                role="Executive Member"
+                mail="anilreddy.211cv207@nitk.edu.in"
+                lin=""
+              />
+              {/* <ClubMember 
+                src={Arvin}
+                name="Arvind Prabhu"
+                role="Executive Member"
+                mail="arvindprabhu.211it010@nitk.edu.in"
                 lin=""
               /> */}
+              <ClubMember 
+                src={Deshik}
+                name="Anandita Tiwari"
+                role="Executive Member"
+                mail="deshiknarasimha.211mn010@nitk.edu.in"
+                lin=""
+              />
+              
               </div>
+              <div className="cm_row1">
+              <ClubMember 
+                src={Fajal}
+                name="FAJAL"
+                role="Executive Member"
+                mail="fajal.211mt016@nitk.edu.in"
+                lin=""
+              />
+              <ClubMember 
+                src={Harish}
+                name="Harish B"
+                role="Executive Member"
+                mail="harishbala.211me216@nitk.edu.in"
+                lin=""
+              />
+              <ClubMember 
+                src={Harshit}
+                name="Harshit Prakash Madival"
+                role="Executive Member"
+                mail="harshitpm.211cv119@nitk.edu.in"
+                lin=""
+              />
+              <ClubMember 
+                src={Kavin}
+                name="Kavin Kabilan"
+                role="Executive Member"
+                mail="arvindprabhu.211it010@nitk.edu.in"
+                lin=""
+              />
+              <ClubMember 
+                src={Madhan}
+                name="Madhan Mohan Reddy HB"
+                role="Executive Member"
+                mail="madhanmohanreddyhb.211mn026@nitk.edu.in"
+                lin=""
+              />
+              
+              </div>
+              
+              <div className="cm_row1">
+              <ClubMember 
+                src={Nimesh}
+                name="Nimesh Bhagat"
+                role="Executive Member"
+                mail="nimesh.211me136@nitk.edu.in"
+                lin=""
+              />
+              <ClubMember 
+                src={Nitish}
+                name="NITISH KUMAR"
+                role="Executive Member"
+                mail="nitishkumar.211ee128@nitk.edu.in"
+                lin=""
+              />
+              <ClubMember 
+                src={Palwe}
+                name="Om Bhanudas Palwe"
+                role="Executive Member"
+                mail="palweombhanudas.211cv134@nitk.edu.in"
+                lin=""
+              />
+              <ClubMember 
+                src={Saif}
+                name="SAIF AKRAM"
+                role="Executive Member"
+                mail="saifakram.201me149@nitk.edu.in"
+                lin=""
+              />
+              <ClubMember 
+                src={Meshram}
+                name="Samyak Subodh Meshram"
+                role="Executive Member"
+                mail="meshramsamyaksubodh.211me329@nitk.edu.in"
+                lin=""
+              />
+              
+              </div>
+              <div className="cm_row1">
+              {/* <ClubMember 
+                src={Santosh}
+                name="santosh kumar c"
+                role="Executive Member"
+                mail="santoshkumarc.211cv145@nitk.edu.in"
+                lin=""
+              /> */}
+              <ClubMember 
+                src={Sharan}
+                name="Sharan Venkatesh "
+                role="Executive Member"
+                mail="sharanvenkatesh.211me344@nitk.edu.in"
+                lin=""
+              />
+              <ClubMember 
+                src={Shyam}
+                name="Shyam Pratap Singh "
+                role="Executive Member"
+                mail="shyampratapsingh.211cv247@nitk.edu.in"
+                lin=""
+              />
+              <ClubMember 
+                src={Syed}
+                name="Syed Ameen"
+                role="Executive Member"
+                mail="syedameen.211ee158@nitk.edu.in"
+                lin=""
+              />
+              <ClubMember 
+                src={Tahsin}
+                name="Tahsin khan"
+                role="Executive Member"
+                mail="tahsinkhan.211me352@nitk.edu.in"
+                lin=""
+              />
+              
+              </div>
+              <div className="cm_row1">
+              {/* <ClubMember 
+                src={urvesh}
+                name="Urvesh Parmar"
+                role="Executive Member"
+                mail="urveshparmar.211me356@nitk.edu.in"
+                lin=""
+              /> */}
+              
+              
+              </div>
+
+
+
             </div>
             </div>
 
