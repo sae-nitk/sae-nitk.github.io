@@ -16,7 +16,7 @@ import meet from '../images/club/Meet.jpg'; import saransh from '../images/club/
  import samarth from '../images/club/Samarth.jpg';
 import yashkundale from '../images/club/Yash_Kundale.jpeg'; import raghavganesh from '../images/club/Raghav_Ganesh.jpg'; 
 import saisrujan from '../images/club/Sai_Srujan.jpg';  import divyamverma from '../images/club/Divyam.jpg';  
-import anannyarao from '../images/club/AnannyaRao.jpg';
+import anannyarao from '../images/club/AnannyaRao.jpg'; import Urvesh from '../images/club/firstyears/Urvesh.jpg';
 import ajmeera from '../images/club/Ajmeera.JPG'; import harshalbhoyar from '../images/club/Harshal_Bhoyar.jpg'; 
 import khushirathod from '../images/club/KhushiRathod.jpg';  import jishnudas from '../images/club/JishnuDas.jpg';  
 import nischayi from '../images/club/Nischayi_Vabilisetti.jpg';  import samyakjain from '../images/club/Samyak_Jain.jpg';
@@ -34,8 +34,9 @@ import Harshit from '../images/club/firstyears/Harshit.jpg'; import Kavin from '
 import Madhan from '../images/club/firstyears/Madhan.jpg'; import Meshram from '../images/club/firstyears/Meshram.png';
 import Nimesh from '../images/club/firstyears/Nimesh.jpg';import Nitish from '../images/club/firstyears/Nitish.jpg';
 import Palwe from '../images/club/firstyears/Palwe.jpg';import Saif from '../images/club/firstyears/SAIF.jpg';
-import Sharan from '../images/club/firstyears/Sharan.jpg';
+import Sharan from '../images/club/firstyears/Sharan.jpg'; import Arvind from '../images/club/firstyears/Arvind.jpg';
 import Shyam from '../images/club/firstyears/Shyam.jpg';import Syed from '../images/club/firstyears/Syed.jpg';
+import Santosh from '../images/club/firstyears/Santosh.jpg';
 import AOS from 'aos';
 
 
@@ -254,15 +255,15 @@ export default function Club() {
                 role="Senior Executive Member"
                 mail="shashiprakash.191it204@nitk.edu.in"
                 lin="https://www.linkedin.com/in/shashi-prakash-aenugutala-62789b1b9"/>
-              
-              </div>
-              <div className="cm_row1">  
-              <ClubMember 
+                <ClubMember 
                 src={yashkundale}
                 name="Yash Kundale"
                 role="Senior Executive Member"
                 mail="yashk.191me296@nitk.edu.in"
                 lin="https://www.linkedin.com/in/kyashnitk23"/>
+              
+              </div>
+              <div className="cm_row1">  
               <ClubMember 
                 src={saisrujan}
                 name="A Sai Srujan"
@@ -281,8 +282,6 @@ export default function Club() {
                 role="Senior Executive Member"
                 mail="divyamneerverma.191me228@nitk.edu.in"
                 lin="https://www.linkedin.com/in/divyam-neer-verma-ba81241b2/"/>
-              </div>
-              <div className="cm_row1">
               <ClubMember 
                 src={harshalbhoyar}
                 name="Harshal Bhoyar"
@@ -328,6 +327,8 @@ export default function Club() {
                 role="Executive Member"
                 mail=""
                 lin=""/>
+            </div>
+            <div className="cm_row1"> 
               <ClubMember 
                 src={Puja_Chowhan}
                 name="Mudavath Puja Chowhan"
@@ -358,7 +359,7 @@ export default function Club() {
                 role="Executive Member"
                 mail="shannonbritneycarlo.201cv249@nitk.edu.in"
                 lin="https://www.linkedin.com/in/shannon-carlo-666945216/"/>                          
-              </div>
+            </div>
               
               {/*First Years*/}
               <div className="cm_row1">
@@ -383,13 +384,13 @@ export default function Club() {
                 mail="anilreddy.211cv207@nitk.edu.in"
                 lin=""
               />
-              {/* <ClubMember 
-                src={Arvin}
+              <ClubMember 
+                src={Arvind}
                 name="Arvind Prabhu"
                 role="Executive Member"
                 mail="arvindprabhu.211it010@nitk.edu.in"
                 lin=""
-              /> */}
+              />
               <ClubMember 
                 src={Deshik}
                 name="Anandita Tiwari"
@@ -397,9 +398,6 @@ export default function Club() {
                 mail="deshiknarasimha.211mn010@nitk.edu.in"
                 lin=""
               />
-              
-              </div>
-              <div className="cm_row1">
               <ClubMember 
                 src={Fajal}
                 name="FAJAL"
@@ -407,6 +405,9 @@ export default function Club() {
                 mail="fajal.211mt016@nitk.edu.in"
                 lin=""
               />
+              </div>
+              <div className="cm_row1">
+              
               <ClubMember 
                 src={Harish}
                 name="Harish B"
@@ -474,16 +475,17 @@ export default function Club() {
                 mail="meshramsamyaksubodh.211me329@nitk.edu.in"
                 lin=""
               />
-              
-              </div>
-              <div className="cm_row1">
-              {/* <ClubMember 
+              <ClubMember 
                 src={Santosh}
-                name="santosh kumar c"
+                name="Santosh Kumar C"
                 role="Executive Member"
                 mail="santoshkumarc.211cv145@nitk.edu.in"
                 lin=""
-              /> */}
+              />
+              
+              </div>
+              <div className="cm_row1">
+              
               <ClubMember 
                 src={Sharan}
                 name="Sharan Venkatesh "
@@ -512,16 +514,13 @@ export default function Club() {
                 mail="tahsinkhan.211me352@nitk.edu.in"
                 lin=""
               />
-              
-              </div>
-              <div className="cm_row1">
-              {/* <ClubMember 
-                src={urvesh}
+              <ClubMember 
+                src={Urvesh}
                 name="Urvesh Parmar"
                 role="Executive Member"
                 mail="urveshparmar.211me356@nitk.edu.in"
                 lin=""
-              /> */}
+              />
               
               
               </div>

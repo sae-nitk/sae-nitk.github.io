@@ -83,12 +83,12 @@ const scrollToTop = () => {
             <div className="c1_info1">
               <ul className="list-unstyled">
 
-              <li>Patrike Vedika Rajkumar, Convenor</li>
-              <li><EmailIcon /> patrikevedika.191me256@nitk.edu.in</li>
-              <li> </li>
-
               <li>Poornesh Kumar K, Faculty Advisor </li>
               <li><EmailIcon /> kpkoorata@nitk.edu.in</li>
+              <li> </li>
+
+              <li>Patrike Vedika Rajkumar, Convenor</li>
+              <li><EmailIcon /> patrikevedika.191me256@nitk.edu.in</li>
               </ul>
             </div>
 
