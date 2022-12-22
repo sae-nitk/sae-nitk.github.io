@@ -25,6 +25,11 @@ marquee p{
   padding: 18px 40px 0 40px;
 }
 
+.register{
+  font-weight: bold;
+  text-decoration: underline;
+}
+
 
 /*Vision*/
 .vision {

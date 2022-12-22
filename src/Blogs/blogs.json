@@ -1,5 +1,45 @@
 [
     {
+        "image": "https://saenitk.files.wordpress.com/2022/07/image-1.png?w=768&h=576&crop=1",
+        "title": "Kaveri Engine",
+        "desc": "A failure or a potential success? The GTRE GTX-35VS Kaveri is an afterburning turbofan engine developed by the GasTurbine Research Establishment (GTRE), under the Defense Research and DevelopmentOrganization in Bangalore, India. Kaveri was intended to be integrated with the HAL TejasLight Combat Aircraft (LCA). However, it failed to satisfy the necessary technicalrequirements or keep up[…]",
+        "link": "https://saenitk.wordpress.com/2022/07/24/kaveri-engine/",
+        "date": "July 24, 2022",
+        "author": "Jishnu Das"
+    },
+    {
+        "image": "https://saenitk.files.wordpress.com/2022/01/image.png",
+        "title": "Hybrid Vehicles",
+        "desc": "These are the days of EVs, but there are many countries where the infrastructure for electric cars is not yet ready. In these markets, hybrid cars make more sense. In this blog, we will look into more about hybrid vehicles. 1.Introduction A hybrid electric vehicle is a type of hybrid vehicle that combines a conventional […]",
+        "link": "https://saenitk.wordpress.com/2022/07/03/space-toursim/",
+        "date": "July 10, 2022",
+        "author": "Shaik Dilshad"
+    },
+    {
+        "image": "https://saenitk.files.wordpress.com/2022/07/space-tourism-100522-01.jpg?w=400&h=300&crop=1",
+        "title": "Space Tourism",
+        "desc": "Space tourism is a niche segment of the aviation industry which provides tourists ability to become astronauts for recreational, business and leisure purposes at a fee basis. First, what counts as space travel? Féderátion Aéronautique Internationale is the world governing body that certifies and controls global astronautical records. It defines the boundary between space and […]",
+        "link": "https://saenitk.wordpress.com/2022/07/03/space-toursim/",
+        "date": "July 3, 2022",
+        "author": "Jatin Kaushal"
+    },
+    {
+        "image": "https://saenitk.files.wordpress.com/2022/06/357521main_ed99-45243-01_full.jpg?w=2400&h=1800&crop=1",
+        "title": "Scramjet Engine",
+        "desc": "The Arms race towards hypersonic weapons INTRODUCTION In 2004, NASA’s hypersonic scramjet-powered aircraft X-43A hit a record-breaking speed of Mach 9.6. As one of the most promising propulsive systems, the scramjet engine has drawn the attention of many researchers in the recent years. The development of efficient propulsion systems capable of producing large thrusts is[…]",
+        "link": "https://saenitk.wordpress.com/2022/06/07/scramjet-engine/",
+        "date": "June 7, 2022",
+        "author": "Sumanth"
+    },
+    {
+        "image": "https://saenitk.files.wordpress.com/2022/05/https___hypebeast.com_image_2021_10_bored-ape-yacht-club-nft-3-4-million-record-sothebys-metaverse-0-2.jpg?w=800&h=600&crop=1",
+        "title": "NFT",
+        "desc": "The New Trending digital assets. NFTs stands for Non-Fungible Tokens and seems to have exploded from ether last year. These digital acquisitions sell for millions of dollars, from art and music to tacos and toilet paper, like the exotic Dutch tulips of the 17th century. But are NFTs worth the money? Or is it hype? […]",
+        "link": "https://saenitk.wordpress.com/2022/05/16/nft/",
+        "date": "May 16, 2022",
+        "author": "A. Sai Srujan"
+    },
+    {
         "image": "https://saenitk.files.wordpress.com/2022/01/image.png",
         "title": "Electric planes",
         "desc": "Are electric planes the inevitable future of flying? The aviation industry is one of the most cutthroat industries in the world. There is a significant initial investment for airlines from buying/leasing planes, operations cost, and customers also want the best service for their money. After all this, it is no surprise that the profit margins […]",

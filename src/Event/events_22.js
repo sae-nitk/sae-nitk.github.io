@@ -1,8 +1,17 @@
 import autocad from '../images/Events/autocad.png';
 import ansys from '../images/Events/ansys.jpg';
 import fusion360 from '../images/Events/fusion360.png';
+import website from '../images/Events/website.png';
 
 export const events_22 = [
+    {
+        
+        "src":website,
+        "title":"Website Release",
+        "text":"Website of SAE NITK",
+        "link":"/events/website-release",
+        "type":"external"
+    },
     {
         "src": autocad,
         "title":"AutoCAD KEP",

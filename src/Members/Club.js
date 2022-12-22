@@ -5,10 +5,10 @@ import * as AiIcons from 'react-icons/ai';
 import * as Hi from 'react-icons/hi';
 
 import vedika from '../images/club/Vedika.jpg'; import manojgs from '../images/club/Manoj-G-S.jpg';
-import mihirmali from '../images/club/Mihir.jpg'; import akshaykumar from '../images/club/Akshay-Kumar.jpeg';
+import mihirmali from '../images/club/Mihir.jpg'; 
 import prasanthi from '../images/club/Prasanthi.jpeg'; import shrivatsa from '../images/club/shrivatsa.jpg';
 import likhitaj from '../images/club/Likhita.jpg'; import lucky from '../images/club/Lucky-P-R.jpg';
- import aashish from '../images/club/Aashish.jpeg';
+ import aashish from '../images/club/Aashish.jpeg'; import akshaykumar from '../images/club/Akshay-Kumar.jpeg';
 import shunups from '../images/club/Shunu.jpg'; import diksha from '../images/club/Diksha.jpeg';
 import sumitsagar from '../images/club/Sumit.jpg'; import pradeepsolanki from '../images/club/Pradeep.jpg';
 import shashiprakash from '../images/club/Shashiprakash.jpg'; import kushalgowda from '../images/club/Kushal.jpg';
@@ -96,7 +96,9 @@ export default function Club() {
                 <ClubMember 
                 src={pradeepsolanki}
                 name="Pradeep Singh Solanki"
-                role="Treasurer"/>
+                role="Treasurer"
+                mail="pradeepsinghsolanki138@gmail.com"
+                lin="https://www.linkedin.com/in/pradeep-singh-solanki/"/>
                 <ClubMember 
                 src={shrivatsa}
                 name="Shrivatsa Hegde"
@@ -157,12 +159,6 @@ export default function Club() {
                 mail="jatinkaushal.201ch026@nitk.edu.in"
                 lin=""
                 />
-                <ClubMember 
-                src={akshaykumar}
-                name="Akshay Kumar R R"
-                role="Media Coordinator"
-                mail="akshaykumarrr.191mt003@nitk.edu.in"
-                lin="https://www.linkedin.com/in/akshay-ram-5024021b8"/>
               <ClubMember 
                 src={yogeshp}
                 name="Yogesh P"
@@ -192,9 +188,15 @@ export default function Club() {
                 mail="aashishprateek.191cs225@nitk.edu.in"
                 lin="http://linkedin.com/in/aashish-prateek-090009167"/>
               </div>
-            
               {/*Final Year*/}
               <div className="cm_row1">
+              <ClubMember 
+                src={akshaykumar}
+                name="Akshay Kumar R R"
+                role="Media Coordinator"
+                mail="akshaykumarrr.191mt003@nitk.edu.in"
+                lin="https://www.linkedin.com/in/akshay-ram-5024021b8"/>
+
               <ClubMember 
                 src={likhitaj}
                 name="Likhita J"
@@ -227,15 +229,15 @@ export default function Club() {
                 role="Senior Executive Member"
                 mail="kushalnarayangowda.191ch019@nitk.edu.in"
                 lin="https://www.linkedin.com/in/kushal-narayan-gowda/"/>
+              
+              </div>
+              <div className="cm_row1">
               <ClubMember 
                 src={meet}
                 name="Meet Ajay Shah"
                 role="Senior Executive Member"
                 mail="meet.191ee133@nitk.edu.in"
                 lin="https://www.linkedin.com/in/meet-shah-8a5794179/"/>
-              
-              </div>
-              <div className="cm_row1">
               <ClubMember 
                 src={saransh}
                 name="Saransh Bhaduka"
@@ -393,11 +395,13 @@ export default function Club() {
               />
               <ClubMember 
                 src={Deshik}
-                name="Anandita Tiwari"
+                name="Deshik Narasimha"
                 role="Executive Member"
                 mail="deshiknarasimha.211mn010@nitk.edu.in"
-                lin=""
+                lin="https://www.linkedin.com/in/deshik"
               />
+              </div>
+              <div className="cm_row1">
               <ClubMember 
                 src={Fajal}
                 name="FAJAL"
@@ -405,9 +409,6 @@ export default function Club() {
                 mail="fajal.211mt016@nitk.edu.in"
                 lin=""
               />
-              </div>
-              <div className="cm_row1">
-              
               <ClubMember 
                 src={Harish}
                 name="Harish B"

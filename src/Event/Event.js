@@ -90,8 +90,13 @@ class EventMain extends React.Component{
       return(
         <div className="events">
           <div className="up-events">
-            {events_upcoming.map(item => (
-            <Item {... item} /> ))};
+            {/*{events_upcoming.map(item => (*/}
+            {/*<Item {... item} /> ))};*/}
+            <p  style={{color: "gray", fontSize:"large", fontWeight: "bold",}}
+            data-aos="fade-in" 
+            data-aos-once="true">
+              NO UPCOMING EVENTS
+            </p>
            </div>
           <div className="pre-events-heading" data-aos="fade-in" data-aos-once="true"> 
            <h3>Archives</h3> </div>
