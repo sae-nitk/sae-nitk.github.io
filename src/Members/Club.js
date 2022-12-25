@@ -85,7 +85,7 @@ export default function Club() {
                 src={lucky}
                 name="Lucky Prameeth Rayi"
                 role="President"
-                mail=""
+                mail="lucky.191me146@nitk.edu.in"
                 lin="https://www.linkedin.com/in/lucky-prameeth-rayi-9242471ba"/>
                 <ClubMember 
                 src={mihirmali}
@@ -193,7 +193,7 @@ export default function Club() {
               <ClubMember 
                 src={akshaykumar}
                 name="Akshay Kumar R R"
-                role="Media Coordinator"
+                role="Senior Executive Member"
                 mail="akshaykumarrr.191mt003@nitk.edu.in"
                 lin="https://www.linkedin.com/in/akshay-ram-5024021b8"/>
 
