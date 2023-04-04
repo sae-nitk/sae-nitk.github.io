@@ -78,6 +78,8 @@ export default function Header() {
                 <Link to="#" className="page6" style={{ textDecoration: 'none' }}>
                    <h3 className="header-text-dd">MAGAZINE ▼</h3></Link>
                    <div class="magazine-dd">
+                   <Link className="link-i" to="/magazine-2022-2023" style={{ textDecoration: 'none' }} onClick={scrollToTop}>
+                       <p className="link-item">2022-2023</p></Link>
                    <Link className="link-i" to="/magazine-2021-2022" style={{ textDecoration: 'none' }} onClick={scrollToTop}>
                        <p className="link-item">2021-2022</p></Link>
                    <Link className="link-i" to="/magazine-2020-2021" style={{ textDecoration: 'none' }} onClick={scrollToTop}>
