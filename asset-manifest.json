@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.6c56b7d2.chunk.css",
-    "main.js": "/static/js/main.ca5f43c9.chunk.js",
-    "main.js.map": "/static/js/main.ca5f43c9.chunk.js.map",
+    "main.js": "/static/js/main.976c526c.chunk.js",
+    "main.js.map": "/static/js/main.976c526c.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b51dfee1.js",
     "runtime-main.js.map": "/static/js/runtime-main.b51dfee1.js.map",
     "static/css/2.7bcb6d2c.chunk.css": "/static/css/2.7bcb6d2c.chunk.css",
@@ -21,9 +21,11 @@
     "static/media/Anandita.6b61bab4.jpg": "/static/media/Anandita.6b61bab4.jpg",
     "static/media/AnannyaRao.fca8674e.jpg": "/static/media/AnannyaRao.fca8674e.jpg",
     "static/media/Anil.e05a34a6.jpg": "/static/media/Anil.e05a34a6.jpg",
+    "static/media/Ansys fluent sae.58f40dd3.jpeg": "/static/media/Ansys fluent sae.58f40dd3.jpeg",
     "static/media/Arvind.a187b8a5.jpg": "/static/media/Arvind.a187b8a5.jpg",
     "static/media/AshrithDR.0e3bde0c.jpeg": "/static/media/AshrithDR.0e3bde0c.jpeg",
     "static/media/Career-building.bba39039.jpg": "/static/media/Career-building.bba39039.jpg",
+    "static/media/Computer_vision_sae.8455fdaa.jpg": "/static/media/Computer_vision_sae.8455fdaa.jpg",
     "static/media/Dayananda.296b3054.png": "/static/media/Dayananda.296b3054.png",
     "static/media/Deshik.e80d32da.jpg": "/static/media/Deshik.e80d32da.jpg",
     "static/media/Diksha.9aba1227.jpeg": "/static/media/Diksha.9aba1227.jpeg",
@@ -99,6 +101,7 @@
     "static/media/hp5.6169e9ef.jpg": "/static/media/hp5.6169e9ef.jpg",
     "static/media/kasting.5dfb97d3.jpg": "/static/media/kasting.5dfb97d3.jpg",
     "static/media/keynote.6b07a9d7.jpg": "/static/media/keynote.6b07a9d7.jpg",
+    "static/media/machine learning sae.4e4c6f79.jpg": "/static/media/machine learning sae.4e4c6f79.jpg",
     "static/media/magazine.f1398397.jpeg": "/static/media/magazine.f1398397.jpeg",
     "static/media/magazine1920.974a2964.pdf": "/static/media/magazine1920.974a2964.pdf",
     "static/media/magazine2.b87088ca.jpeg": "/static/media/magazine2.b87088ca.jpeg",
@@ -124,11 +127,9 @@
     "static/media/project3-3.c602bd6e.jpeg": "/static/media/project3-3.c602bd6e.jpeg",
     "static/media/project3-4.f2e7dc81.jpeg": "/static/media/project3-4.f2e7dc81.jpeg",
     "static/media/project3-5.3f127303.jpg": "/static/media/project3-5.3f127303.jpg",
-    "static/media/roadmap_aero.9735bc27.png": "/static/media/roadmap_aero.9735bc27.png",
-    "static/media/roadmap_cv.7a4361ef.png": "/static/media/roadmap_cv.7a4361ef.png",
-    "static/media/roadmap_veh.8de15794.png": "/static/media/roadmap_veh.8de15794.png",
     "static/media/shrivatsa.f310a36f.jpg": "/static/media/shrivatsa.f310a36f.jpg",
     "static/media/video-edited.78fd0517.mp4": "/static/media/video-edited.78fd0517.mp4",
+    "static/media/web development sae.6a62e160.jpeg": "/static/media/web development sae.6a62e160.jpeg",
     "static/media/webinar-rspant.9805bb0d.jpg": "/static/media/webinar-rspant.9805bb0d.jpg",
     "static/media/website.9650e4a0.png": "/static/media/website.9650e4a0.png"
   },
@@ -137,6 +138,6 @@
     "static/css/2.7bcb6d2c.chunk.css",
     "static/js/2.264ed73d.chunk.js",
     "static/css/main.6c56b7d2.chunk.css",
-    "static/js/main.ca5f43c9.chunk.js"
+    "static/js/main.976c526c.chunk.js"
   ]
 }
