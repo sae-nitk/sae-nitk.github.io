@@ -5,7 +5,7 @@ import image2 from '../images/hp2.jpg';
 import image3 from '../images/hp3.jpg';
 import image4 from '../images/hp4.jpg';
 import image5 from '../images/hp5.jpg';
-import * as AiIcons from 'react-icons/ai';
+// import * as AiIcons from 'react-icons/ai';
 
 const images = [image1, image2, image3, image4,image5];
 var delay = 4000;

@@ -87,8 +87,8 @@ const scrollToTop = () => {
               <li><EmailIcon /> kpkoorata@nitk.edu.in</li>
               <li> </li>
 
-              <li>Patrike Vedika Rajkumar, Convenor</li>
-              <li><EmailIcon /> patrikevedika.191me256@nitk.edu.in</li>
+              <li>Jishnu Das, Convenor</li>
+              <li><EmailIcon /> jishnudas.201ec126@nitk.edu.in</li>
               </ul>
             </div>
 
