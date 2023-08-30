@@ -4,11 +4,12 @@ import './smp.css';
 // import YouTubeIcon from '@material-ui/icons/YouTube';
 import AOS from 'aos';
 // import img_comp_vis from '../images/smps/computer_vision.png';
-import rm_cv from '../images/smps/roadmap_cv.png';
+import rm_cv from '../images/smps/Computer_vision_sae.jpg';
 // import img_aero_dyn from './../images/smps/aero_dynamics.jpg';
-import rm_aero_dyn from '../images/smps/roadmap_aero.png';
+import rm_an_fl from '../images/smps/Ansys fluent sae.jpeg';
 // import img_veh_dyn from '../images/smps/vehicle_dynamics.png';
-import rm_veh_dyn from '../images/smps/roadmap_veh.png';
+import rm_mach_lear from '../images/smps/machine learning sae.jpg';
+import rm_web_dev from '../images/smps/web development sae.jpeg';
 import AwesomeSlider from 'react-awesome-slider';
 import 'react-awesome-slider/dist/styles.css';
 
@@ -56,7 +57,7 @@ function Smp() {
                 </div>
               <div>
                 <Smp_info 
-                  image_link = {rm_aero_dyn}
+                  image_link = {rm_an_fl}
                   description="Diving into the world of simulation environment using Ansys software. Join us to learn more."
                   title = "ANSYS FLUENT"
                   reg_link="https://docs.google.com/forms/d/e/1FAIpQLSfhksxra28Vyicwf6Jn8jYHNM4xPnao70KfjseRza8ma530vQ/viewform"
@@ -64,7 +65,7 @@ function Smp() {
               </div>
               <div>
                 <Smp_info 
-                  image_link = {rm_veh_dyn}
+                  image_link = {rm_web_dev}
                   description="Embark on a journey into the world of web development, where creativity meets innovation."
                   title = "WEB DEVELOPMENT"
                   reg_link="https://docs.google.com/forms/d/e/1FAIpQLSfhksxra28Vyicwf6Jn8jYHNM4xPnao70KfjseRza8ma530vQ/viewform"
@@ -72,7 +73,7 @@ function Smp() {
               </div>
               <div>
                 <Smp_info 
-                  image_link = {rm_veh_dyn}
+                  image_link = {rm_mach_lear}
                   description="Embark on an exciting exploration of machine learning. where algorithms unlock the potential of data and enable intelligent decision-making."
                   title = "MACHINE LEARNING"
                   reg_link="https://docs.google.com/forms/d/e/1FAIpQLSfhksxra28Vyicwf6Jn8jYHNM4xPnao70KfjseRza8ma530vQ/viewform"
