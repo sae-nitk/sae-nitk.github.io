@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.6c56b7d2.chunk.css",
-    "main.js": "/static/js/main.565f6939.chunk.js",
-    "main.js.map": "/static/js/main.565f6939.chunk.js.map",
+    "main.js": "/static/js/main.ca5f43c9.chunk.js",
+    "main.js.map": "/static/js/main.ca5f43c9.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b51dfee1.js",
     "runtime-main.js.map": "/static/js/runtime-main.b51dfee1.js.map",
     "static/css/2.7bcb6d2c.chunk.css": "/static/css/2.7bcb6d2c.chunk.css",
-    "static/js/2.8dad65d2.chunk.js": "/static/js/2.8dad65d2.chunk.js",
-    "static/js/2.8dad65d2.chunk.js.map": "/static/js/2.8dad65d2.chunk.js.map",
+    "static/js/2.264ed73d.chunk.js": "/static/js/2.264ed73d.chunk.js",
+    "static/js/2.264ed73d.chunk.js.map": "/static/js/2.264ed73d.chunk.js.map",
     "static/js/3.5c0b1c4e.chunk.js": "/static/js/3.5c0b1c4e.chunk.js",
     "static/js/3.5c0b1c4e.chunk.js.map": "/static/js/3.5c0b1c4e.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.7bcb6d2c.chunk.css.map": "/static/css/2.7bcb6d2c.chunk.css.map",
     "static/css/main.6c56b7d2.chunk.css.map": "/static/css/main.6c56b7d2.chunk.css.map",
-    "static/js/2.8dad65d2.chunk.js.LICENSE.txt": "/static/js/2.8dad65d2.chunk.js.LICENSE.txt",
+    "static/js/2.264ed73d.chunk.js.LICENSE.txt": "/static/js/2.264ed73d.chunk.js.LICENSE.txt",
     "static/media/Aashish.7f7f2fe1.jpeg": "/static/media/Aashish.7f7f2fe1.jpeg",
     "static/media/Adish.c9b80626.jpg": "/static/media/Adish.c9b80626.jpg",
     "static/media/Ajmeera.ebe2863b.JPG": "/static/media/Ajmeera.ebe2863b.JPG",
@@ -78,7 +78,6 @@
     "static/media/Yash_Kundale.06b771f4.jpeg": "/static/media/Yash_Kundale.06b771f4.jpeg",
     "static/media/Yogesh_P.38b82954.jpg": "/static/media/Yogesh_P.38b82954.jpg",
     "static/media/adobe.3f1785d4.jpg": "/static/media/adobe.3f1785d4.jpg",
-    "static/media/aero_dynamics.b0a83ab1.jpg": "/static/media/aero_dynamics.b0a83ab1.jpg",
     "static/media/alumni_1.6477a2ab.jpeg": "/static/media/alumni_1.6477a2ab.jpeg",
     "static/media/alumni_2.b021a94a.jpg": "/static/media/alumni_2.b021a94a.jpg",
     "static/media/alumni_3.44be2735.jpg": "/static/media/alumni_3.44be2735.jpg",
@@ -90,7 +89,6 @@
     "static/media/alumni_9.b41fee10.jpg": "/static/media/alumni_9.b41fee10.jpg",
     "static/media/ansys.2598f2fb.jpg": "/static/media/ansys.2598f2fb.jpg",
     "static/media/autocad.3898105f.png": "/static/media/autocad.3898105f.png",
-    "static/media/computer_vision.8dc9e7b3.png": "/static/media/computer_vision.8dc9e7b3.png",
     "static/media/cosmol.2d5870dd.png": "/static/media/cosmol.2d5870dd.png",
     "static/media/fusion360.48532b9f.png": "/static/media/fusion360.48532b9f.png",
     "static/media/gate-webinar.b7bf7158.jpg": "/static/media/gate-webinar.b7bf7158.jpg",
@@ -130,7 +128,6 @@
     "static/media/roadmap_cv.7a4361ef.png": "/static/media/roadmap_cv.7a4361ef.png",
     "static/media/roadmap_veh.8de15794.png": "/static/media/roadmap_veh.8de15794.png",
     "static/media/shrivatsa.f310a36f.jpg": "/static/media/shrivatsa.f310a36f.jpg",
-    "static/media/vehicle_dynamics.7935b31a.png": "/static/media/vehicle_dynamics.7935b31a.png",
     "static/media/video-edited.78fd0517.mp4": "/static/media/video-edited.78fd0517.mp4",
     "static/media/webinar-rspant.9805bb0d.jpg": "/static/media/webinar-rspant.9805bb0d.jpg",
     "static/media/website.9650e4a0.png": "/static/media/website.9650e4a0.png"
@@ -138,8 +135,8 @@
   "entrypoints": [
     "static/js/runtime-main.b51dfee1.js",
     "static/css/2.7bcb6d2c.chunk.css",
-    "static/js/2.8dad65d2.chunk.js",
+    "static/js/2.264ed73d.chunk.js",
     "static/css/main.6c56b7d2.chunk.css",
-    "static/js/main.565f6939.chunk.js"
+    "static/js/main.ca5f43c9.chunk.js"
   ]
 }
