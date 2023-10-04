@@ -151,16 +151,18 @@
     text-decoration: none;
     cursor: pointer;
 }
-.upcoming_registration_container span:hover{
-  opacity: 60%;
-  transition: 0.4s;
-}
-
-.upcoming_registration_container span a{
+ 
+.upcoming_registration_container a{
     color: white;
     font-size: 14px;
     text-decoration: none;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
+.upcoming_registration_container a:active{
+  opacity: 80%;
+}
+
 
 @media screen and (max-width:500px) {
     
@@ -174,7 +176,7 @@
     .upcoming_registration_container span{
         padding: 5px 8px;
     }
-    .upcoming_registration_container span a{
+    .upcoming_registration_container a{
         font-size: 12px;
     }
 }
