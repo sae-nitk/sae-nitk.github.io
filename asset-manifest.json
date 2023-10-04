@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.6c56b7d2.chunk.css",
-    "main.js": "/static/js/main.976c526c.chunk.js",
-    "main.js.map": "/static/js/main.976c526c.chunk.js.map",
+    "main.css": "/static/css/main.6a7e074f.chunk.css",
+    "main.js": "/static/js/main.d1865872.chunk.js",
+    "main.js.map": "/static/js/main.d1865872.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.b51dfee1.js",
     "runtime-main.js.map": "/static/js/runtime-main.b51dfee1.js.map",
     "static/css/2.7bcb6d2c.chunk.css": "/static/css/2.7bcb6d2c.chunk.css",
-    "static/js/2.264ed73d.chunk.js": "/static/js/2.264ed73d.chunk.js",
-    "static/js/2.264ed73d.chunk.js.map": "/static/js/2.264ed73d.chunk.js.map",
+    "static/js/2.2f565398.chunk.js": "/static/js/2.2f565398.chunk.js",
+    "static/js/2.2f565398.chunk.js.map": "/static/js/2.2f565398.chunk.js.map",
     "static/js/3.5c0b1c4e.chunk.js": "/static/js/3.5c0b1c4e.chunk.js",
     "static/js/3.5c0b1c4e.chunk.js.map": "/static/js/3.5c0b1c4e.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.7bcb6d2c.chunk.css.map": "/static/css/2.7bcb6d2c.chunk.css.map",
-    "static/css/main.6c56b7d2.chunk.css.map": "/static/css/main.6c56b7d2.chunk.css.map",
-    "static/js/2.264ed73d.chunk.js.LICENSE.txt": "/static/js/2.264ed73d.chunk.js.LICENSE.txt",
+    "static/css/main.6a7e074f.chunk.css.map": "/static/css/main.6a7e074f.chunk.css.map",
+    "static/js/2.2f565398.chunk.js.LICENSE.txt": "/static/js/2.2f565398.chunk.js.LICENSE.txt",
     "static/media/Aashish.7f7f2fe1.jpeg": "/static/media/Aashish.7f7f2fe1.jpeg",
     "static/media/Adish.c9b80626.jpg": "/static/media/Adish.c9b80626.jpg",
     "static/media/Ajmeera.ebe2863b.JPG": "/static/media/Ajmeera.ebe2863b.JPG",
@@ -128,6 +128,7 @@
     "static/media/project3-4.f2e7dc81.jpeg": "/static/media/project3-4.f2e7dc81.jpeg",
     "static/media/project3-5.3f127303.jpg": "/static/media/project3-5.3f127303.jpg",
     "static/media/shrivatsa.f310a36f.jpg": "/static/media/shrivatsa.f310a36f.jpg",
+    "static/media/upcoming_events.5bd7d9b9.jpeg": "/static/media/upcoming_events.5bd7d9b9.jpeg",
     "static/media/video-edited.78fd0517.mp4": "/static/media/video-edited.78fd0517.mp4",
     "static/media/web development sae.6a62e160.jpeg": "/static/media/web development sae.6a62e160.jpeg",
     "static/media/webinar-rspant.9805bb0d.jpg": "/static/media/webinar-rspant.9805bb0d.jpg",
@@ -136,8 +137,8 @@
   "entrypoints": [
     "static/js/runtime-main.b51dfee1.js",
     "static/css/2.7bcb6d2c.chunk.css",
-    "static/js/2.264ed73d.chunk.js",
-    "static/css/main.6c56b7d2.chunk.css",
-    "static/js/main.976c526c.chunk.js"
+    "static/js/2.2f565398.chunk.js",
+    "static/css/main.6a7e074f.chunk.css",
+    "static/js/main.d1865872.chunk.js"
   ]
 }
