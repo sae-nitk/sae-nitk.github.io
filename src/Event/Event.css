@@ -95,6 +95,90 @@
     margin:0 40px 0 20px;
 }
 
+#upcoming_img_Container{
+    display: flex;
+    justify-content: center;
+}
+
+#upcoming_img_Container img{
+    height: 280px;
+    width: 400px;
+    margin: 15px;
+    border-radius: 4px;
+}
+#upComing_Events_heading{
+    text-align: center;
+    font-size: 25px;
+    margin: 20px;
+}
+
+.main_upcoming_events_Container{
+   
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin: auto;
+    border-radius: 10px;
+    background: #f8f8f8c3;
+    box-shadow:  2px 2px 20px #d0d0d0,
+             -20px -20px 60px #f0f0f0;
+}
+.upcoming_event_content{
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+#upcoming_event_item_name{
+    margin-top: -10px;
+}
+#upcoming_fee{
+  font-size: 14px;
+  color: #011a8ce0;
+}
+.upcoming_registration_container{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin-top: 5px;
+}
+.upcoming_registration_container span{
+    background-color: rgb(2, 2, 201);
+    padding: 10px 22px;
+    border-radius: 4px;
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+.upcoming_registration_container span:hover{
+  opacity: 60%;
+  transition: 0.4s;
+}
+
+.upcoming_registration_container span a{
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+@media screen and (max-width:500px) {
+    
+    #upcoming_img_Container img{
+        width: 300px;
+        height: 250px;
+    }    
+    .main_upcoming_events_Container{
+        width: 300px;
+    }
+    .upcoming_registration_container span{
+        padding: 5px 8px;
+    }
+    .upcoming_registration_container span a{
+        font-size: 12px;
+    }
+}
+
 @media only screen and (max-width:1100px) { 
 
     .event-year{
