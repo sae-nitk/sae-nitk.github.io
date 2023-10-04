@@ -116,7 +116,7 @@ class EventMain extends React.Component {
                   <h2 id="upcoming_event_item_name">{item.name}</h2>
                   <p>{item.description}</p>
                   <span id="upcoming_fee">{item.fee}</span>
-                  <div className="upcoming_registration_container">
+                  <div className="upcoming_registration_container" id="upcoming_registration_container">
                    <a href={item.registration}><span id="upcoming_registration">
                    Register Here &rarr;
                   </span>

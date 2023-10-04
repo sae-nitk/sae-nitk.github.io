@@ -163,7 +163,10 @@
   opacity: 80%;
 }
 
-
+#upcoming_registration_container span:hover {
+    background-color: rgba(2, 2, 201, 0.719); 
+    transition: background-color 0.3s; 
+  }
 @media screen and (max-width:500px) {
     
     #upcoming_img_Container img{
