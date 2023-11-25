@@ -76,128 +76,142 @@ export default function Club() {
               
               <div className="cm_row1">
                 <ClubMember 
-                src={vedika}
-                name="Patrike Vedika Rajkumar"
+                src={jishnudas}
+                name="Jishnu"
                 role="Convenor"
-                mail="patrikevedika.191me256@nitk.edu.in"
-                lin="https://www.linkedin.com/in/vedika-patrike-96a9a719b"/>
+                // mail="patrikevedika.191me256@nitk.edu.in"
+                // lin="https://www.linkedin.com/in/vedika-patrike-96a9a719b"
+                />
                 <ClubMember 
-                src={lucky}
-                name="Lucky Prameeth Rayi"
+                src={shivavasthan}
+                name="Shivavatsan"
                 role="President"
-                mail="lucky.191me146@nitk.edu.in"
-                lin="https://www.linkedin.com/in/lucky-prameeth-rayi-9242471ba"/>
+                // mail="lucky.191me146@nitk.edu.in"
+                // lin="https://www.linkedin.com/in/lucky-prameeth-rayi-9242471ba"
+                />
                 <ClubMember 
-                src={mihirmali}
-                name="Mihir S Mali"
+                src={jatinkaushal}
+                name="Jatin"
                 role="Secretary"
-                mail="mihir.191ME148@nitk.edu.in"
-                lin="https://www.linkedin.com/in/mihir-mali-5247281b3/"/>
+                // mail="mihir.191ME148@nitk.edu.in"
+                // lin="https://www.linkedin.com/in/mihir-mali-5247281b3/"
+                />
                 <ClubMember 
-                src={pradeepsolanki}
-                name="Pradeep Singh Solanki"
+                src={Mayur}
+                name="Mayur"
                 role="Treasurer"
-                mail="pradeepsinghsolanki138@gmail.com"
-                lin="https://www.linkedin.com/in/pradeep-singh-solanki/"/>
+                // mail="pradeepsinghsolanki138@gmail.com"
+                // lin="https://www.linkedin.com/in/pradeep-singh-solanki/"
+                />
                 <ClubMember 
-                src={shrivatsa}
-                name="Shrivatsa Hegde"
+                src={dilshad}
+                name="Dilshad"
                 role="Technical Head"
-                mail="shrivatsahegde.191me280@nitk.edu.in"
-                lin="https://www.linkedin.com/in/shrivatsa-hegde-44b5b1208/"
+                // mail="shrivatsahegde.191me280@nitk.edu.in"
+                // lin="https://www.linkedin.com/in/shrivatsa-hegde-44b5b1208/"
                 />
               </div>
               <div className="cm_row1">
              
               <ClubMember 
-                src={sumanthhegde}
-                name="Sumanth N Hegde"
+                src={dayanandabn}
+                name="Dayanand"
                 role="Technical Head"
               />
               <ClubMember 
-                src={prasanthi}
-                name="Prasanthi Bolimera"
+                src={adish}
+                name="Adish"
                 role="Webmaster"
-                mail="prasanthibolimera.191it240@nitk.edu.in"
-                lin="https://www.linkedin.com/in/prasanthi-bolimera-3963391ba/"
+                // mail="prasanthibolimera.191it240@nitk.edu.in"
+                // lin="https://www.linkedin.com/in/prasanthi-bolimera-3963391ba/"
               />
               <ClubMember 
-                src={dilshad}
-                name="Shaik Dilshad Begum"
+                src={Harish}
+                name="Harish"
                 role="Event Coordinator"
-                mail="dilshad.201me151@nitk.edu.in"
-                lin="https://www.linkedin.com/in/dilshad-shaik-a444561ba"
+                // mail="dilshad.201me151@nitk.edu.in"
+                // lin="https://www.linkedin.com/in/dilshad-shaik-a444561ba"
               />
               <ClubMember 
-                src={shivavasthan}
-                name="Shivavasthan D"
+                src={Anandita}
+                name="Anandita"
                 role="KEP Coordinator"
-                mail="shivavasthan.201me154@nitk.edu.in"
-                lin="https://www.linkedin.com/in/shivavasthan-damodharan-6972821a7"
+                // mail="shivavasthan.201me154@nitk.edu.in"
+                // lin="https://www.linkedin.com/in/shivavasthan-damodharan-6972821a7"
               />
+              <ClubMember 
+                src={Sharan}
+                name="Sharan"
+                role="Magazine Coordinator"
+                // mail="shivavasthan.201me154@nitk.edu.in"
+                // lin="https://www.linkedin.com/in/shivavasthan-damodharan-6972821a7"
+              />
+              
+
+              
               </div>
               
               <div className="cm_row1">
-              <ClubMember 
+              {/* <ClubMember 
                 src={jishnudas}
                 name="Jishnu Das"
                 role="Chief Editor, Magazine"
                 mail="jishnudas.201ec126@nitk.edu.in"
                 lin="https://www.linkedin.com/in/jishnu-das-140901212"
-                />
-                <ClubMember 
-                src={ashrithdr}
-                name="D R Ashrith"
+                /> */}
+                {/* <ClubMember 
+                src={}
+                name="Rishu"
                 role="Publicity Coordinator"
                 mail="ashrithdr.201ee117@nitk.edu.in"
                 lin="https://www.linkedin.com/in/ashrith-dr-3b1b9b205/"
-                />
+                /> */}
                 <ClubMember 
-                src={jatinkaushal}
-                name="Jatin Kaushal"
+                src={Deshik}
+                name="Deshik"
                 role="Media Coordinator"
-                mail="jatinkaushal.201ch026@nitk.edu.in"
-                lin=""
+                // mail="jatinkaushal.201ch026@nitk.edu.in"
+                // lin=""
                 />
               <ClubMember 
-                src={yogeshp}
-                name="Yogesh P"
+                src={Nimesh}
+                name="Nimesh"
                 role="Blog Coordinator"
-                mail="yogesh.201ee138@nitk.edu.in"
-                lin="https://www.linkedin.com/in/yogesh-p-306371212"
+                // mail="yogesh.201ee138@nitk.edu.in"
+                // lin="https://www.linkedin.com/in/yogesh-p-306371212"
                 />
               
               </div>
               <div className="cm_row1">
-              <ClubMember 
+              {/* <ClubMember 
                 src={sumitsagar}
                 name="Sumit Sagar"
                 role="Project Lead"
                 mail="sumit.191me285@nitk.edu.ins"
-                lin=""/>
-              <ClubMember 
+                lin=""/> */}
+              {/* <ClubMember 
                 src={navya}
                 name="Navya Kollipara"
                 role="Project Lead"
                 mail="navyakollipara.191ee219@nitk.edu.in"
-                lin="https://www.linkedin.com/in/navya-kollipara"/>
-                <ClubMember 
+                lin="https://www.linkedin.com/in/navya-kollipara"/> */}
+                {/* <ClubMember 
                 src={aashish}
                 name="Aashish Prateek"
                 role="Project Lead"
                 mail="aashishprateek.191cs225@nitk.edu.in"
-                lin="http://linkedin.com/in/aashish-prateek-090009167"/>
+                lin="http://linkedin.com/in/aashish-prateek-090009167"/> */}
               </div>
               {/*Final Year*/}
               <div className="cm_row1">
-              <ClubMember 
+              {/* <ClubMember 
                 src={akshaykumar}
                 name="Akshay Kumar R R"
                 role="Senior Executive Member"
                 mail="akshaykumarrr.191mt003@nitk.edu.in"
-                lin="https://www.linkedin.com/in/akshay-ram-5024021b8"/>
+                lin="https://www.linkedin.com/in/akshay-ram-5024021b8"/> */}
 
-              <ClubMember 
+              {/* <ClubMember 
                 src={likhitaj}
                 name="Likhita J"
                 role="Senior Executive Member"
@@ -210,20 +224,20 @@ export default function Club() {
                   role="Senior Executive Member"
                   mail="manojgshekargmailcom.191ec224@nitk.edu.in"
                   lin="https://www.linkedin.com/in/manoj-g-s-715a07190"
-                  />
-              <ClubMember 
+                  /> */}
+             {/* <ClubMember 
                 src={shunups}
                 name="Shunu P S"
                 role="Senior Executive Member"
                 mail="shunu.191me281@nitk.edu.in"
                 lin="https://www.linkedin.com/in/shunu-ps/"/>
-              {/*<ClubMember 
+              <ClubMember 
                 src={diksha}
                 name="Diksha Negi"
                 role="Executive Member"
                 mail="dikshanegi.191me129@nitk.edu.in"
               lin="https://www.linkedin.com/in/diksha-negi-37b0bb1b4/"/>*/}
-              <ClubMember 
+              {/* <ClubMember 
                 src={kushalgowda}
                 name="Kushal Narayan Gowda"
                 role="Senior Executive Member"
@@ -244,8 +258,8 @@ export default function Club() {
                 role="Senior Executive Member"
                 mail="saranshbhaduka.191me175@nitk.edu.in"
                 lin="https://www.linkedin.com/in/saransh-bhaduka-841a1619b/"/>
-              
-              <ClubMember 
+               */}
+              {/* <ClubMember 
                 src={samarth}
                 name="Samarth C Swamy"
                 role="Senior Executive Member"
@@ -263,10 +277,10 @@ export default function Club() {
                 role="Senior Executive Member"
                 mail="yashk.191me296@nitk.edu.in"
                 lin="https://www.linkedin.com/in/kyashnitk23"/>
-              
+               */}
               </div>
               <div className="cm_row1">  
-              <ClubMember 
+               {/* <ClubMember 
                 src={saisrujan}
                 name="A Sai Srujan"
                 role="Senior Executive Member"
@@ -295,11 +309,11 @@ export default function Club() {
                 name="Nitesh Bhat"
                 role="Senior Executive Member"
                 mail="niteshbhat.191me153@nitk.edu.in"
-                lin="https://www.linkedin.com/in/nitesh-bhat-b2b5b61b1/"/>
+                lin="https://www.linkedin.com/in/nitesh-bhat-b2b5b61b1/"/> */}
               </div>
               {/*3rd Year*/}
               <div className="cm_row1"> 
-              <ClubMember 
+              {/* <ClubMember 
                 src={ajmeera}
                 name="Ajmeera Kethan"
                 role="Executive Member"
@@ -328,10 +342,10 @@ export default function Club() {
                 name="Mayur"
                 role="Executive Member"
                 mail=""
-                lin=""/>
+                lin=""/>  */}
             </div>
             <div className="cm_row1"> 
-              <ClubMember 
+              {/* <ClubMember 
                 src={Puja_Chowhan}
                 name="Mudavath Puja Chowhan"
                 role="Executive Member"
@@ -360,12 +374,12 @@ export default function Club() {
                 name="Shannon Britney Carlo"
                 role="Executive Member"
                 mail="shannonbritneycarlo.201cv249@nitk.edu.in"
-                lin="https://www.linkedin.com/in/shannon-carlo-666945216/"/>                          
+                lin="https://www.linkedin.com/in/shannon-carlo-666945216/"/>                           */}
             </div>
               
               {/*First Years*/}
               <div className="cm_row1">
-              <ClubMember 
+              {/* <ClubMember 
                 src={adish}
                 name="Adish Rajendra Kerkar"
                 role="Executive Member"
@@ -436,12 +450,12 @@ export default function Club() {
                 role="Executive Member"
                 mail="madhanmohanreddyhb.211mn026@nitk.edu.in"
                 lin=""
-              />
+              /> */}
               
               </div>
               
               <div className="cm_row1">
-              <ClubMember 
+              {/* <ClubMember 
                 src={Nimesh}
                 name="Nimesh Bhagat"
                 role="Executive Member"
@@ -521,7 +535,7 @@ export default function Club() {
                 role="Executive Member"
                 mail="urveshparmar.211me356@nitk.edu.in"
                 lin=""
-              />
+              /> */}
               
               
               </div>
