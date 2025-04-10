@@ -2,8 +2,8 @@ import React from "react";
 import { motion } from "framer-motion";
 
 // SAE Brand Colors
-const SAE_RED = '#90191b';
-const SAE_BLUE = '#203e91';
+const SAE_RED = "#90191b";
+const SAE_BLUE = "#203e91";
 
 function SMPCard({ image_link, description, title, reg_link }) {
   return (
@@ -24,7 +24,7 @@ function SMPCard({ image_link, description, title, reg_link }) {
 
       {/* Content */}
       <div className="p-6 flex flex-col flex-grow">
-        <h1 
+        <h1
           className="text-xl md:text-2xl font-bold mb-3"
           style={{ color: SAE_BLUE }}
         >
@@ -35,9 +35,9 @@ function SMPCard({ image_link, description, title, reg_link }) {
           onClick={() => window.open(reg_link, "_blank")}
           className="w-full hover:cursor-pointer text-white font-bold py-2 px-4 rounded-lg transition-colors duration-300"
           style={{ backgroundColor: SAE_RED }}
-          whileHover={{ 
-            backgroundColor: '#7a1616',
-            scale: 1.02
+          whileHover={{
+            backgroundColor: "#7a1616",
+            scale: 1.02,
           }}
           whileTap={{ scale: 0.98 }}
         >

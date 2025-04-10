@@ -1,10 +1,13 @@
 import React from "react";
-import { FaFileAlt as DescriptionIcon, FaYoutube as YouTubeIcon } from "react-icons/fa";
+import {
+  FaFileAlt as DescriptionIcon,
+  FaYoutube as YouTubeIcon,
+} from "react-icons/fa";
 import { motion } from "framer-motion";
 
 // SAE Brand Colors
-const SAE_RED = '#90191b';
-const SAE_BLUE = '#203e91';
+const SAE_RED = "#90191b";
+const SAE_BLUE = "#203e91";
 
 function ProjectCard({
   image_link,
@@ -14,11 +17,11 @@ function ProjectCard({
   video_link,
 }) {
   return (
-    <motion.div 
+    <motion.div
       className="flex flex-col lg:flex-row bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden"
-      style={{ 
+      style={{
         borderLeft: `6px solid ${SAE_BLUE}`,
-        borderTop: `1px solid ${SAE_BLUE}20`
+        borderTop: `1px solid ${SAE_BLUE}20`,
       }}
       whileHover={{ scale: 1.01 }}
     >
@@ -34,7 +37,9 @@ function ProjectCard({
 
       {/* Project Content */}
       <div className="p-6 lg:w-3/5 flex flex-col">
-        <h3 className="text-2xl font-bold mb-3" style={{ color: SAE_BLUE }}>{title}</h3>
+        <h3 className="text-2xl font-bold mb-3" style={{ color: SAE_BLUE }}>
+          {title}
+        </h3>
         <p className="text-gray-700 mb-6 flex-grow">{description}</p>
 
         {/* Action Buttons */}
@@ -47,7 +52,7 @@ function ProjectCard({
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              <DescriptionIcon className="text-lg" /> 
+              <DescriptionIcon className="text-lg" />
               <span>View Report</span>
             </motion.button>
           )}
@@ -59,7 +64,7 @@ function ProjectCard({
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
-              <YouTubeIcon className="text-lg" /> 
+              <YouTubeIcon className="text-lg" />
               <span>Watch Video</span>
             </motion.button>
           )}

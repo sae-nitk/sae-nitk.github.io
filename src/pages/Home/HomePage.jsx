@@ -102,17 +102,13 @@ export default function HomePage() {
 
   useEffect(() => {
     resetTimeout();
-    timeoutRef.current = setTimeout(
-      () =>
-        setIndex((prevIndex) =>
-          prevIndex === images.length - 1 ? 0 : prevIndex + 1
-        ),
-      delay
-    );
+    timeoutRef.current = setTimeout(() => {
+      setIndex((prevIndex) =>
+        prevIndex === images.length - 1 ? 0 : prevIndex + 1
+      );
+    }, delay);
 
-    return () => {
-      resetTimeout();
-    };
+    return resetTimeout;
   }, [index]);
 
   return (
@@ -157,13 +153,11 @@ export default function HomePage() {
                   <div className="mt-8" data-aos="fade-up" data-aos-delay="300">
                     <Link to={image.link}>
                       <button
-                        className="px-8 py-3 hover:cursor-pointer text-white font-semibold rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 active:translate-y-0 border-2 border-white/30"
-                        style={{
-                          backgroundColor: idx % 2 === 0 ? SAE_BLUE : SAE_RED,
-                          "&:hover": {
-                            backgroundColor: idx % 2 === 0 ? SAE_RED : SAE_BLUE,
-                          },
-                        }}
+                        className={`px-8 py-3 text-white font-semibold rounded-lg transition-all duration-300 shadow-lg hover:shadow-xl transform hover:-translate-y-1 active:translate-y-0 border-2 border-white/30 ${
+                          idx % 2 === 0
+                            ? "bg-[#203e91] hover:bg-[#90191b]"
+                            : "bg-[#90191b] hover:bg-[#203e91]"
+                        }`}
                       >
                         {image.cta}
                       </button>

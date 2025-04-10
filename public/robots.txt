@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://sae.nitk.ac.in/sitemap.xml

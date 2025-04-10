@@ -3,8 +3,8 @@ import { BiCalendar, BiUser } from "react-icons/bi";
 import { motion } from "framer-motion";
 
 // SAE Brand Colors
-const SAE_RED = '#90191b';
-const SAE_BLUE = '#203e91';
+const SAE_RED = "#90191b";
+const SAE_BLUE = "#203e91";
 
 function BlogCard({ image, title, desc, link, date, author }) {
   return (
@@ -15,10 +15,10 @@ function BlogCard({ image, title, desc, link, date, author }) {
     >
       {/* Image with overlay */}
       <div className="relative h-48 overflow-hidden">
-        <img 
+        <img
           className="w-full h-full object-cover transition-transform duration-500 hover:scale-105"
-          src={image} 
-          alt={title} 
+          src={image}
+          alt={title}
           loading="lazy"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 hover:opacity-100 transition-opacity duration-300 flex items-end p-4">
@@ -28,13 +28,13 @@ function BlogCard({ image, title, desc, link, date, author }) {
 
       {/* Content */}
       <div className="p-6 flex-grow flex flex-col">
-        <h3 
+        <h3
           className="text-lg md:text-xl font-bold mb-2"
           style={{ color: SAE_BLUE }}
         >
           {title}
         </h3>
-        
+
         <div className="flex items-center text-sm text-gray-500 mb-3">
           <BiUser className="mr-1" />
           <span className="mr-4">{author}</span>

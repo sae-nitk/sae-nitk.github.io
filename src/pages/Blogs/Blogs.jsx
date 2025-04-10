@@ -6,15 +6,15 @@ import "aos/dist/aos.css";
 import BlogCard from "../../components/BlogCard";
 
 // SAE Brand Colors
-const SAE_RED = '#90191b';
-const SAE_BLUE = '#203e91';
+const SAE_RED = "#90191b";
+const SAE_BLUE = "#203e91";
 
 const Blogs = () => {
   useEffect(() => {
-    AOS.init({ 
+    AOS.init({
       duration: 800,
       once: true,
-      easing: 'ease-out-cubic'
+      easing: "ease-out-cubic",
     });
   }, []);
 
@@ -25,17 +25,16 @@ const Blogs = () => {
     setSearchTerm(pattern);
     if (!pattern) {
       setData(blogs);
-      return;
+    } else {
+      const filteredBlogs = blogs.filter(
+        (b) =>
+          b.author.toLowerCase().includes(pattern.toLowerCase()) ||
+          b.title.toLowerCase().includes(pattern.toLowerCase()) ||
+          b.date.includes(pattern) ||
+          b.desc.toLowerCase().includes(pattern.toLowerCase())
+      );
+      setData(filteredBlogs);
     }
-
-    const filteredBlogs = blogs.filter(
-      (b) =>
-        b.author.toLowerCase().includes(pattern.toLowerCase()) ||
-        b.title.toLowerCase().includes(pattern.toLowerCase()) ||
-        b.date.includes(pattern) ||
-        b.desc.toLowerCase().includes(pattern.toLowerCase())
-    );
-    setData(filteredBlogs);
   };
 
   return (
@@ -43,18 +42,21 @@ const Blogs = () => {
       <div className="max-w-7xl mx-auto">
         {/* Header */}
         <div className="text-center mb-12" data-aos="fade-down">
-          <h1 
+          <h1
             className="text-3xl sm:text-4xl md:text-5xl font-bold mb-4"
             style={{ color: SAE_BLUE }}
           >
             SAE NITK Blogs
           </h1>
-          <div 
+          <div
             className="w-20 h-1 mx-auto rounded-full mb-6"
-            style={{ background: `linear-gradient(90deg, ${SAE_BLUE}, ${SAE_RED})` }}
+            style={{
+              background: `linear-gradient(90deg, ${SAE_BLUE}, ${SAE_RED})`,
+            }}
           ></div>
           <p className="text-gray-600 max-w-2xl mx-auto">
-            Insights, stories and technical knowledge from our members and alumni
+            Insights, stories and technical knowledge from our members and
+            alumni
           </p>
         </div>
 
@@ -69,20 +71,17 @@ const Blogs = () => {
 
         {/* Blog Grid */}
         {data.length > 0 ? (
-          <div 
+          <div
             className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8"
             data-aos="fade-up"
           >
             {data.map((item) => (
-              <BlogCard {...item} key={item.id} />
+              <BlogCard {...item} key={item.title} />
             ))}
           </div>
         ) : (
           <div className="text-center py-12" data-aos="fade-up">
-            <h3 
-              className="text-xl font-medium mb-2"
-              style={{ color: SAE_RED }}
-            >
+            <h3 className="text-xl font-medium mb-2" style={{ color: SAE_RED }}>
               No matching blogs found
             </h3>
             <p className="text-gray-600">

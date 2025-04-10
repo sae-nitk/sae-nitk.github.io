@@ -63,12 +63,13 @@ function Alumni() {
           </p>
         </div>
 
-
         {/* Search Bar */}
         <div className="mb-12 max-w-2xl mx-auto" data-aos="fade-up">
           <div className="relative">
             <input
               type="text"
+              id="searchAlumni"
+              name="searchAlumni"
               placeholder="Search alumni by name, year, or topics..."
               className="w-full text-black px-6 py-4 pr-12 text-lg border-2 border-gray-200 rounded-xl shadow-lg focus:outline-none focus:ring-4 focus:ring-opacity-50 transition-all"
               style={{

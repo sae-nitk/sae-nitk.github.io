@@ -82,20 +82,25 @@ function YouTubeSection() {
               <div className="aspect-video w-full relative">
                 <iframe
                   className="w-full h-full"
-                  src={`https://www.youtube.com/embed/${video.id}`}
+                  src={`https://www.youtube-nocookie.com/embed/${video.id}`}
                   title={`YouTube: ${video.title}`}
-                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                   allowFullScreen
                 ></iframe>
               </div>
               <div className="p-6">
-                <h3 className="text-lg font-bold mb-2" style={{ color: SAE_BLUE }}>
+                <h3
+                  className="text-lg font-bold mb-2"
+                  style={{ color: SAE_BLUE }}
+                >
                   {video.title}
                 </h3>
                 <p className="text-gray-600">{video.desc}</p>
                 <button
                   onClick={() =>
-                    window.open(`https://www.youtube.com/watch?v=${video.id}`, "_blank")
+                    window.open(
+                      `https://www.youtube.com/watch?v=${video.id}`,
+                      "_blank"
+                    )
                   }
                   className="mt-4 flex items-center text-sm font-medium group"
                   style={{ color: SAE_RED }}
@@ -126,7 +131,9 @@ function YouTubeSection() {
               >
                 {stat.value}
               </div>
-              <div className="text-gray-600 text-sm md:text-base">{stat.label}</div>
+              <div className="text-gray-600 text-sm md:text-base">
+                {stat.label}
+              </div>
             </div>
           ))}
         </div>
