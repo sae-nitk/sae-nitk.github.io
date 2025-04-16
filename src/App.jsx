@@ -12,8 +12,16 @@ import Smp from "./pages/SMP/Smp";
 import MagazineViewer from "./pages/Magazines/MagazineViewer";
 import ProjectExpo from "./pages/ProjectExpo/ProjectExpo";
 import AboutUs from "./pages/AboutUs/AboutUs";
+import { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    const redirect = sessionStorage.redirect;
+    if (redirect) {
+      sessionStorage.removeItem("redirect");
+      window.history.replaceState(null, "", redirect);
+    }
+  }, []);
   return (
     <>
       <Navbar />
