@@ -1,19 +1,16 @@
 <!DOCTYPE html>
 <html>
-
-<head>
-  <meta charset="UTF-8" />
-  <title>Redirecting...</title>
-  <script type="text/javascript">
-    // Save the path the user tried to access
-    sessionStorage.setItem("redirect", location.pathname + location.search + location.hash);
-    // Redirect to root where index.html is served
-    window.location.replace("/");
-  </script>
-</head>
-
-<body>
-  <h2>Redirecting...</h2>
-</body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <title>Redirecting...</title>
+    <script type="text/javascript">
+      // Save the full URL path the user tried to access
+      sessionStorage.setItem("redirect", window.location.pathname + window.location.search + window.location.hash);
+      // Redirect to root where React can take over
+      window.location.replace("/");
+    </script>
+  </head>
+  <body>
+    <h2>Redirecting...</h2>
+  </body>
 </html>
