@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import { images } from "./HomeData";
 import YouTubeSection from "./YouTubeSection";
 import ClubInfoSection from "./ClubInfoSection";
 import MessageSection from "./MessageSection";
@@ -11,57 +12,6 @@ import NewsTicker from "./NewsTicker";
 // SAE Brand Colors
 const SAE_RED = "#90191b";
 const SAE_BLUE = "#203e91";
-
-const images = [
-  {
-    src: "/images/Home/hp1.jpg",
-    alt: "SAE NITK Team working on a vehicle prototype",
-    title: "SAE NITK",
-    subtitle: "Where Innovation Meets Engineering",
-    cta: "See Our Projects",
-    link: "/project-expo/2021-2022",
-  },
-  {
-    src: "/images/Home/hp2.jpg",
-    alt: "SAE NITK team at a national competition",
-    title: "COMPETITIVE SPIRIT",
-    subtitle: "Award-Winning Performance",
-    cta: "View Our Achievements",
-    link: "/magazine/2022-2023",
-  },
-  {
-    src: "/images/Home/hp3.jpg",
-    alt: "SAE NITK workshop in progress",
-    title: "LEARN BY DOING",
-    subtitle: "Hands-On Technical Training",
-    cta: "Join Workshops",
-    link: "/smp",
-  },
-  {
-    src: "/images/Home/hp4.jpg",
-    alt: "SAE NITK team celebration",
-    title: "TEAMWORK",
-    subtitle: "Collaborative Engineering Culture",
-    cta: "Meet The Team",
-    link: "/team",
-  },
-  {
-    src: "/images/Home/hp5.jpg",
-    alt: "SAE NITK vehicle testing",
-    title: "PRECISION ENGINEERING",
-    subtitle: "Rigorous Testing Protocols",
-    cta: "Our Methodology",
-    link: "/about",
-  },
-  {
-    src: "/images/Home/hp6.jpg",
-    alt: "SAE NITK technical discussion session",
-    title: "KNOWLEDGE SHARING",
-    subtitle: "Peer-to-Peer Learning",
-    cta: "Upcoming Sessions",
-    link: "/events",
-  },
-];
 
 const delay = 4500; // Slightly faster transition for 6 images
 
@@ -255,32 +205,6 @@ export default function HomePage() {
         {/* <MessageSection /> */}
         <ClubInfoSection />
         <YouTubeSection />
-      </div>
-
-      {/* Mobile Floating CTA */}
-      <div className="fixed sm:hidden bottom-6 right-6 z-30">
-        <Link to="/events">
-          <button
-            className="p-4 text-white rounded-full shadow-xl transition-all duration-300 transform hover:scale-110 flex items-center justify-center"
-            style={{ backgroundColor: SAE_BLUE }}
-          >
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              className="h-6 w-6"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-            >
-              <path
-                strokeLinecap="round"
-                strokeLinejoin="round"
-                strokeWidth={2}
-                d="M12 6v6m0 0v6m0-6h6m-6 0H6"
-              />
-            </svg>
-            <span className="sr-only">Register for Events</span>
-          </button>
-        </Link>
       </div>
     </div>
   );

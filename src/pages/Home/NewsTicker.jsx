@@ -1,31 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
+import { newsItems } from "./HomeData";
 
 function NewsTicker() {
   // SAE Brand Colors
   const SAE_RED = "#90191b";
   const SAE_BLUE = "#203e91";
-
-  const newsItems = [
-    {
-      id: 1,
-      text: "TechBuzz Volume 4 is out now!",
-      link: "/magazine/2022-2023",
-      isNew: true,
-    },
-    {
-      id: 2,
-      text: "Register for our upcoming webinar on automotive innovations",
-      link: "/events",
-      isNew: false,
-    },
-    {
-      id: 3,
-      text: "Check out our latest technical blogs and tutorials",
-      link: "/blog",
-      isNew: true,
-    },
-  ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isPaused, setIsPaused] = useState(false);

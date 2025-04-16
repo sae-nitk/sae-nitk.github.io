@@ -263,11 +263,11 @@ export default function Navbar() {
       {scrolled && (
         <button
           onClick={scrollToTop}
-          className="fixed bottom-6 right-6 z-40 h-10 w-10 rounded-full flex items-center justify-center shadow-md transition-all"
+          className="fixed hover:cursor-pointer bottom-6 right-6 z-40 h-10 w-10 rounded-full flex items-center justify-center shadow-md transition-all"
           style={{ backgroundColor: SAE_BLUE, color: "white" }}
           aria-label="Back to top"
         >
-          <FaIcons.FaArrowUp className="text-sm" />
+          <FaIcons.FaArrowUp className="text-sm hover:cursor-pointer" />
         </button>
       )}
     </>

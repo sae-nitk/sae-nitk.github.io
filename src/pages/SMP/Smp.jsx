@@ -2,12 +2,7 @@ import React from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import SMPCard from "../../components/SMPCard";
-
-// Images
-const rm_cv = "/images/smps/Computer_vision_sae.jpg";
-const rm_an_fl = "/images/smps/Ansys fluent sae.jpeg";
-const rm_mach_lear = "/images/smps/machine learning sae.jpg";
-const rm_web_dev = "/images/smps/web development sae.jpeg";
+import { programs } from "./SMPData";
 
 // SAE Brand Colors
 const SAE_RED = "#90191b";
@@ -21,41 +16,6 @@ function Smp() {
       easing: "ease-out-cubic",
     });
   }, []);
-
-  const programs = [
-    {
-      image_link: rm_cv,
-      title: "COMPUTER VISION",
-      description:
-        "Is it possible to drive a car without a driver? The answer is yes. Let's explore autonomous vehicle concepts.",
-      reg_link:
-        "https://docs.google.com/forms/d/e/1FAIpQLSfhksxra28Vyicwf6Jn8jYHNM4xPnao70KfjseRza8ma530vQ/viewform",
-    },
-    {
-      image_link: rm_an_fl,
-      title: "ANSYS FLUENT",
-      description:
-        "Dive into simulation environments using Ansys software to learn computational fluid dynamics.",
-      reg_link:
-        "https://docs.google.com/forms/d/e/1FAIpQLSfhksxra28Vyicwf6Jn8jYHNM4xPnao70KfjseRza8ma530vQ/viewform",
-    },
-    {
-      image_link: rm_web_dev,
-      title: "WEB DEVELOPMENT",
-      description:
-        "Embark on a journey into web development where creativity meets innovation.",
-      reg_link:
-        "https://docs.google.com/forms/d/e/1FAIpQLSfhksxra28Vyicwf6Jn8jYHNM4xPnao70KfjseRza8ma530vQ/viewform",
-    },
-    {
-      image_link: rm_mach_lear,
-      title: "MACHINE LEARNING",
-      description:
-        "Explore how algorithms unlock data's potential for intelligent decision-making in automotive systems.",
-      reg_link:
-        "https://docs.google.com/forms/d/e/1FAIpQLSfhksxra28Vyicwf6Jn8jYHNM4xPnao70KfjseRza8ma530vQ/viewform",
-    },
-  ];
 
   return (
     <div className="min-h-screen bg-gray-50 py-12 px-4 sm:px-6 lg:px-8">
