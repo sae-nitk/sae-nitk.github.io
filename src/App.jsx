@@ -1,5 +1,5 @@
 import "./App.css";
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useNavigate } from "react-router-dom";
 import HomePage from "./pages/Home/HomePage";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
@@ -15,13 +15,17 @@ import AboutUs from "./pages/AboutUs/AboutUs";
 import { useEffect } from "react";
 
 function App() {
+  const navigate = useNavigate();
   useEffect(() => {
-    const redirect = sessionStorage.redirect;
+    const redirect = sessionStorage.getItem("redirect");
+    // console.log("Redirect path stored:", redirect);
     if (redirect) {
       sessionStorage.removeItem("redirect");
-      window.history.replaceState(null, "", redirect);
+      navigate(redirect);
     }
-  }, []);
+  }, [navigate]);
+
+  
   return (
     <>
       <Navbar />
