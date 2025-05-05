@@ -113,8 +113,7 @@ export default function Navbar() {
                 href={link}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="h-8 w-8 rounded-full flex items-center justify-center text-white transition-colors"
-                style={{ backgroundColor: SAE_BLUE }}
+                className="h-8 w-8 rounded-full flex items-center justify-center text-white transition-colors bg-[#203e91] hover:bg-[#90191b]"
               >
                 {icon}
               </a>

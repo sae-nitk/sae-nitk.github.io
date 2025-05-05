@@ -53,13 +53,13 @@ const Footer = () => {
         { name: "About Us", path: "/about" },
         { name: "Our Team", path: "/team" },
         { name: "Events", path: "/events" },
-        { name: "Projects", path: "/projects" },
+        { name: "Projects", path: "/project-expo/2021-2022" },
       ],
     },
     {
       title: "Resources",
       links: [
-        { name: "Magazine", path: "/magazine" },
+        { name: "Magazine", path: "/magazine/2022-2023" },
         { name: "Blogs", path: "/blog" },
         { name: "Alumni", path: "/alumni" },
         { name: "SMP", path: "/smp" },

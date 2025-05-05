@@ -40,6 +40,6 @@ export const aboutUsData = {
   stats: [
     { value: "3+", label: "Club Divisions", bgColor: "bg-red-800" },
     { value: "EV + AV", label: "Focus Areas", bgColor: "bg-blue-800" },
-    { value: "100+", label: "Active Members", bgColor: "bg-gray-800" },
+    { value: "50+", label: "Active Members", bgColor: "bg-gray-800" },
   ],
 };

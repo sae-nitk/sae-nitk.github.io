@@ -1,150 +1,144 @@
-const Convenor = "/images/CoreTeam/Convenor.png";
-const President = "/images/CoreTeam/President.jpg";
-const Treasurer = "/images/CoreTeam/Treasurer.jpg";
-const Secretary = "/images/CoreTeam/Secretary.png";
-const ProjectHead = "/images/CoreTeam/ProjectHead.jpg";
-const CSITSIGHead = "/images/CoreTeam/CSITSIGHead.jpg";
-const ECSIGhead = "/images/CoreTeam/ECSIGhead.jpg";
-const MechSIGHead = "/images/CoreTeam/MechSIGHead.jpg";
-const WEBMaster = "/images/CoreTeam/WEBMaster.png";
-const MediaHead = "/images/CoreTeam/MediaHead.png";
-const ContentHead = "/images/CoreTeam/ContentHead.jpeg";
-const EventCo = "/images/CoreTeam/EventCo.png";
-const BlogCo = "/images/CoreTeam/BlogCo.png";
-const MagizineCo = "/images/CoreTeam/MagizineCo.png";
-const PR = "/images/CoreTeam/PR.png";
-const KEPCo = "/images/CoreTeam/KEPCo.png";
+const Convenor = "/images/CoreTeam/Convenor_2025.png";
+const ViceConvenor = "/images/CoreTeam/ViceConvenor_2025.png";
+const Secretary = "/images/CoreTeam/Secretary_2025.png";
+const TechnicalAdvisory = "/images/CoreTeam/TechnicalAdvisory_2025.png";
+const BusinessAdvisory = "/images/CoreTeam/BusinessAdvisory_2025.png";
+const PresidentBusiness = "/images/CoreTeam/PresidentBusiness_2025.png";
+const PresidentTechnical = "/images/CoreTeam/PresidentTech_2025.png";
+const AILead = "/images/CoreTeam/ArtificialIntelligence_2025.png";
+const ElectricalPowerTrainsLead =
+  "/images/CoreTeam/ElectricalPowerTrains_2025.png";
+const SensorsControlLead = "/images/CoreTeam/SensorsControl_2025.png";
+const EventManagementLead = "/images/CoreTeam/EventManagement_2025.png";
+const FinanceBudgetingLead = "/images/CoreTeam/FinanceBudgeting_2025.png";
+const ManufacturingPrototypingLead =
+  "/images/CoreTeam/ManufacturingPrototyping_2025.png";
+const PRHRLead = "/images/CoreTeam/PRHR_2025.png";
+const WebLead = "/images/CoreTeam/WebLead_2025.png";
 
 export const memberGroups = [
   {
-    title: "Admin Core",
+    title: "Administrative Core",
     members: [
       {
         src: Convenor,
-        name: "Charan Pulibandla",
-        role: "Convenor",
-        mail: "charanpulibandla.211me237@nitk.edu.in",
-        lin: "https://www.linkedin.com/in/charan-pulibandla/",
-      },
-      {
-        src: President,
-        name: "Anandita Tiwari",
-        role: "President",
-        mail: "ananditatiwari.211me309@nitk.edu.in",
-        lin: "https://www.linkedin.com/in/anandita-tiwari/",
-      },
-      {
-        src: Treasurer,
-        name: "Deshik Narasimha",
-        role: "Treasurer",
-        mail: "deshiknarasimha.211mn010@nitk.edu.in",
-        lin: "https://www.linkedin.com/in/deshik",
-      },
-      {
-        src: Secretary,
-        name: "Rishu Kumar",
-        role: "Secretary",
-        mail: "rishukumar.211ec140@nitk.edu.in",
-        lin: "https://www.linkedin.com/in/rishukumar-work/",
-      },
-    ],
-  },
-  {
-    title: "Technical Heads",
-    members: [
-      {
-        src: ProjectHead,
-        name: "Harish B",
-        role: "Project Head",
-        mail: "harishbala.211me216@nitk.edu.in",
-        lin: "https://www.linkedin.com/in/harish1212/",
-      },
-      {
-        src: CSITSIGHead,
-        name: "Arvind Prabhu",
-        role: "CS & IT SIG Head",
-        mail: "arvindprabhu.211it010@nitk.edu.in",
-        lin: "https://www.linkedin.com/in/arvind-prabhu-40511823a/",
-      },
-      {
-        src: ECSIGhead,
-        name: "Tahsin Khan",
-        role: "Electronics SIG Head",
-        mail: "tahsinkhan.211me352@nitk.edu.in",
-        lin: "https://www.linkedin.com/in/tahsin-khan-/",
-      },
-      {
-        src: MechSIGHead,
-        name: "Urvesh",
-        role: "Electronics SIG Head",
-        mail: "urveshparmar.211me356@nitk.edu.in",
-        lin: "https://www.linkedin.com/in/urveshparmar/",
-      },
-    ],
-  },
-  {
-    title: "Coordinators",
-    members: [
-      {
-        src: PR,
-        name: "Gunavanth Sri Sai",
-        role: "Public Relations Coordinator",
-        mail: "gunavanthsrisai.221mt019@nitk.edu.in",
-        lin: "https://www.linkedin.com/in/k-gunavanth-sri-sai-0798a2305/",
-      },
-      {
-        src: KEPCo,
-        name: "Bhoomika P",
-        role: "KEP Coordinator",
-        mail: "padalabhoomika.221ec136@nitk.edu.in",
-        lin: "https://www.linkedin.com/in/bhoomika-padala-b7b8442a6/",
-      },
-      {
-        src: EventCo,
         name: "Tanushri Chavva",
-        role: "Event Coordinator",
+        role: "Convenor",
         mail: "tanushrichavva.221ec160@nitk.edu.in",
         lin: "https://www.linkedin.com/in/tanushri-chavva-1b9377280/",
       },
       {
-        src: BlogCo,
-        name: "Soumik Dutta",
-        role: "Blog Coordinator",
-        mail: "soumikduttashanto.221ee252@nitk.edu.in",
-        lin: "https://www.linkedin.com/in/soumik-dutta-shanto-749898295/",
+        src: ViceConvenor,
+        name: "Manognya M",
+        role: "VIce Convenor",
+        mail: "manognyam.231me230@nitk.edu.in",
+        lin: "https://www.linkedin.com/in/manognya-m-b197b62b6/",
       },
       {
-        src: MagizineCo,
-        name: "Nisha Mallah",
-        role: "Magazine Coordinator",
-        mail: "nisha.221ds025@nitk.edu.in",
-        lin: "https://www.linkedin.com/in/nisha-mallah-155229251/",
+        src: Secretary,
+        name: "Gunavanth Sri Sai",
+        role: "Secretary",
+        mail: "gunavanthsrisai.221mt019@nitk.edu.in",
+        lin: "https://www.linkedin.com/in/k-gunavanth-sri-sai-0798a2305/",
       },
     ],
   },
   {
-    title: "Publicity",
+    title: "Technical Division",
     members: [
       {
-        src: WEBMaster,
-        name: "Nidhi Kumari",
-        role: "WEB Master",
-        mail: "nidhikumari.221it047@nitk.edu.in",
-        lin: "https://www.linkedin.com/in/nidhi-kumari-n10p/",
+        src: PresidentTechnical,
+        name: "Bhoomika M",
+        role: "President",
+        mail: "padalabhoomika.221ec136@nitk.edu.in",
+        lin: "https://www.linkedin.com/in/bhoomika-padala-b7b8442a6/",
       },
       {
-        src: MediaHead,
+        src: ElectricalPowerTrainsLead,
+        name: "Soumika Dutta",
+        role: "Electrical Power Trains",
+        mail: "soumikduttashanto.221ee252@nitk.edu.in",
+        lin: "https://www.linkedin.com/in/soumik-dutta-shanto-749898295/",
+      },
+      {
+        src: SensorsControlLead,
+        name: "Aman Jain",
+        role: "Sensors & Control",
+        mail: "amanjain.221cv206@nitk.edu.in",
+        lin: "https://www.linkedin.com/in/aman-jain-95970b28b/",
+      },
+      {
+        src: AILead,
+        name: "Abhijit Kar",
+        role: "Artificial Intelligence",
+        mail: "abhijitkar.231cs106@nitk.edu.in",
+        lin: "https://www.linkedin.com/in/abhijit-kar-471a33214/",
+      },
+      {
+        src: ManufacturingPrototypingLead,
+        name: "Aryan Subramanian",
+        role: "Artificial Intelligence",
+        mail: "aryansub.231me207@nitk.edu.in",
+        lin: "https://www.linkedin.com/in/aryan-subramanian-513ab227a/",
+      },
+    ],
+  },
+  {
+    title: "Business Division",
+    members: [
+      {
+        src: PresidentBusiness,
+        name: "Sarthak R H",
+        role: "President",
+        mail: "sarthakrameshhedage.221cv142@nitk.edu.in",
+        lin: "https://www.linkedin.com/in/sarthak-ramesh-hedage-17b590256/",
+      },
+      {
+        src: PRHRLead,
+        name: "Sahil Raj",
+        role: "PR & HR",
+        mail: "sahilraj.221mn045@nitk.edu.in",
+        lin: "https://www.linkedin.com/in/sahil-raj-5a2a78263/",
+      },
+      {
+        src: EventManagementLead,
+        name: "Sri Nidhi Amuktha",
+        role: "Event Management",
+        mail: "amuktha.221ee128@nitk.edu.in",
+        lin: "https://www.linkedin.com/in/srinidhi-amuktha-b43572244/ ",
+      },
+      {
+        src: FinanceBudgetingLead,
+        name: "Nisha Mallah",
+        role: "Finance & Budgeting",
+        mail: "nisha.221ds025@nitk.edu.in",
+        lin: "https://www.linkedin.com/in/nisha-mallah-155229251/",
+      },
+      {
+        src: WebLead,
+        name: "Ajay Dornala",
+        role: "Web Dev",
+        mail: "dornalaajay.221ee218@nitk.edu.in",
+        lin: "https://www.linkedin.com/in/ajay-dornala-b10aaa2a7/",
+      },
+    ],
+  },
+  {
+    title: "Advisory",
+    members: [
+      {
+        src: BusinessAdvisory,
         name: "Riya Aji",
-        role: "Media Head",
+        role: "Business Advisor",
         mail: "riyaajiputhiyamadomvarghese.221cv139@nitk.edu.in",
         lin: "https://www.linkedin.com/in/riya-aji-965780256/",
       },
       {
-        src: ContentHead,
-        name: "Ajay D",
-        role: "Content Head",
-        mail: "dornalaajay.221ee218@nitk.edu.in",
-        lin: "https://www.linkedin.com/in/ajay-dornala-b10aaa2a7/",
+        src: TechnicalAdvisory,
+        name: "Niharika Rathore",
+        role: "Technical Advisor",
+        mail: "niharika.221me237@nitk.edu.in",
+        lin: "https://www.linkedin.com/in/niharika-rathore-8938a8264/",
       },
     ],
   },

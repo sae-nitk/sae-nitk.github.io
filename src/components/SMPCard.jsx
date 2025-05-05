@@ -3,9 +3,11 @@ import { motion } from "framer-motion";
 
 // SAE Brand Colors
 const SAE_RED = "#90191b";
+const SAE_RED_DISABLED = "#c7a9a9";
 const SAE_BLUE = "#203e91";
+const TEXT_GRAY = "#6b7280"; // Tailwind's gray-600
 
-function SMPCard({ image_link, description, title, reg_link }) {
+function SMPCard({ image_link, description, title, reg_link, ongoing }) {
   return (
     <motion.div
       className="flex flex-col bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-all duration-300 h-full"
@@ -31,17 +33,24 @@ function SMPCard({ image_link, description, title, reg_link }) {
           {title}
         </h1>
         <p className="text-gray-600 mb-6 flex-grow">{description}</p>
+
         <motion.button
-          onClick={() => window.open(reg_link, "_blank")}
-          className="w-full hover:cursor-pointer text-white font-bold py-2 px-4 rounded-lg transition-colors duration-300"
-          style={{ backgroundColor: SAE_RED }}
-          whileHover={{
-            backgroundColor: "#7a1616",
-            scale: 1.02,
+          onClick={() => ongoing && window.open(reg_link, "_blank")}
+          className={`w-full font-bold py-2 px-4 rounded-lg transition-colors duration-300 ${
+            ongoing
+              ? "text-white hover:cursor-pointer"
+              : "text-gray-500 cursor-not-allowed"
+          }`}
+          style={{
+            backgroundColor: ongoing ? SAE_RED : SAE_RED_DISABLED,
           }}
-          whileTap={{ scale: 0.98 }}
+          whileHover={
+            ongoing ? { backgroundColor: "#7a1616", scale: 1.02 } : {}
+          }
+          whileTap={ongoing ? { scale: 0.98 } : {}}
+          disabled={!ongoing}
         >
-          REGISTER NOW
+          {ongoing ? "REGISTER NOW" : "REGISTRATION CLOSED"}
         </motion.button>
       </div>
     </motion.div>
